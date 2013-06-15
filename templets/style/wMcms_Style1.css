@@ -1,0 +1,1371 @@
+/*Red完美政府版权所有Powered By WM|www.wmgov.cn*/
+/*公共样式表--------------------------------------------------------------------------------------------------------------------------------------*/
+H2,H4,H5,H6,H1{
+	PADDING-RIGHT: 10px; PADDING-LEFT: 30px;  PADDING-BOTTOM: 0px; font-size:14px;font-weight:bold;COLOR: #333; LINE-HEIGHT: 27px; PADDING-TOP: 0px; HEIGHT: 27px;background:url(red/lm_dot.gif) no-repeat 10px 6px;
+}
+H3{
+PADDING-RIGHT: 10px; PADDING-LEFT: 25px;  PADDING-BOTTOM: 0px; font-size:14px;font-weight:bold;COLOR: #FFF; LINE-HEIGHT: 26px; PADDING-TOP: 0px; HEIGHT: 26px;background:url(red/lm_dot2.gif) no-repeat 6px 6px;
+}
+H4,H1 {
+	LINE-HEIGHT: 31px; HEIGHT: 31px;
+}
+H5{background:url(red/bs_WM_icon.gif) no-repeat 10px TOP; padding-left:40px}
+H6{background:url(red/fw_icon_wMcms.gif) no-repeat 10px TOP; padding-left:40px}
+H1{border-bottom:3px solid #E52317;background:url(red/lm_dot.gif) no-repeat 10px 10px;}
+.title_style,.art_title{
+    border-bottom:3px solid #EF7405;
+    background:url(RED/WM_wMcms_28.gif) no-repeat left top;
+}
+.art_title{
+    border-bottom:3px solid #DDDDDD;
+	padding-top:4px;
+    background:url(RED/WM_wMcms_43.gif) repeat-x left top;
+}
+
+.slide_bg{background:url(RED/gov_wMcms_71.gif) repeat-x left top;}
+.lianmu_bg{background:url(RED/gov_wMcms_52.gif) repeat-x left top;}
+.lm_title_bg{background:url(RED/red_title_bg.gif) no-repeat left top;}
+.tz_title_bg{background:url(RED/wm_tz_05.gif) repeat-x left top;}
+.ly_title_bg{background:url(RED/ly_05.gif) repeat-x left top;}
+
+hr{height:1px;color:#BBBBBB;}
+.normal_tr{background:#FFFFFF}
+.Hover_tr{background:#e8e8e8}
+.blue_tit{color:#000;font-size:12px;font-weight:bold; }
+.black_title{ color:#000000;font-size:12px; font-weight:bold; font-family:Verdana, Arial, Helvetica, sans-serif;}
+BODY{  color:#101010;font-size:12px;background: #FFF2CE url(RED/background.gif) repeat-x top;}
+
+
+
+.list {margin:0px;text-align:left;padding:2px;}
+.list Li {
+	list-style:none;font-size:12px; line-height: 22px;
+}
+.list li span{
+	color: #666666;
+	float: right;
+	text-align: right;
+	clear:right;
+	font-size:12px;
+	padding:0px;
+}
+.list li a, .list li a:visited {
+    font-size:12px;
+	color: #333333;
+	text-decoration: none;
+
+}
+.list li a:hover{
+	background:  #F7F7F7;
+	color: #FD9C05;
+	text-decoration: none;
+}
+
+.pic_word{
+	FONT-FAMILY:Verdana, Arial, "宋体";
+	FONT-SIZE: 8pt;
+	color: #ff0000;
+}
+.my           { color:#FF0000; FONT-FAMILY:Verdana, Arial, 宋体; FONT-SIZE: 9pt}
+A.my:link     {COLOR: #FF0000; TEXT-DECORATION: none}
+A.my:visited  {COLOR: #FF0000;  TEXT-DECORATION: none}
+A.my:active   {COLOR: #000000;  TEXT-DECORATION: none}
+A.my:hover    {COLOR: #000000;  TEXT-DECORATION: none}
+
+.content_text{
+FONT-FAMILY:Verdana, Arial, 宋体;
+font-size:14px;
+line-height:24px;
+color:#333333;
+padding:5px;
+}
+
+.copyright{
+   margin-top:20px;
+   text-align:center;
+   color:#FFFFFF;
+}
+.BM_Menu_style {
+	MARGIN: 0px; HEIGHT: 28px;background:url(RED/WM_bmbg.gif) repeat-x center bottom ;
+	
+}
+.BM_Menu_style ul LI {
+	FONT-SIZE: 14px;
+	FLOAT: left;
+	WIDTH: auto;
+	MARGIN: 0px;
+	padding:0px 20px;
+	CURSOR: pointer;
+	COLOR: #E86638;
+	font-weight:bold;
+	LINE-HEIGHT: 28px;
+	HEIGHT: 28px;
+	TEXT-ALIGN: center;
+	list-style:none;
+}
+.BM_Menu_style ul LI.selectd {
+    HEIGHT: 28px;
+	border-top:1px solid #E86638;
+	border-left:1px solid #E86638;
+	border-right:1px solid #E86638;
+	background:url(RED/wm_menu_over.gif) repeat-x center bottom ;
+	COLOR: #000;
+	text-decoration:underline;
+	margin-bottom:-1px;
+}
+
+.T_Menu_style LI {
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	padding:0px 15px;
+	CURSOR: pointer;
+	COLOR: #E0510B;
+	font-weight:bold;
+	LINE-HEIGHT: 24px;
+	HEIGHT: 24px;
+	TEXT-ALIGN: center;
+	list-style:none;
+	border-right:1px solid #bbb;
+}
+.T_Menu_style LI.selectd {
+    HEIGHT: 28px;border:none;
+	BACKGROUND: url(RED/slide_menu.gif) no-repeat center 0px; COLOR: #E0510B;
+}
+
+.WM_TT_Menu_style {
+	padding: 0px 2px; HEIGHT: 33px;
+	BACKGROUND: url(RED/wm_tt_bg.gif) repeat-x left 0px; 
+}
+.WM_TT_Menu_style LI {
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	padding:0px 8px;
+	CURSOR: pointer;
+	COLOR: #E0510B;
+	font-weight:normal;
+	LINE-HEIGHT: 28px;
+	HEIGHT: 28px;
+	TEXT-ALIGN: center;
+	list-style:none;
+	border-right:1px solid #bbb;
+}
+
+.WM_TT_Menu_style LI.selectd {
+    HEIGHT: 33px;
+	border:none;
+	BACKGROUND: url(RED/wm_TT_slide_menu.gif) no-repeat center 0px;
+	COLOR: #FF0000;
+	font-weight:bold;
+}
+
+.WM_ly_Menu_style LI,.WM_ly2_Menu_style LI,.WM_ly3_Menu_style LI,.WM_ly4_Menu_style LI,.WM_ly5_Menu_style LI,.WM_ly6_Menu_style LI{
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	padding:0px 20px;
+	CURSOR: pointer;
+	COLOR: #000;
+	font-weight:normal;
+	LINE-HEIGHT: 23px;
+	HEIGHT: 23px;
+	TEXT-ALIGN: center;
+	list-style:none;
+	border-right:1px solid #fff;
+}
+
+
+
+/*顶部样式开始--------------------------------------------------------------------------------------------------------------------------------------*/
+.header{
+    margin:0px auto;
+    height:28px;
+	line-height:28px;
+	background: url(RED/header_01.gif) repeat-x; 
+}
+.WmcmsGov_menu ul li{
+   float:left;
+}
+.WmcmsGov_menu_link a,.WmcmsGov_menu_link a:hover,.WmcmsGov_menu_link a:visited{
+   font-weight:bold;
+   color:#FFf;
+   padding-right:10px;
+   font-size:14px;
+}
+.white_tit{
+   color:#ffffff;
+   font-size:12px;
+   font-weight:bold;   
+}
+.white_tit a:link,.white_tit a:visited{
+   color:#ffffff; 
+}
+.white_tit a:hover{
+   color:#ff0000;
+}
+
+.nav_main{
+   	background: url(RED/WM_wMcms_06.gif) repeat-x;
+	height: 34px;
+	margin: 0px auto;
+	padding: 0px; 
+}
+
+.data{ 
+    color:#FFf;
+	line-height:34px;
+	padding:0px 10px 0px 26px;
+	background: url(RED/time_dot.gif) no-repeat center left;
+}
+.nav_current {
+	background: url(RED/gov_wMcms_06.gif) no-repeat 0px;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	height: 34px;
+	line-height:34px;
+	text-decoration: none;
+	width: 95px;
+}
+a.f_nav:link {
+	color: #ffffff;
+	display: block;
+	height: 14px;
+	text-decoration: none;
+}
+
+a.f_nav:visited {
+	color: #ffffff;
+}
+
+a.f_nav:hover {
+	color: #FFF;
+	display: block;
+	text-decoration: none;
+}
+.nav_link {
+	cursor:pointer;
+	float: left;
+	font-size: 14px;
+	font-weight:bold;
+	height: 34px;
+	line-height:34px;
+	text-decoration: none;
+	width: 95px;
+}
+.nav_link a,.nav_link a:visited {
+	color:#ffffff;
+}
+.nav_link a:hover{
+	color:#FFFFFF;
+	display: block;
+}
+.nav_sub {
+	height:30px;
+	line-height:30px;
+	color: #000;
+	text-align: left;
+	line-height:21px;
+	background: url(RED/sub_nav_bg.gif) repeat-x  left top;
+}
+
+.nav_sub a:link,.nav_sub a:visited,.nav_sub a:active {
+	color: #000;
+	text-decoration: none;
+}
+.nav_sub a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+/*顶部样式结束--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*底部样式表开始--------------------------------------------------------------------------------------------------------------------------------------*/
+#footer{
+   margin:0px auto;
+   background:#FFFFFF;
+}
+.foot_nav{
+    height:30px;
+	text-align:center;
+	line-height:30px;
+	background:url(RED/gov_wMcms_83.gif) repeat-x;
+}
+
+.foot_info{
+	text-align:left;
+	padding:12px 0px;
+	background-image: url(RED/footer.gif);
+	background-repeat: repeat-x;
+	border-right-color: #333333;
+}
+.foot_right{
+	float: left;
+	width: 300px;
+	height: 70px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #333333;
+	clear: both;
+	margin-right: 10px;
+	margin-top: 15px;
+	margin-left: 30px;
+	background-attachment: fixed;
+	background-image: url(RED/ico_b.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+
+/*底部样式表结束--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*公共样式表--------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*完美政府版权所有Powered By WM|www.wmgov.cn*/
+
+
+/*首页样式表开始--------------------------------完美政府版权所有 Powered By WM www.wMgov.Cn --------------------------------------------------------*/
+
+/*公共样式表---------------*/
+.l_border{ border:#CCC solid 1px;}
+/*公共样式表------------------*/
+/*首页样式表----------------------*/
+.WM_login_cnt{
+   padding:10px 25px;
+
+}
+.WM_pics_bg{
+  background:url(RED/wm_pic_bg.gif) repeat-x left bottom;
+}
+.tiaotiao{
+   margin:4px 10px;
+   height:53px;
+   text-align:center;
+   line-height:53px;
+   font-size:25px;
+   font-weight:bold;
+   color:#FF0000;
+   border-bottom:1px solid #CCC ;
+   background:url(RED/toutiao_bg.gif);
+}
+.tq{
+    padding:4px 10px 0px 33px;
+	background:url(RED/wm_weather.gif) no-repeat left center;
+}
+
+.zt_zwgk,.bmfw_banshi{
+    width:720px;
+	margin-bottom:5px;
+	background:url(RED/wm_wmgov_03.gif) repeat-x left top;
+}
+.WM_zwgk_title{
+    padding:0px 10px 0px 130px;
+	margin-bottom:6px;
+	height:29px;
+	line-height:29px;
+	background:url(RED/wm_wmgov_04.gif) no-repeat left top;
+}
+.WM_zwgk{
+    width:510px;
+	background:#FFFBF2 url(RED/WM_zwgk_pics_05.gif) repeat-x left top;
+}
+.zwgk_tt{
+    width:80px;
+	background:  url(RED/zwgk_tt.gif) no-repeat left top;
+}
+.T_zwgk_Menu_style LI {
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	CURSOR: pointer;
+	COLOR: #333;
+	font-weight:bold;
+	LINE-HEIGHT: 24px;
+	HEIGHT: 28px;
+	width:74px;
+	text-align:center;
+	list-style:none;
+	border:none;
+	BACKGROUND: url(RED/WM_zwgk_pics_03.gif) no-repeat center 0px;
+}
+.T_zwgk_Menu_style LI.selectd {
+    HEIGHT: 28px;
+	BACKGROUND: url(RED/wMcms_zwgk_slide.gif) no-repeat center 0px; COLOR: #DC6835;
+}
+.WM_zxbs{
+    background:url(RED/wm_wmgov_03.gif) repeat-x left top;
+}
+.WM_zxbs_title,.WM_hudong_title{
+    padding:0px 10px 0px 130px;
+	margin-bottom:6px;
+	height:29px;
+	line-height:29px;
+	background:url(RED/wm_wmgov_01.gif) no-repeat left top;
+}
+.WM_bs_right{
+   width:200px;
+   margin:0px;
+   min-height:200px!important;
+   height:auto;
+   height:200px;
+   border:1px solid #CCC; 
+}
+.WM_bs_right_tit{
+   text-align:center;
+   background:#E8E0D9;
+   height:26px;
+   line-height:26px;
+   font-weight:bold;
+   font-size:14px;
+   color:#DF5002;
+   background:url(RED/title_lmbg.gif) repeat-x left top;
+}
+.T_zxbs_Menu_style LI {
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	CURSOR: pointer;
+	COLOR: #333;
+	font-weight:bold;
+	LINE-HEIGHT: 22px;
+	HEIGHT: 22px;
+	width:126px;
+	text-align:center;
+	list-style:none;
+	border:none;
+	BACKGROUND: url(RED/wm_wmgov_09.gif) no-repeat center 0px;
+}
+.T_zxbs_Menu_style LI.selectd {
+    HEIGHT: 22px;
+	BACKGROUND: url(RED/wm_wmgov_08.gif) no-repeat center 0px; COLOR: #DC6835;
+}
+.bs_cnt{
+   border-left:1px solid #DABD58;
+   border-right:1px solid #DABD58;
+   border-bottom:1px solid #DABD58;
+   min-height:140px;
+   height:auto !important;
+   height:140px;
+   BACKGROUND:#FEFAED;
+}
+.bs_list_cnt ul li{
+   float:left;
+   width:98px;
+   padding:4px 0px;
+   margin:4px 0px;
+   text-align:center;
+   BACKGROUND: url(RED/fw_yichun_tit_bg.gif) no-repeat center center;
+}
+.WM_bs_tsqt{
+   border:solid 1px #FD9B33;
+   width:502px;
+   height:32px;
+   line-height:32px;
+   margin:5px 5px 5px 2px;
+}
+.WM_quick_nav_l{
+   margin:0 0 8px 0px;
+   height:57px;
+   line-height:57px;
+   padding-left:9px;
+   background:url(RED/wmquick_nav_01.gif) no-repeat left top;
+}
+.WM_quick_nav_c{
+   padding-top:9px;
+   height:48px;
+   background:#FDF5EB;
+}
+.WM_quick_nav_r{
+   height:57px;
+   line-height:57px;
+   padding-right:11px;
+   background:url(RED/wmquick_nav_03.gif) no-repeat right top;
+}
+.tz_ly_cnt{
+   border-top:1px solid #CCC;
+   border-bottom:1px solid #CCC;
+   padding:4px;
+}
+.tz_art_cnt{
+   float:left;
+   width:349px;
+   padding-right:5px;
+   border-right:1px dashed #CCC;
+}
+.tz_art_tit{
+   background:url(RED/tz_tit_bg.gif) no-repeat left top;
+   height:27px;
+   line-height:27px;
+}
+.tz_lmdh,.ly_lmdh{
+   border:1px solid #FDD28B;
+   height:40px;
+   line-height:40px;
+   padding:4px;
+   margin-top:4px;
+}
+.tz_image,.ly_image{
+   border-right:1px solid #FDD28B;
+   padding-right:4px;
+   width:50px;
+   float:left;
+}
+
+.ly_art_tit{
+   background:url(RED/ly_tit_bg.gif) no-repeat left top;
+   height:27px;
+   line-height:27px;
+}
+.art{
+    display:inline;
+    width:300px;
+    margin:0px 0px 5px 5px;
+	border-left:solid 1px #BBBBBB;
+	border-right:solid 1px #BBBBBB;
+	border-bottom:solid 1px #BBBBBB;
+	BACKGROUND: url(RED/gov_wMcms_43.gif) repeat-x; 	
+}
+.newpic{
+    margin:0px auto;
+	width:710px;
+	height:120px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	padding:40px 4px 0px 4px;
+	background:url(RED/WM_wMcms_39.gif) repeat-x;
+}
+.pic_t{
+    height:31px;
+	line-height:31px;
+	margin:-40px 0px 10px 20px;
+	padding-left:60px;
+	color:#333;
+	font-weight:bold;
+	background:url(RED/WM_wMcms_37.gif) no-repeat left top;
+}
+.pic_cont{
+   width:120px; 
+   height:90px; 
+   margin:4px; 
+   padding:8px !important; 
+   padding:8px 8px 4px 8px ;
+   border-top:1px solid #bbb;
+   border-left:1px solid #bbb;
+   border-right:1px solid #bbb;
+   border-bottom:3px solid #ccc;
+   background:#FFF url(RED/pic_bg.gif) repeat-x left top;
+}
+.pic_cont image{border:1px solid #ccc;}
+.pic_cont_Hover{
+   border:1px solid #FD9C05;
+}
+.hudong{
+   width:720px;
+   margin:5px auto;
+   border-bottom:1px solid #bbb;
+   padding-bottom:4px;
+   background:url(RED/wm_wmgov_03.gif) repeat-x left top;
+}
+.WM_hudong_title{
+	background:url(RED/wm_wmgov_02.gif) no-repeat left top;
+}
+.vote{
+   width:205px;
+   padding-top:27px;
+   min-height:188px;
+   height:auto!important;
+   height:188px;
+   marign:0px;
+   border:1px solid #CCC;
+   background:url(RED/gov_wMcms_69.gif) no-repeat left top;
+}
+.vote_tit{
+   padding:0px;
+   marign:0px;
+   color:#E0510B;
+   font-size:14px;
+   font-weight:bold; 
+   height:41px;
+   line-height:41px;
+   text-align:center;
+   
+}
+.WM_bumen{
+   width:720px;
+   margin:0 auto;
+   min-height:150px;
+   height:auto!important;
+   height:150px;
+   border-left:1px #FDD28B solid;
+   border-right:1px #FDD28B solid;
+   border-bottom:1px #FDD28B solid;
+   background:url(RED/wmzwwzdh.gif) no-repeat left top;
+}
+.WM_GovDir_Menu_style LI,.WM_Pic_Menu_style LI {
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	padding:0px 10px;
+	CURSOR: pointer;
+	COLOR: #E0510B;
+	font-weight:bold;
+	LINE-HEIGHT: 24px;
+	HEIGHT: 24px;
+	TEXT-ALIGN: center;
+	list-style:none;
+}
+.WM_GovDir_Menu_style LI.selectd,.WM_Pic_Menu_style LI.selectd  {
+    HEIGHT: 28px;
+	border:none;
+	BACKGROUND: url(RED/wm_slide_menu.gif) no-repeat center 0px; COLOR: #fff;
+}
+
+.WM_Pic_Menu_style LI {
+	padding:0px 47px;
+	BACKGROUND: url(RED/WM_pic_outslide_menu.gif) no-repeat center 0px;
+}
+.WM_Pic_Menu_style LI.selectd {
+    HEIGHT: 32px;
+	BACKGROUND: url(RED/WM_pic_slide_menu.gif) no-repeat center 0px;
+}
+/*--首页左边样式表开始------*/
+.wm_wmgov_zwgk{
+    padding:0px 10px;
+	border-left:1px solid #E6C48F;
+	border-right:1px solid #E6C48F;
+	border-bottom:1px solid #E6C48F;
+}
+/*首页右边样式表------------------*/
+.WM_zt{
+	margin-bottom:8px;
+    border:1px solid #CCC;
+	background:#FFF;
+}
+
+.WM_zt_name{
+    margin:6px auto;
+	background: #fff url(RED/dl_bg.gif) repeat-x left top;
+	border:1px solid #bbb;
+	padding:6px 6px;
+	min-height:20px;
+	height:auto!important;
+	height:20px;  
+    overflow:auto!important;
+	overflow:visible;
+}
+.WM_zt_name li{
+    float:left;
+	width:170px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	margin-top:5px;
+	background: url(RED/dl_dot1.gif) no-repeat 8px center;
+}
+.WM_zt_name a:hover{
+    display:block;
+    background: #C9EBFD url(RED/dl_dot2.gif) no-repeat 8px center;
+}
+.zt_title{
+    height:30px;
+	line-height:30px;
+	padding-right:10px;
+	background:url(RED/wmzwzt.gif) repeat-x left top;
+}
+
+.WM_gg,.WM_gw,.wMcms_User_login{
+    border:1px solid #ccc;
+	background:#FFF;
+	margin-bottom:10px;
+}
+.wMcms_User_login{
+   padding-top:30px;
+   background:#FFF url(RED/wm_login_bg.gif) repeat-x left top;
+}
+.WM_yj_wxd{
+   background:#FFF url(RED/wm_slide_right_01.gif) repeat-x left top;
+   border:1px solid #CCC;
+   margin-bottom:10px;
+   min-height:112px;
+   height:auto!important;
+   height:112px;
+}
+.T_WM_Menu_style LI {
+	FONT-SIZE: 14px;
+	FLOAT: left;
+	CURSOR: pointer;
+	COLOR: #333;
+	font-weight:bold;
+	LINE-HEIGHT: 30px;
+	HEIGHT: 29px;
+	width:50%;
+	text-align:center;
+	list-style:none;
+	border:none;
+	BACKGROUND: url(RED/wm_slide_right_03.gif) repeat-x center top;
+}
+.T_WM_Menu_style LI.selectd {
+    HEIGHT: 29px;
+	BACKGROUND: url(RED/wm_slide_right_01.gif) repeat-x center top; COLOR: #fff;
+}
+.WM_hotnews{
+    padding-top:40px;
+	margin-bottom:8px;
+    background:#FFF url(RED/bbsmessage.gif) repeat-x left top;
+    border:1px solid #CCC;
+}
+.WM_bbsmessage{
+	margin-bottom:8px;
+    border:1px solid #CCC;
+	background:#FFF;
+}
+.bbsmessage_title{
+    height:30px;
+	line-height:30px;
+	padding-right:10px;
+	background:url(RED/bbsmessage.gif) repeat-x left top;
+}
+.WM_bbsreply{
+	margin-bottom:8px;
+    border:1px solid #CCC;
+	background:#FFF;
+}
+.bbsreply_title{
+    height:30px;
+	line-height:30px;
+	padding-right:10px;
+	background:#FFF url(RED/bbsreply.gif) repeat-x left top;
+}
+.WM_stat{
+    padding-top:40px;
+	margin-bottom:8px;
+    background:#FFF url(RED/stat.gif) repeat-x left top;
+    border:1px solid #CCC;
+}
+.WM_online{
+    padding-top:40px;
+	margin-bottom:8px;
+    background:#FFF url(RED/online.gif) repeat-x left top;
+    border:1px solid #CCC;
+}
+.visit li,.WM_online_www_wmgov_cn li{
+    height:22px;
+	line-height:22px;
+	padding-left:30px;
+    background:url(RED/icon_new.gif) no-repeat 10px center;
+}
+.WM_online_www_wmgov_cn li{
+    background:url(RED/news_4.gif) no-repeat 10px center;
+}
+
+.WM_suport{
+	margin-bottom:8px;
+    border:1px solid #CCC;
+	background:#FFF;
+}
+.suport_title{
+    height:30px;
+	line-height:30px;
+	padding-right:10px;
+	background:url(RED/wmsuport.gif) repeat-x left top;
+}
+.suport_info{
+    padding:5px;
+	margin:0px 10px;
+	font-size:14px;
+	line-height:22px;
+	border-bottom:1px dashed #ccc;
+}
+.login_email{
+   margin:10px auto;
+   background:url(RED/gov_wMcms_79.gif) repeat-x #ffffff;
+   border:1px solid #bbb;
+}
+.friend_link{
+   margin:4px 0px 0px 0px;
+   width:680px;
+   border-top:1px dashed #bbb;
+   height:24px;
+   line-height:24px;
+   padding:8px 8px 0px 8px;
+   text-align:center;
+}
+.WM_FriendSite{
+   margin:4px 10px 4px 8px;
+   height:31px;
+   border:1px solid #ccc;
+   padding:8px;
+   text-align:center;
+   background:#FFF url(RED/wMcms_police_78.gif) no-repeat left center;
+}
+
+/*首页样式表结束--------------------------------完美政府版权所有 Powered By WM www.wMgov.Cn ---------------------------------------------------------------*/
+/*wmcms_zwgk.css样式表开始－－政务公开--------------------------------------------------------------------------------------------------------------------------------------*/
+#WM_zwgk_index_Content{
+   margin:0px auto;
+   width:1002px;
+   background:#FFFFFF url(RED/WM_wMcms_gkbg.gif) repeat-y -28px top;
+}
+.bg_top{
+   width:220px;
+   padding-top:20px;
+   margin:0px auto;
+   background: url(RED/lm_title_bg_01.gif) no-repeat left top;
+}
+.bg_middle{
+   width:220px;
+   height:200px!important;
+   height:200px;
+   margin:0px auto;
+   padding:0px;
+   background: url(RED/lm_title_bg_02.gif) repeat-y left top;
+}
+.bg_bottom{
+   width:220px;
+   padding-bottom:8px;
+   margin:0px auto;
+   background:url(RED/lm_title_bg_04.gif) no-repeat left bottom;
+}
+.zwgk_name li{
+	width:180px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin:0px 20px;
+	padding:0;
+	background: url(RED/zwgk_mlbg.gif) repeat-x left center;
+}
+.zwgk_name a:link,.zwgk_name a:visited{
+    display:block;
+    color:#000;
+	background: url(RED/zwgk_mlbg.gif) repeat-x left center;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.zwgk_name a:hover{
+    display:block;
+	color:#FE8C11;
+    background: url(RED/zwgk_mlbg_hover.gif) no-repeat left center;
+
+}
+.zwgk_WM_pics_bg{
+  background:url(RED/wm_pic_bg.gif) repeat-x left bottom;
+}
+.zwgk_pic_icon_www_wmgov_cn,.zwgk_move_icon_www_wmgov_cn{
+   height:20px;
+   line-height:20px;
+   width:96px;
+   text-align:center;
+   padding:4px 10px 0px;
+   background:url(RED/wm_pic_dot.gif) no-repeat 10px center;
+}
+.zwgk_move_icon_www_wmgov_cn{
+   background:url(RED/wm_move_dot.gif) no-repeat 10px center;
+}
+
+/*wmcms_zwgk.css样式表结束－－政务公开--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*wmcms_wsbs.css样式表开始 －－网上办事-----------------------------------------------------------------------------*/
+.T_Menu_style LI {
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	padding:0px 15px;
+	CURSOR: pointer;
+	COLOR: #E0510B;
+	font-weight:normal;
+	LINE-HEIGHT: 24px;
+	HEIGHT: 24px;
+	TEXT-ALIGN: center;
+	list-style:none;
+	border:none;
+}
+.T_Menu_style LI.selectd {
+    HEIGHT: 24px;
+	border-left:1px solid #F1C596;
+    border-right:1px solid #F1C596;
+	BACKGROUND: url(RED/bs_slide_bg.gif) no-repeat center 0px; COLOR: #E0510B;
+}
+
+.T_bjss_Menu_style LI {
+	FONT-SIZE: 12px;
+	FLOAT: left;
+	padding:0px 5px;
+	CURSOR: pointer;
+	COLOR: #E0510B;
+
+	font-weight:normal;
+	LINE-HEIGHT: 24px;
+	HEIGHT: 24px;
+	TEXT-ALIGN: center;
+	list-style:none;
+	border:none;
+}
+.T_bjss_Menu_style LI.selectd {
+    HEIGHT: 24px;
+	border-left:1px solid #ccc;
+    border-right:1px solid #ccc;
+	BACKGROUND: url(RED/bs_slide_bg.gif) no-repeat center 0px; COLOR: #E0510B;
+}
+/*左边部分样式---------------------*/
+.bs_title_bg{background:url(RED/red_main_title_bg.gif) no-repeat left top;}
+
+.WM_gzfw,.WM_bjsswsb,.WM_bssp{
+   width:677px;
+   margin:10px auto;
+   background:url(RED/wm_wsbs_wmgov_03.gif) repeat-x left top;
+}
+.bs_www_wmgov_cn_cnt{
+   border-left:1px solid #F1C596;
+   border-right:1px solid #F1C596;
+   border-bottom:1px solid #F1C596;
+
+}
+.bs_fw_left{
+   padding-left:10px;
+   margin:0px 5px 0px 3px;
+   height:42px;
+   line-height:42px;
+   background:url(RED/wm_wsbs_wmgov_06.gif) no-repeat left top;
+}
+.bs_fw_center{
+   padding:2px 0px 0px 0px;
+
+   height:42px;
+   line-height:42px;
+   background:url(RED/wm_wsbs_wmgov_08.gif) repeat-x left top;
+}
+.bs_fw_right{
+   padding-right:9px;
+   height:42px;
+   line-height:42px;
+   background:url(RED/wm_wsbs_wmgov_10.gif) no-repeat right top;
+}
+.bs_xk_cnt{
+   padding:10px;
+   border-left:1px solid #F1C596;
+   border-right:1px solid #F1C596;
+   border-bottom:1px solid #F1C596;
+}
+.bs_bszn,.bs_bgxz{
+   margin:4px 2px;
+   width:333px;
+   background:url(RED/wm_wsbs_wmgov_26.gif) no-repeat left top;
+}
+.bszn_cnt,.bszn_cnt_l{
+   width:331px;
+   border-left:1px solid #F1C596;
+   border-right:1px solid #F1C596;
+   border-bottom:1px solid #F1C596;
+}
+.bs_sp_title_bg{
+   background:url(RED/bs_spbg.gif) repeat-x left top;
+   color:#000;
+}
+
+/*wmcms_wsbs.css样式表结束 －－网上办事--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*wmcms_tz.css样式表开始--------------------------------------------------------------------------------------------------------------------------------------*/
+.tz_left{
+   width:220px;
+   background:#FCF7DA;
+   margin:0 10px!important;
+   margin:0 5px;
+}
+
+
+/*wmcms_tz.css样式表结束--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*wmcms_leader.css样式表开始--------------------------------------------------------------------------------------------------------------------------------------*/
+.leaders_name li{
+	width:180px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin:0px 20px;
+	padding:0;
+	background:#FEF1E3;
+	border:1px solid #D85E04;
+}
+.leaders_name a:link,.leaders_name a:visited{
+    display:block;
+    color:#CB1717;
+	font-weight:bold;
+	font-size:14px;
+}
+.leaders_n{
+    background:#CB1717;
+    color:#fff;
+  	font-weight:bold;
+	font-size:14px;
+	width:180px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin:0 auto;
+
+}
+.leaders_name a:hover{
+    display:block;
+	color:#FE8C11;
+
+}
+
+.WM_leader_class ul li{
+   float:left;
+   width:150px;
+   heigh:30px;
+   line-height:30px;
+   text-align:center;
+   border:1px solid #F38D03;
+   background:#FEF1E3;
+   color:#fff;
+   font-weight:bold;
+   font-size:14px;
+   margin:0px 10px;
+}
+.WM_leader_class ul li a:hover{
+   display:block;
+   background:#CB1717;
+}
+.leader_titlebg{
+   height:41px;
+   line-height:41px;
+   background: url(RED/leader_titlebg.gif) no-repeat left top;	
+}
+.leader_zwhd{
+   width:330px;
+   background: url(RED/red_bg_title7.gif) repeat-x left top;
+}
+.leader_title_l,.leader_title_r{
+   height:25px;
+   line-height:25px;
+   padding:0px 10px 0px 30px;
+   font-weight:bold;
+   color:#FFF;
+   font-size:14px;
+   background: url(RED/red_bg_title8.gif) no-repeat left top;	
+}
+
+.leader_list{
+   margin:10px auto;
+   width:700px;
+   background: url(RED/red_bg_title7.gif) repeat-x left top;
+}
+
+/*wmcms_leader.css样式表结束--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*wmcms_gk.css样式表开始--------------------------------------------------------------------------------------------------------------------------------------*/
+.gklmbg_left,.WM_gk_pictrue_left{
+   height:30px;
+   padding-left:32px;
+   background: url(RED/wm_gklm_bg_02.gif) no-repeat left top;
+}
+.gklmbg_right,.WM_gk_pictrue_right{
+   height:30px;
+   padding-right:7px;
+   background: url(RED/wm_gklm_bg_06.gif) no-repeat right top;
+}
+.gk_title{
+   height:30px;
+   line-height:30px;
+   color:#000;
+   font-weight:bold;
+   font-size:14px;
+   background:url(RED/wm_gklm_bg_04.gif) repeat-x left top;
+   padding-left:10px;
+}
+
+#WM_gk_index_Content{margin:0px auto;width:1002px; background:#FFFFFF url(RED/WM_wMcms_gkbg.gif) repeat-y left top;}
+.gk_left{
+   width:269px;
+}
+
+.gk_name a:link,.gk_name a:visited{
+    display:block;
+    color:#F25B00;
+	font-weight:bold;
+	font-size:14px;
+}
+.gk_name a:hover,{
+    display:block;
+    background: #FFEEDD url(RED/dl_dot2.gif) no-repeat 8px center;
+}
+.gk_info_lm{
+  height:30px;
+  width:100%;
+  border:1px solid #CCC;
+  background:#FFEFDF;
+}
+
+.WM_gklm_middle{
+  width:355px;
+  padding:4px 0px;
+  background:url(RED/gk_lmbg_02.gif) repeat-y left top;
+}
+.WM_gklm_bottom{
+  width:355px;
+  padding-bottom:9px;
+  background:url(RED/gk_lmbg_04.gif) no-repeat left bottom;
+}
+
+.WM_gk_pictrue{
+   margin:0px;
+   width:700px;
+   height:120px;
+   border-left:4px solid #FDC28A;
+   border-right:4px solid #FDC28A;
+   border-bottom:4px solid #FDC28A;
+}
+
+.pic_cont_Hover{
+   border:1px solid #FD9C05;
+}
+.gklm_list_top{
+  width:230px;
+  margin:8px 6px 0px 0px;
+  padding-top:58px;
+  background:url(RED/title_gs_1.gif) no-repeat left top;
+}
+.bg_top2{background:url(RED/title_gs_2.gif) no-repeat left top;}
+.bg_top3{background:url(RED/title_gs_3.gif) no-repeat left top;}
+.bg_top4{background:url(RED/title_gs_4.gif) no-repeat left top;}
+.bg_top5{background:url(RED/title_gs_5.gif) no-repeat left top;}
+.bg_top6{background:url(RED/title_gs_6.gif) no-repeat left top;}
+.bg_top7{background:url(RED/title_gs_7.gif) no-repeat left top;}
+.bg_top8{background:url(RED/title_gs_8.gif) no-repeat left top;}
+.bg_top9{background:url(RED/title_gs_9.gif) no-repeat left top;}
+
+
+/*wmcms_gk.css样式表结束--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*wmcms_news.css新闻部分样式表开始--------------------------------------------------------------------------------------------------------------------------------------*/
+.lm_class_bg{
+	background: url(RED/lm_class.gif) repeat-x left top;
+}
+/*左边部分样式-----------------------------------------------------------*/
+#WM_Cnt_center{
+    background: url(RED/art_wmgov_sys_logo_bg.gif) no-repeat 646px top;
+}
+.about_art,.about_spec{
+   width:260px;
+   background:url(RED/gov_wMcms_52.gif) repeat-x left top;
+   border-bottom:1px solid #bbb;
+   padding:0px 6px;
+   min-height:150px;
+   height:auto !important;
+   height:150px;
+}
+.comment{
+   border:1px solid #e8e8e8;
+   width:600px;
+   margin-bottom:10px;
+}
+.comment_title{
+   width:600px;
+   margin:0px auto;
+   padding:0px;
+   text-align:left;
+   font-size:14px;
+   font-weight:bold;
+   background:#FFEEDF url(RED/comment_bg.gif) repeat-x left top;
+}
+/*右边部分样式-------------------------------------------*/
+.npic_Hover{
+   border:1px solid #FD9C05;
+   filter:alpha(opacity=80);
+   
+}
+/*文章列表页面样式------------------------------------------*/
+/*右边部分样式----------------------------------------*/
+.WM_GovPublic_cnt{
+    width:730px;
+	margin:0px auto 10px auto;
+    background: url(RED/hd_dh.gif) repeat-x left top;
+	border:1px solid #BDBDBD;
+}
+.WM_govpublic_txt_b{
+	text-align:left;
+	line-height:24px;
+	padding:10px 2px;
+	border-top:1px #FF3333 dashed;
+	font-weight:bold;
+}
+.wMcms_gmsq_table1{
+   text-align:center;
+   color:#FF0000;
+   font-size:20px;
+   margin:4px auto;
+   font-weight:bold;
+}
+.wMcms_gmsq_table2{
+   margin:10px auto;
+   width:640px;
+   border:dashed #FF3333 1px;
+}
+.piclist_Hover{
+   border:1px solid #0799DD;
+}
+.s_pic{
+   width:80px;
+   padding:2px;
+   border:1px solid #e8e8e8;
+   margin:5px 0px;
+}
+/*民政互动页面样式---------------------------------*/
+#hd_cnt{
+    width:640px;
+	margin:10px auto;
+    background: url(RED/hd_dh.gif) repeat-x left top;
+	border:1px solid #BDBDBD;
+}
+.bs_bg,.book_bg{
+    font-size:14px;
+	font-weight:bold;
+	line-height:25px;
+	height:25px;
+    padding-left:10px;
+    background: url(RED/hd_bg.gif) repeat-x left top;
+}
+.back{
+    text-align:center;
+	font-size:14px;
+	color:#FF0000;
+	font-weight:bold;
+	line-height:22px;
+	padding:20px 0px;
+}
+.bookcnt{
+    padding-left:10px;
+	border-left:1px dashed #BBBBBB;
+}
+#blog_cnt{
+    width:680px;
+	margin:10px auto;
+    background: url(RED/hd_dh.gif) repeat-x left top;
+	border:1px solid #BDBDBD;
+}
+.blog_title,.blog_info,.blog_other{
+    height:20px;
+	padding-left:20px;
+	line-height:20px;
+	font-weight:bold;
+	background:#FFECE8;
+}
+.blog_info,.blog_other{
+	font-weight:normal;
+	background:#ffffff;
+	border-bottom:1px dashed #BBB;
+}
+.blog_other{border-top:1px dashed #BBB;border-bottom:none;}
+.blog_content{
+    padding:5px;
+	line-height:18px;
+}
+.alldep{
+    width:980px;
+	margin:10px auto;
+	border:1px dashed #BBB;
+	overflow:hidden!important;
+	overflow:visible;
+}
+.alldep_menu{
+     background: #FFE8E8;
+}
+.board_tit{
+    height:30px;
+	font-size:14px;
+	font-weight:bold;
+	line-height:30px;
+	border-bottom:1px solid #BBB;
+}
+.board_bg1{
+    background: url(RED/gonggao_03.gif) repeat-x center top;
+    height:44px;
+}
+.board_bg2{
+    background: url(RED/gonggao_06.gif) repeat-x center top;
+    height:11px;
+	font-size:1px;
+}
+.board_bg3{
+    background: url(RED/gonggao_10.gif) repeat-x center top;
+    height:6px;
+	font-size:0px;
+
+}
+.t_board_bg1{
+    background: url(RED/wMcms_gg_01.gif) repeat-x center top;
+    height:32px;
+}
+.t_board_center{
+    background:#FFFFFF;
+	padding:10px;
+	line-height:18px;
+	min-height:335px;
+	height:auto !important;
+	height:335px;
+	background: url(RED/wMcms_gg_02.gif) repeat-y center top;
+}
+.t_board_bg3{
+    background: url(RED/wMcms_gg_04.gif) repeat-x center top;
+    height:12px;
+}
+.vote_cnt{
+   margin:20px 10px;
+   text-align:left;
+}
+
+
+/*wmcms_news.css新闻部分样式表结束--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*wmcms_ly.css旅游部分样式表开始--------------------------------------------------------------------------------------------------------------------------------------*/
+.ly_jq_pic li{
+  float:left;
+  padding:4px;
+  margin:6px 6px;
+  background:#FCF7DA;
+  border:1px solid #EC8648;
+}
+.ly_bdfw_1,.ly_bdfw_2,.ly_bdfw_3,.ly_bdfw_4,.ly_bdfw_5,.ly_bdfw_6{
+   padding-top:42px;
+   width:231px;
+   border:1px solid #ccc;
+   margin:0px 20px 8px 0px;
+   float:left;
+   background:#EEFFEE url(RED/ly_17.gif) no-repeat left top;
+}
+.ly_bdfw_2{
+   background:#FFEEEE url(RED/ly_12.gif) no-repeat left top;
+}
+.ly_bdfw_3{
+   margin:0px 0px 8px 0px;
+   background:#ECF5FF url(RED/ly_131.gif) no-repeat left top;
+}
+.ly_bdfw_4{
+   background:#FFF4EE url(RED/ly_14.gif) no-repeat left top;
+}
+.ly_bdfw_5{
+   background:#FBF2FB url(RED/ly_151.gif) no-repeat left top;
+}
+.ly_bdfw_6{
+   margin:0px 0px 8px 0px;
+   background:#FFFBE8 url(RED/ly_16.gif) no-repeat left top;
+}
+
+
+/*wmcms_ly.css旅游部分样式表结束--------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+

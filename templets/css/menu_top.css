@@ -1,0 +1,40 @@
+/* 通用类 */
+@charset "utf-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td, form {margin:0;padding:0;}
+body {font:12px "宋体",Arial,Verdana,sans-serif,"Times New Roman"; color:#666;}
+img {border:none;}
+ul,li {list-style:none;}
+a{color:#666666; text-decoration:none;}
+a:hover{color:#0284E2}
+#clear{clear:both;}
+
+/* 导航栏css */
+#enmenu_top{width:980px; height:36px; background:url(../images/enmenu_bg_03.jpg) no-repeat 0 0; margin:20px auto;}
+#enmenu_top a{ display:block; width:134px; height:36px; float:left;}
+
+#menu_top{width:980px; height:36px; background:url(../images/menu_bg_03.gif) no-repeat 0 0; margin:20px auto;}
+#menu_top a.menu_jg01{display:block; width:130px; height:36px; float:left;}
+#menu_top a:hover.menu_jg01{background:url(../images/menu_bg2_03.gif) no-repeat 0 0; display:block; width:130px; height:36px;}
+#menu_top a.menu_jg02{display:block; width:134px; height:36px; float:left;}
+#menu_top a:hover.menu_jg02{background:url(../images/menu_bg2_04.gif) no-repeat 0 0; display:block; width:134px; height:36px;}
+#menu_top a.menu_jg002{background:url(../images/menu_bg3_04.gif) no-repeat 0 0; display:block; width:134px; height:36px; float:left;}
+#menu_top a:hover.menu_jg002{background:url(../images/menu_bg2_04.gif) no-repeat 0 0; }
+
+#menu_top a.menu_jg03,a.menu_jg04,a.menu_jg05,a.menu_jg06,a.menu_jg07{display:block; width:135px; height:36px; float:left;}
+#menu_top a.menu_jg003{background:url(../images/menu_bg3_05.gif) no-repeat 0 0; display:block; width:134px; height:36px; float:left;}
+#menu_top a:hover.menu_jg003{background:url(../images/menu_bg2_05.gif) no-repeat 0 0; }
+#menu_top a.menu_jg004{background:url(../images/menu_bg3_06.gif) no-repeat 0 0; display:block; width:134px; height:36px; float:left;}
+#menu_top a:hover.menu_jg004{background:url(../images/menu_bg2_06.gif) no-repeat 0 0; }
+#menu_top a.menu_jg005{background:url(../images/menu_bg3_07.gif) no-repeat 0 0; display:block; width:134px; height:36px; float:left;}
+#menu_top a:hover.menu_jg005{background:url(../images/menu_bg2_07.gif) no-repeat 0 0; }
+#menu_top a.menu_jg006{background:url(../images/menu_bg3_08.gif) no-repeat 0 0; display:block; width:134px; height:36px; float:left;}
+#menu_top a:hover.menu_jg006{background:url(../images/menu_bg2_08.gif) no-repeat 0 0; }
+#menu_top a.menu_jg007{background:url(../images/menu_bg3_09.gif) no-repeat 0 0; display:block; width:134px; height:36px; float:left;}
+#menu_top a:hover.menu_jg007{background:url(../images/menu_bg2_09.gif) no-repeat 0 0; }
+#menu_top a:hover.menu_jg03{background:url(../images/menu_bg2_05.gif) no-repeat 0 0; display:block; width:135px; height:36px; float:left;}
+#menu_top a:hover.menu_jg04{background:url(../images/menu_bg2_06.gif) no-repeat 0 0; display:block; width:135px; height:36px; float:left;}
+#menu_top a:hover.menu_jg05{background:url(../images/menu_bg2_07.gif) no-repeat 0 0; display:block; width:135px; height:36px; float:left;}
+#menu_top a:hover.menu_jg06{background:url(../images/menu_bg2_08.gif) no-repeat 0 0; display:block; width:135px; height:36px; float:left;}
+#menu_top a:hover.menu_jg07{background:url(../images/menu_bg2_09.gif) no-repeat 0 0; display:block; width:135px; height:36px; float:left;}

@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TimeLink Multitotuch Surface Light Wave</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templeturl/}/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templeturl/}/css/main.css" rel="stylesheet" type="text/css" />
+<LINK href="{dede:global.cfg_templeturl/}/css/xixi.css" type=text/css rel=stylesheet>
+<SCRIPT src="{dede:global.cfg_templeturl/}/js/jquery.min.js" type=text/javascript></SCRIPT>
+<SCRIPT src="{dede:global.cfg_templeturl/}/js/loopedslider.min.js" type=text/javascript></SCRIPT>
+</head>
+
+<body>
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+{dede:include filename="enhead.htm"/}
+<!-- banner切换 -->
+<div id="banner">
+  <div id=newsSlider>
+  <div class=container>
+    <ul class=slides>
+	 {dede:arclist row='100' typeid='148' addfields='body'  channelid='1'}
+  <li><A href="[field:source/]" target="_blank"><IMG src="[field:litpic/]"></A></li>
+     {/dede:arclist}
+    </ul>
+  </div>
+    <ul class=pagination>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+   </ul>
+  </div>
+</div>
+<!-- banenr切换结束 -->
+
+<!-- 滚动热点新闻 -->
+<div id="enhot_news">
+  <div class="new_neirong">
+    <script>
+var marqueeContent=new Array();   //滚动主题
+{dede:arclist row='100' typeid='168' flag='h' addfields='body'  channelid='1' limit='0,1'}
+marqueeContent[0]='<a href="[field:arcurl/]" target="_blank">+ [field:fulltitle/]</a>';
+{/dede:arclist}                  	
+{dede:arclist row='100' typeid='168' flag='h' addfields='body'  channelid='1' limit='1,1'}
+marqueeContent[1]='<a href="[field:arcurl/]" target="_blank">+ [field:fulltitle/]</a>';
+{/dede:arclist}   
+{dede:arclist row='100' typeid='168' flag='h' addfields='body'  channelid='1' limit='2,1'}
+marqueeContent[2]='<a href="[field:arcurl/]" target="_blank">+ [field:fulltitle/]</a>';
+{/dede:arclist}
+{dede:arclist row='100' typeid='168' flag='h' addfields='body'  channelid='1' limit='3,1'}
+marqueeContent[3]='<a href="[field:arcurl/]" target="_blank">+ [field:fulltitle/]</a>';
+{/dede:arclist} 
+
+var marqueeInterval=new Array();  //定义一些常用而且要经常用到的变量
+var marqueeId=0;
+var marqueeDelay=3000;
+var marqueeHeight=15;
+function initMarquee() {
+ var str=marqueeContent[0];
+ document.write('<div id=marqueeBox style="overflow:hidden;height:'+marqueeHeight+'px" onmouseover="clearInterval(marqueeInterval[0])" onmouseout="marqueeInterval[0]=setInterval(\'startMarquee()\',marqueeDelay)"><div>'+str+'</div></div>');
+ marqueeId++;
+ marqueeInterval[0]=setInterval("startMarquee()",marqueeDelay);
+ }
+function startMarquee() {
+ var str=marqueeContent[marqueeId];
+  marqueeId++;
+ if(marqueeId>=marqueeContent.length) marqueeId=0;
+ if(marqueeBox.childNodes.length==1) {
+  var nextLine=document.createElement('DIV');
+  nextLine.innerHTML=str;
+  marqueeBox.appendChild(nextLine);
+  }
+ else {
+  marqueeBox.childNodes[0].innerHTML=str;
+  marqueeBox.appendChild(marqueeBox.childNodes[0]);
+  marqueeBox.scrollTop=0;
+  }
+ clearInterval(marqueeInterval[1]);
+ marqueeInterval[1]=setInterval("scrollMarquee()",10);
+ }
+function scrollMarquee() {
+ marqueeBox.scrollTop++;
+ if(marqueeBox.scrollTop%marqueeHeight==marqueeHeight){
+  clearInterval(marqueeInterval[1]);
+  }
+ }
+initMarquee();
+</script></div>
+</div>
+
+<!-- 滚动热点新闻结束 -->
+<div id="main_prd">
+  <a href="/plus/list.php?tid=138" class="prd_sh01"><img src="/templets/images/enprd_07.gif"></a>
+  <a href="/plus/list.php?tid=139" class="prd_sh01"><img src="/templets/images/enprd_01_18.gif"></a>
+  <a href="/plus/list.php?tid=140" class="prd_sh01"><img src="/templets/images/enprd_03_22.gif"></a>
+  <a href="/plus/list.php?tid=141" class="prd_sh02"><img src="/templets/images/enprd_03.gif"></a>
+  
+  
+  
+  <div id="clear"></div>
+</div>
+
+{dede:include filename="enfooter.htm"/}
+</body>
+</html>

@@ -1,0 +1,228 @@
+BODY {
+	FONT-SIZE: 12px; BACKGROUND-IMAGE: url(topbg.jpg); MARGIN: 0px; BACKGROUND-REPEAT: repeat-x; FONT-FAMILY: 宋体; BACKGROUND-COLOR: #fafafa
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+TH {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.newsbar {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; LINE-HEIGHT: 120%; LETTER-SPACING: 8px
+}
+A.nav:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.nav:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #525a67; TEXT-DECORATION: none
+}
+A.nav:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #f76301; TEXT-DECORATION: none
+}
+A.nav:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #f76301; TEXT-DECORATION: none
+}
+A.navred:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #e80404; TEXT-DECORATION: none
+}
+A.navred:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #e80404; TEXT-DECORATION: none
+}
+A.navred:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #f76301; TEXT-DECORATION: none
+}
+A.navred:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #f76301; TEXT-DECORATION: none
+}
+A.scroll:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #2263b7; TEXT-DECORATION: none
+}
+.Finput {
+	BORDER-RIGHT: #484848 1px solid; BORDER-TOP: #484848 1px solid; PADDING-LEFT: 3px; BACKGROUND: #040404; BORDER-LEFT: #484848 1px solid; WIDTH: 93px; COLOR: #ffffff; LINE-HEIGHT: 18px; BORDER-BOTTOM: #484848 1px solid; HEIGHT: 18px
+}
+.bbar {
+	FONT-SIZE: 12px; LINE-HEIGHT: 120%; FONT-FAMILY: "宋体"; LETTER-SPACING: 2px
+}
+.bbar A:link {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.bbar A:visited {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.bbar A:hover {
+	FONT-SIZE: 12px; COLOR: #990000; LINE-HEIGHT: 120%; TEXT-DECORATION: underline
+}
+.bbar A:active {
+	FONT-SIZE: 12px; COLOR: #990000; LINE-HEIGHT: 120%; TEXT-DECORATION: underline
+}
+.gb14 {
+	FONT-SIZE: 14px; COLOR: #ffffff; LINE-HEIGHT: 120%; FONT-FAMILY: "宋体"; LETTER-SPACING: 3px
+}
+.abar {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 120%; FONT-FAMILY: "宋体"; LETTER-SPACING: 1px
+}
+.abar A:link {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.abar A:visited {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.abar A:hover {
+	FONT-SIZE: 12px; COLOR: #ffff00; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: underline
+}
+.abar A:active {
+	FONT-SIZE: 12px; COLOR: #ffff00; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: underline
+}
+.kkk {
+	FONT-SIZE: 12px; COLOR: #990000; LINE-HEIGHT: 120%; FONT-FAMILY: "宋体"; LETTER-SPACING: 1px
+}
+.kkk A:link {
+	FONT-SIZE: 12px; COLOR: #990000; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.kkk A:visited {
+	FONT-SIZE: 12px; COLOR: #990000; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.kkk A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: underline
+}
+.kkk A:active {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: underline
+}
+.kbar {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 120%; FONT-FAMILY: "宋体"; LETTER-SPACING: 1px
+}
+.kbar A:link {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.kbar A:visited {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: none
+}
+.kbar A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: underline
+}
+.kbar A:active {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 120%; LETTER-SPACING: 1px; TEXT-DECORATION: underline
+}
+.tbar {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 120%; FONT-FAMILY: "宋体"; LETTER-SPACING: 2px
+}
+.tbar A:link {
+	FONT-SIZE: 12px; COLOR: #00309c; LINE-HEIGHT: 120%; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+.tbar A:visited {
+	FONT-SIZE: 12px; COLOR: #00309c; LINE-HEIGHT: 120%; LETTER-SPACING: 2px; TEXT-DECORATION: none
+}
+.tbar A:hover {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 120%; LETTER-SPACING: 2px; TEXT-DECORATION: underline
+}
+.tbar A:active {
+	FONT-SIZE: 12px; COLOR: #ffff00; LINE-HEIGHT: 120%; LETTER-SPACING: 2px; TEXT-DECORATION: underline
+}
+.menu {
+	FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 120%
+}
+.menu A:link {
+	FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.menu A:visited {
+	FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.menu A:hover {
+	FONT-SIZE: 13px; COLOR: #ffff00; LINE-HEIGHT: 120%; TEXT-DECORATION: underline
+}
+.menu A:active {
+	FONT-SIZE: 13px; COLOR: #ffff00; LINE-HEIGHT: 120%; TEXT-DECORATION: underline
+}
+.view01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000000
+}
+.view02 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ffffff
+}
+.link4 {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 120%
+}
+.link4 A:link {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.link4 A:visited {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.link4 A:active {
+	FONT-SIZE: 12px; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.link4 A:hover {
+	FONT-SIZE: 12px; COLOR: #00ff00; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.anniou {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-LEFT: 3px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(anniou1.gif); BORDER-LEFT: medium none; WIDTH: 52px; COLOR: #0066cc; PADDING-TOP: 2px; BORDER-BOTTOM: medium none; HEIGHT: 21px
+}
+.anniou2 {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-LEFT: 3px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(anniou2.gif); BORDER-LEFT: medium none; WIDTH: 80px; COLOR: #0066cc; PADDING-TOP: 2px; BORDER-BOTTOM: medium none; HEIGHT: 21px
+}
+.title1 TD {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; LINE-HEIGHT: 16px
+}
+.td1 {
+	FONT-SIZE: 14px; BACKGROUND: #f0f398; COLOR: #cc0000; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Arial
+}
+.td1_b {
+	FONT-SIZE: 14px; BACKGROUND: #f4dd99; COLOR: #cc0000; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Arial
+}
+.openCode UL {
+	MARGIN-LEFT: 5px; COLOR: #000
+}
+.openCode SPAN {
+	MARGIN-LEFT: 5px; COLOR: #000
+}
+.openCode LI {
+	BORDER-RIGHT: #c9d004 1px solid; BORDER-TOP: #c9d004 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #eaef54; FLOAT: left; BORDER-LEFT: #c9d004 1px solid; WIDTH: 22px; LINE-HEIGHT: 16px; MARGIN-RIGHT: 3px; BORDER-BOTTOM: #c9d004 1px solid; TEXT-ALIGN: center
+}
+.openCode .li_b LI {
+	BORDER-RIGHT: #d0a300 1px solid; BORDER-TOP: #d0a300 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #f6d669; FLOAT: left; BORDER-LEFT: #d0a300 1px solid; WIDTH: 22px; LINE-HEIGHT: 16px; MARGIN-RIGHT: 3px; BORDER-BOTTOM: #d0a300 1px solid; TEXT-ALIGN: center
+}
+.openCode .ul {
+	BORDER-RIGHT: #d0a300 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #d0a300 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #f6d669; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-LEFT: #d0a300 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #d0a300 1px solid; TEXT-ALIGN: center
+}
+.openCode .ul_b {
+	BORDER-RIGHT: #c9d004 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #c9d004 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #eaef54; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-LEFT: #c9d004 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #c9d004 1px solid; TEXT-ALIGN: center
+}
+#mypage {
+	FONT-SIZE: 11px; COLOR: #ddbcb5; LINE-HEIGHT: 18px; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+#mypage A {
+	BORDER-RIGHT: #ddbcb5 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ddbcb5 1px solid; DISPLAY: block; PADDING-LEFT: 6px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px 1px; BORDER-LEFT: #ddbcb5 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #ddbcb5 1px solid
+}
+#mypage SPAN {
+	BORDER-RIGHT: #ddbcb5 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ddbcb5 1px solid; DISPLAY: block; PADDING-LEFT: 6px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px 1px; BORDER-LEFT: #ddbcb5 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #ddbcb5 1px solid
+}
+#mypage .current {
+	BORDER-RIGHT: #ddbcb5 1px solid; BORDER-TOP: #ddbcb5 1px solid; FONT-WEIGHT: bold; BACKGROUND: #ddbcb5; BORDER-LEFT: #ddbcb5 1px solid; COLOR: #fff; BORDER-BOTTOM: #ddbcb5 1px solid
+}
+#mypage .count {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-TOP: 1px; FONT-SIZE: 12px; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none
+}
+#mypage .direct {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+#mypage A {
+	FONT-WEIGHT: bold; COLOR: #ddbcb5; TEXT-DECORATION: none
+}
+#mypage A:hover {
+	BORDER-RIGHT: #004f91 1px solid; BORDER-TOP: #004f91 1px solid; BORDER-LEFT: #004f91 1px solid; COLOR: #004f91; BORDER-BOTTOM: #004f91 1px solid
+}
+.pagelist {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 5px; MARGIN: 8px; PADDING-TOP: 5px
+}

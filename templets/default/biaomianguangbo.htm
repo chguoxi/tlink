@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="bg_body">
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+{dede:include filename="head.htm"/}
+<div class="top_menu2">
+    <div class="biaoti">
+       <h1>表面光波多点触控技术</h1>
+  </div>
+	<div class="right_menu">
+	   <a href="#duibi">主流技术对比</a>	   
+	   <a href="#tedian">技术特点</a>
+	   <a href="#">技术概述</a></div>
+	<div id="clear"></div>
+</div>
+
+{dede:field.content/}
+
+<div class="gaishu">
+   <div class="title1">
+     <h2><a name="duibi" id="duibi"></a>主流技术对比</h2>
+  </div>
+        <div class="js_duibi">
+		 {dede:arclist row='100' typeid='1' addfields='body'  channelid='1'}        
+         <div class="db_01">
+		     <div class="db_title">[field:title/]</div>
+			 <div class="db_neirong">
+			   <p>[field:body/]</p>			   
+			 </div>
+			 <div class="db_bottom"><img src="/templets/images/td_ms_22.gif"></div>
+		 </div>
+		 {/dede:arclist}
+   </div>  
+   <div class="gs_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+<div class="bt_nav">
+ <a href="/"><img src="/templets/images/td_ms_25.gif"></a>
+ <div class="bt_rightnav"><p><a href="#">表面光波多点触控></a></p></div>
+ <div id="clear"></div>
+</div>
+
+{dede:include filename="footer.htm"/}
+</body>
+</html>
