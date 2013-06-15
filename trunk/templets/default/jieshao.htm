@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="bg_body">
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+
+<script type="text/javascript">
+function reinitIframe(){
+var iframe = document.getElementById("frame_content1");
+try{
+iframe.height =  iframe.contentWindow.document.documentElement.scrollHeight;
+}catch (ex){}
+
+}
+window.setInterval("reinitIframe()", 200);
+</script>
+{dede:include filename="head.htm"/}
+ 
+<div class="top_menu2">
+    <div class="biaoti">
+       <h1>关于我们</h1>
+  </div>
+	<div class="right_menu">
+	   <a href="/plus/view.php?aid=412" >工作机会</a>
+              <a href="/plus/list.php?tid=137" >合作伙伴</a>
+	   <a  >投资方</a><!href="/plus/list.php?tid=81">
+	   <a href="/plus/list.php?tid=38" >管理团队</a>
+	   <a href="/plus/view.php?aid=102" >联系我们</a>
+	   <a href="/plus/view.php?aid=101" >公司介绍</a></div>
+	<div id="clear"></div>
+</div>
+
+<div class="gaishu">
+   <div><img src="/templets/images/jishu_03.gif"></div>
+   <div class="gs_content">
+       {dede:field.body/}
+   </div>
+   <div class="gs_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+
+<div class="bt_nav">
+ <a href="/"><img src="/templets/images/td_ms_25.gif"></a>
+ <div class="bt_rightnav">
+   <p><a href="#">关于我们 >> {dede:field.title/}</a></p>
+ </div>
+ <div id="clear"></div>
+</div>
+
+{dede:include filename="footer.htm"/}
+</body>
+</html>

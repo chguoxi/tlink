@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+<LINK href="/templets/css/xixi.css" type=text/css rel=stylesheet>
+<SCRIPT src="/templets/js/jquery.min.js" type=text/javascript></SCRIPT>
+<SCRIPT src="/templets/js/loopedslider.min.js" type=text/javascript></SCRIPT>
+</head>
+
+<body class="bg_body">
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+{dede:include filename="head.htm"/}
+
+<div class="top_menu2">
+    <div class="biaoti">
+       <h1>多点触控一体机</h1>
+  </div>
+	<div class="right_menu">
+	   <a href="/plus/list.php?tid=22">驱动升级</a>
+	   <a href="/plus/list.php?tid=20">规格技术</a></div>
+	<div id="clear"></div>
+</div>
+
+<!-- banner切换 -->
+<div id="banner">
+  <div id=newsSlider>
+  <div class=container>
+    <ul class=slides>
+	 {dede:arclist row='100' typeid='18'} 
+	 <li><IMG src="[field:litpic/]"></li>
+	 {/dede:arclist}
+    </ul>
+  </div>
+    <ul class=pagination>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+   </ul>
+  </div>
+</div>
+<!-- banenr切换结束 -->
+
+<div class="dianxing">
+    <div class="dx_title"><h2>产品参数</h2></div>	
+<div class="bg_canshu">
+  <table border="1" cellspacing="0" cellpadding="0" width="750" align="center">
+    <tr>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">一体机(TA)/显示器(TM)</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">型号</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">触控接口</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">尺寸图</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">显示器(TM)配置</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">一体机(TA)配置</p></td>
+    </tr>
+  <tr>
+      <td width="71"><p align="center">TM/TA21</p></td>
+      <td width="71"><p align="center">TM2100-A0UT3</p></td>
+      <td width="71"><p align="center">USB</p></td>
+      <td width="71"><p align="center"></a"><p align="center"><a href="/uploads/soft/chicuntu/TM2100-AOUT3.pdf">立即下载</a></p></td>
+      <td width="71"><p align="center"><a href="/uploads/soft/chicuntu/TM2100-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
+      <td width="71"><p align="center">---</a></p></td>
+    </tr>
+  <tr>
+      <td width="71" bgcolor="EAEAEA"><p align="center">TM/TA32</p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">TM3200-A0UT3</p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">USB</p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TM3200-A0UT3.pdf">立即下载</a></p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TM3200-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TA3200-A0UT0V参数表1.0.pdf">点击下载</a></p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TM/TA42</p></td>
+      <td width="71"><p align="center">TM4200-A0UT3</p></td>
+      <td width="70"><p align="center">USB</p></td>
+      <td width="70"><p align="center"><p align="center"><a href="/uploads/soft/chicuntu/TM4200-A0UT3.pdf">立即下载</a></p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/TM4200-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
+      <td width="71"><p align="center"><a href="/uploads/soft/chicuntu/TA4200-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
+    </tr>
+     <tr>
+      <td width="71"><p align="center">TM/TA55</p></td>
+      <td width="71"><p align="center">TM5500-B0UT5</p></td>
+      <td width="70"><p align="center">USB</p></td>
+      <td width="70" ><p align="center"><a href="/uploads/soft/chicuntu/TM5500-B0UT0.pdf">立即下载</a></p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/TM5500-B0UT0参数表V1.0.pdf">点击下载</a></p></td>
+      <td width="71"><p align="center"><a href="/uploads/soft/chicuntu/TA5500-B0UT0参数表V1.0.pdf">点击下载</a></p></td>
+    </tr>
+    <tr>
+      <td width="71" bgcolor="EAEAEA"><p align="center">TM/TA60</p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">TM6000-A0UT5</p></td>
+      <td width="70" bgcolor="EAEAEA"><p align="center">USB</p></td>
+      <td width="70" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TM6000-A0UT0.pdf">立即下载</a></p></td>
+      <td width="70" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TM6000-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TA6000-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TM/TA65</p></td>
+      <td width="71"><p align="center">TM6500-A0UT5</p></td>
+      <td width="70"><p align="center">USB</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/TM6500-A0UT0.pdf">立即下载</a></p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/TM6500-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
+      <td width="71"><p align="center"><a href="/uploads/soft/chicuntu/TA6500-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
+    </tr>
+  </table>
+  </div>
+  <div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+
+<div class="dianxing">
+    <div class="dx_title"><h2>典型应用</h2></div>
+	
+	{dede:arclist row='100' typeid='19'} 
+	<div class="dx_anli">
+	    <div class="dx_sm">
+		   <h4>[field:title/]</h4>
+		   <p>[field:description/]</p>
+		</div>
+		<div class="dx_pic"><img src="[field:litpic/]"></div>
+		<div id="clear"></div>
+	</div>
+	<div class="jianxi"><img src="/templets/images/chukp_09.gif"></div>
+	  {/dede:arclist}
+	
+	<div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+
+{dede:include filename="footer.htm"/}
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_TimeLink</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="bg_body">
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+
+<script type="text/javascript">
+function reinitIframe(){
+var iframe = document.getElementById("frame_content1");
+try{
+iframe.height =  iframe.contentWindow.document.documentElement.scrollHeight;
+}catch (ex){}
+
+}
+window.setInterval("reinitIframe()", 200);
+</script>
+{dede:include filename="enhead.htm"/}
+ 
+<div class="top_menu2">
+    <div class="biaoti">
+       <h1>Hot news</h1>
+  </div>
+	<div class="right_menu">
+	   <a href="/plus/view.php?aid=172">Video</a>
+	   <a href="/plus/list.php?tid=171">Success Case</a>
+	   <a href="/plus/list.php?tid=169">News</a>	   </div>
+	<div id="clear"></div>
+</div>
+
+<div class="dianxing"> <img src="/templets/images/HTnews_03.gif" width="981">
+     <div class="midd">
+        <div class="news"><h3 class="news" style="letter-spacing:normal;">News</h3>
+	        {dede:arclist row='100' typeid='169' addfields='body'  channelid='1'}        
+		    <h4 class="xin_title"><a href="[field:arcurl/]">[field:fulltitle/] @ </a>[field:pubdate function="MyDate('Y-m-d',@me)"/] </h4>
+<p>[field:description function='cn_substr(@me,200)'/]</p>
+		    {/dede:arclist}
+	    </div>
+        <div class="news">
+          <h3 class="news" style="letter-spacing:normal;">Case</h3>
+          <p>&nbsp;</p>
+          <p>{dede:arclist row='100' typeid='169' addfields='body'  channelid='1'} </p>
+          <h4 class="xin_title"><a href="[field:arcurl/]">[field:fulltitle/]</a> @ [field:pubdate function=MyDate('Y-m-d',@me)"/] </h4>
+<p>[field:description function='cn_substr(@me,200)'/]</p>
+          {/dede:arclist} </div>
+       <div class="vedio">
+	     <h3 class="news" style="letter-spacing:normal;">Video</h3>
+	        <ul class="shp_lianj">
+			  {dede:arclist row='100' typeid='172' addfields='body'  channelid='1'}
+			  <li>[field:fulltitle/]<span class="xin_title"> @ [field:pubdate function=MyDate('Y-m-d',@me)"/] </span><a href="[field:arcurl/]">&gt;&gt;Play</a></li>
+			  {/dede:arclist}
+		    </ul>
+	   </div>
+     </div>
+<img src="/templets/images/HTnews_09.gif" width="980">
+  
+  <div id="clear"></div>
+</div>
+
+<div class="bt_nav">
+ <a href="/"><img src="/templets/images/td_ms_25.gif"></a>
+ <div class="bt_rightnav"><p><a href="#">Hot news</a></p></div>
+ <div id="clear"></div>
+</div>
+
+{dede:include filename="enfooter.htm"/}
+</body>
+</html>

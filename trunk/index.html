@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TimeLink 天时通 触控视界</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta name="description" content="触摸屏，表面光波，触控，一体机，OEM，多点触摸，天时通" />
+<meta name="keywords" content="触摸屏，表面光波，触控，一体机，OEM，多点触摸，天时通" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+<LINK href="/templets/css/xixi.css" type=text/css rel=stylesheet>
+<SCRIPT src="/templets/js/jquery.min.js" type=text/javascript></SCRIPT>
+<SCRIPT src="/templets/js/loopedslider.min.js" type=text/javascript></SCRIPT>
+</head>
+
+<body>
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+ <center>
+ <div style="text-align:right;width:980px;padding:6px 0px 0px 0px;border:0px solid #ccc">
+ <a href="/">中文</a> | <a href="/plus/list.php?tid=148">English</a>&nbsp;&nbsp;
+ </div>
+ </center>
+ <div id="menu_top" style="margin-top:5px;">
+     <a href="/" class="menu_jg01" title="首页"></a>
+     <a href="/plus/list.php?tid=1" class="menu_jg02" title="表面光触控"></a>
+	 <a href="/plus/list.php?tid=2" class="menu_jg03" title="多点触控屏"></a>
+	 <a href="/plus/list.php?tid=3" class="menu_jg04" title="多点触控一体机"></a>
+	 <a href="/plus/list.php?tid=4" class="menu_jg05" title="OEM模组"></a>
+	 <a href="/plus/list.php?tid=5" class="menu_jg06" title="技术支持"></a>
+	 <a href="/plus/view.php?aid=101" class="menu_jg07" title="关于我们"></a>
+ </div>
+<!-- banner切换 -->
+<div id="banner">
+  <div id=newsSlider>
+  <div class=container>
+    <ul class=slides>
+	 <li><A href="http://www.timelink.com.hk/plu" target="_blank"><IMG src="/uploads/litimg/banner01_04.jpg"></A></li>
+<li><A href="" target="_blank"><IMG src="/uploads/litimg/oemban3.jpg"></A></li>
+<li><A href="www.google.com" target="_blank"><IMG src="/uploads/litimg/banner01_02.jpg"></A></li>
+
+    </ul>
+  </div>
+    <ul class=pagination>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+   </ul>
+  </div>
+</div>
+<!-- banenr切换结束 -->
+
+<!-- 滚动热点新闻 -->
+<div id="hot_news">
+  <div class="new_neirong">
+    <script>
+var marqueeContent=new Array();   //滚动主题
+                  	
+   
+
+ 
+
+var marqueeInterval=new Array();  //定义一些常用而且要经常用到的变量
+var marqueeId=0;
+var marqueeDelay=3000;
+var marqueeHeight=15;
+function initMarquee() {
+ var str=marqueeContent[0];
+ document.write('<div id=marqueeBox style="overflow:hidden;height:'+marqueeHeight+'px" onmouseover="clearInterval(marqueeInterval[0])" onmouseout="marqueeInterval[0]=setInterval(\'startMarquee()\',marqueeDelay)"><div>'+str+'</div></div>');
+ marqueeId++;
+ marqueeInterval[0]=setInterval("startMarquee()",marqueeDelay);
+ }
+function startMarquee() {
+ var str=marqueeContent[marqueeId];
+  marqueeId++;
+ if(marqueeId>=marqueeContent.length) marqueeId=0;
+ if(marqueeBox.childNodes.length==1) {
+  var nextLine=document.createElement('DIV');
+  nextLine.innerHTML=str;
+  marqueeBox.appendChild(nextLine);
+  }
+ else {
+  marqueeBox.childNodes[0].innerHTML=str;
+  marqueeBox.appendChild(marqueeBox.childNodes[0]);
+  marqueeBox.scrollTop=0;
+  }
+ clearInterval(marqueeInterval[1]);
+ marqueeInterval[1]=setInterval("scrollMarquee()",10);
+ }
+function scrollMarquee() {
+ marqueeBox.scrollTop++;
+ if(marqueeBox.scrollTop%marqueeHeight==marqueeHeight){
+  clearInterval(marqueeInterval[1]);
+  }
+ }
+initMarquee();
+</script></div>
+</div>
+
+<!-- 滚动热点新闻结束 -->
+<div id="main_prd">
+  <a href="/plus/list.php?tid=1" class="prd_sh01"><img src="/templets/images/prd_07.gif"></a>
+  <a href="/plus/list.php?tid=2" class="prd_sh01"><img src="/templets/images/prd_01_18.gif"></a>
+  <a href="/plus/list.php?tid=3" class="prd_sh01"><img src="/templets/images/prd_03_22.gif"></a>
+  <a href="/plus/list.php?tid=4" class="prd_sh02"><img src="/templets/images/prd_03.gif"></a>
+  
+  
+  
+  <div id="clear"></div>
+</div>
+
+<div id="footer">
+TimeLink Inc.
+<div id="footer_01"><p><span class="rex_tk">全国免费客服热线：<span class="special_No">400-711-6260 &nbsp;&nbsp;&nbsp;&nbsp;<strong><a href="/plus/list.php?tid=136">使用条款</a></strong></span></span><span class="bt_menu"> 
+                         <a href="/plus/view.php?aid=101" >公司介绍</a>|
+		   <a href="/plus/list.php?tid=7">热点新闻</a>|
+		   <a href= "/plus/list.php?tid=40">成功案例</a>|
+                        <a href="/plus/list.php?tid=137">合作伙伴</a>|
+		   <a href="/plus/view.php?aid=102">联系我们</a>| 
+		   
+</span></p>
+    <div id="clear"></div>
+</div>
+<div id="copy_right">Copyright @ 2012 TimeLink Inc. 保留所有权利。</div>
+</div>
+
+</body>
+</html>

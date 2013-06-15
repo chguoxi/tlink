@@ -1,0 +1,315 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_TimeLink</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+<LINK href="/templets/css/xixi.css" type=text/css rel=stylesheet>
+<SCRIPT src="/templets/js/jquery.min.js" type=text/javascript></SCRIPT>
+<SCRIPT src="/templets/js/loopedslider.min.js" type=text/javascript></SCRIPT>
+</head>
+
+<body class="bg_body">
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+{dede:include filename="enhead.htm"/}
+
+<div class="top_menu2">
+    <div class="biaoti">
+       <h1>Multi-Touch Screen</h1>
+  </div>
+	<div class="right_menu">
+	   <a href="/plus/list.php?tid=149">Actuation promotion</a>
+	   <a href="/plus/list.php?tid=150">Specification technology</a></div>
+	<div id="clear"></div>
+</div>
+
+<!-- banner切换 -->
+<div id="banner">
+  <div id=newsSlider>
+  <div class=container>
+    <ul class=slides>
+	 {dede:arclist row='100' typeid='165'} 
+	 <li><IMG src="[field:litpic/]"></li>
+	 {/dede:arclist}
+    </ul>
+  </div>
+    <ul class=pagination>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+   </ul>
+  </div>
+</div>
+<!-- banenr切换结束 -->
+
+
+<div class="dianxing">
+    <div class="dx_title"><h2>Product parameter</h2></div>	
+<div class="bg_canshu">
+  <table border="1" cellspacing="0" cellpadding="0" width="750" align="center">
+ <tr>
+      <td width="80" bgcolor="#CCCCCC"><p align="center">&nbsp;</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">Series</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">active W(mm)</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">active D(mm)</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">outline W(mm)</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">outline D(mm)</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">thickness(mm)</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">bezel width(mm)</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">USB </p></td>
+      <td width="70" bgcolor="#CCCCCC"><p align="center">COM </p></td>
+      <td width="70" bgcolor="#CCCCCC"><p align="center">mechanical drawing </p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TW32 Series </p></td>
+      <td width="71"><p align="center">TW32</p></td>
+      <td width="71"><p align="center">708.80</p></td>
+      <td width="71"><p align="center">398.40</p></td>
+      <td width="71"><p align="center">766.80</p></td>
+      <td width="71"><p align="center">456.40</p></td>
+      <td width="71"><p align="center">10.5</p></td>
+      <td width="71"><p align="center">29</p></td>
+      <td width="71"><p align="center">Yes</p></td>
+      <td width="70"><p align="center">No</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW32.pdf">Download</a></p></td>
+    </tr>
+ <tr>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW40 Series </p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW40</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">888.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">500.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">946.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">558.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">10.5</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">29</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">Yes</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center">No</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW40.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TW42 Series </p></td>
+      <td width="71"><p align="center">TW42</p></td>
+      <td width="71"><p align="center">939.00</p></td>
+      <td width="71"><p align="center">531.26</p></td>
+      <td width="71"><p align="center">997.00</p></td>
+      <td width="71"><p align="center">589.26</p></td>
+      <td width="71"><p align="center">10.5</p></td>
+      <td width="71"><p align="center">29</p></td>
+      <td width="71"><p align="center">Yes</p></td>
+      <td width="70"><p align="center">No</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW42.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW46 Series </p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW46</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1024.90</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">578.60</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1082.90</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">636.60</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">10.5</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">29</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">Yes</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center">No</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW46.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TW47 Series </p></td>
+      <td width="71"><p align="center">TW47</p></td>
+      <td width="71"><p align="center">1049.00</p></td>
+      <td width="71"><p align="center">593.00</p></td>
+      <td width="71"><p align="center">1107.00</p></td>
+      <td width="71"><p align="center">651.00</p></td>
+      <td width="71"><p align="center">10.5</p></td>
+      <td width="71"><p align="center">29</p></td>
+      <td width="71"><p align="center">Yes</p></td>
+      <td width="70"><p align="center">No</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW47.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW52 Series </p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW52</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1166.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">662.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1224.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">720.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">10.5</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">29</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">Yes</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center">No</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW52.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TW55 Series </p></td>
+      <td width="71"><p align="center">TW55</p></td>
+      <td width="71"><p align="center">1217.60</p></td>
+      <td width="71"><p align="center">688.40</p></td>
+      <td width="71"><p align="center">1275.60</p></td>
+      <td width="71"><p align="center">746.40</p></td>
+      <td width="71"><p align="center">10.5</p></td>
+      <td width="71"><p align="center">29</p></td>
+      <td width="71"><p align="center">Yes</p></td>
+      <td width="70"><p align="center">No</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW55.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW65 Series </p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW65</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1440.60</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">814.60</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1498.60</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">872.60</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">10.5</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">29</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">Yes</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center">No</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW65.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TW32 Series </p></td>
+      <td width="71"><p align="center">TW32-WCX</p></td>
+      <td width="71"><p align="center">697.00</p></td>
+      <td width="71"><p align="center">393.00</p></td>
+      <td width="71"><p align="center">755.00</p></td>
+      <td width="71"><p align="center">451.00</p></td>
+      <td width="71"><p align="center">10.5</p></td>
+      <td width="71"><p align="center">29</p></td>
+      <td width="71"><p align="center">Yes</p></td>
+      <td width="70"><p align="center">No</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW32-WCX.pdf">Download</a></p></td>
+    </tr>  
+    <tr>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW42 Series </p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW42-WCX</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">930.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">523.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">998.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">581.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">10.5</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">29</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">Yes</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center">No</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW42-WCX.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TW48 Series </p></td>
+      <td width="71"><p align="center">TW48-SCX</p></td>
+      <td width="71"><p align="center">1066.00</p></td>
+      <td width="71"><p align="center">610.00</p></td>
+      <td width="71"><p align="center">1124.00</p></td>
+      <td width="71"><p align="center">668.00</p></td>
+      <td width="71"><p align="center">10.5</p></td>
+      <td width="71"><p align="center">29</p></td>
+      <td width="71"><p align="center">Yes</p></td>
+      <td width="70"><p align="center">No</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW48-SCX.pdf">Download</a></p></td>
+    </tr>
+     <tr>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW55 Series </p></td>
+      <td width="85" bgcolor="#EAEAEA"><p align="center">TW55-SCX-E</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1223.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">694.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1281.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">752.20</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">10.5</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">29</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">Yes</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center">No</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW55-SCX-E.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TW58 Series </p></td>
+      <td width="71"><p align="center">TW58-SCX</p></td>
+      <td width="71"><p align="center">1287.00</p></td>
+      <td width="71"><p align="center">741.00</p></td>
+      <td width="71"><p align="center">1345.00</p></td>
+      <td width="71"><p align="center">799.00</p></td>
+      <td width="71"><p align="center">10.5</p></td>
+      <td width="71"><p align="center">29</p></td>
+      <td width="71"><p align="center">Yes</p></td>
+      <td width="70"><p align="center">No</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW58-SCX.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW62 Series </p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW62-SCX</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1361.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">780.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1419.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">838.20</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">10.5</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">29</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">Yes</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center">No</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW62-SCX.pdf">Download</a></p></td>
+    </tr>
+     <tr>
+      <td width="71"><p align="center">TW66 Series </p></td>
+      <td width="71"><p align="center">TW66-SCX</p></td>
+      <td width="71"><p align="center">1458.00</p></td>
+      <td width="71"><p align="center">833.80</p></td>
+      <td width="71"><p align="center">1516.20</p></td>
+      <td width="71"><p align="center">891.80</p></td>
+      <td width="71"><p align="center">10.5</p></td>
+      <td width="71"><p align="center">29</p></td>
+      <td width="71"><p align="center">Yes</p></td>
+      <td width="70"><p align="center">No</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW66-SCX.pdf">Download</a></p></td>
+    </tr>
+     <tr>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW70 Series </p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">TW70-HCX</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1575.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">897.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">1633.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">955.00</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">10.5</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">29</p></td>
+      <td width="71" bgcolor="#EAEAEA"><p align="center">Yes</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center">No</p></td>
+      <td width="70" bgcolor="#EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TW70-HCX.pdf">Download</a></p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TW100 Series </p></td>
+      <td colspan="10"><p align="center">customer size</p></td>
+    </tr>
+  </table>
+  </div>
+  </div>
+  <div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+
+<div class="dianxing">
+    <div class="dx_title"><h2>Model application</h2></div>
+	
+	{dede:arclist row='100' typeid='151'} 
+	<div class="dx_anli">
+	    <div class="dx_sm">
+		   <h4>[field:title/]</h4>
+		   <p>[field:description/]</p>
+		</div>
+		<div class="dx_pic"><img src="[field:litpic/]"></div>
+		<div id="clear"></div>
+	</div>
+	<div class="jianxi"><img src="/templets/images/chukp_09.gif"></div>
+	  {/dede:arclist}
+	
+	<div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+
+{dede:include filename="enfooter.htm"/}
+</body>
+</html>

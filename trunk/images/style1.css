@@ -1,0 +1,127 @@
+
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+TH {
+	FONT-SIZE: 12px; FONT-FAMILY: 宋体
+}
+.food_icon_title1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #FF0000;LINE-HEIGHT: 14px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #FF0000; LINE-HEIGHT: 14px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.nav {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #fff000; LINE-HEIGHT: 100%
+}
+.nav A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #fff000; LINE-HEIGHT: 100%; TEXT-DECORATION: none
+}
+.nav A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #fff000; LINE-HEIGHT: 100%; TEXT-DECORATION: none
+}
+.nav A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #fff6c4; LINE-HEIGHT: 100%; TEXT-DECORATION: none
+}
+.nav A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #fff6c4; LINE-HEIGHT: 100%; TEXT-DECORATION: none
+}
+.titbar {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; LINE-HEIGHT: 120%; LETTER-SPACING: 8px
+}
+.menu {
+	FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 100%
+}
+.menu A:link {
+	FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 100%; TEXT-DECORATION: none
+}
+.menu A:visited {
+	FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 100%; TEXT-DECORATION: none
+}
+.menu A:hover {
+	FONT-SIZE: 13px; COLOR: #ffff00; LINE-HEIGHT: 100%; TEXT-DECORATION: underline
+}
+.menu A:active {
+	FONT-SIZE: 13px; COLOR: #ffff00; LINE-HEIGHT: 100%; TEXT-DECORATION: underline
+}
+.view {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #d6451d; LINE-HEIGHT: 16px
+}
+.titlel {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 29px; BACKGROUND-REPEAT: no-repeat
+}
+.newst {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #e90e02; LINE-HEIGHT: 29px; BACKGROUND-REPEAT: no-repeat
+}
+.sortt {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #e90e02; LINE-HEIGHT: 29px; BACKGROUND-REPEAT: no-repeat
+}
+.infot {
+	PADDING-LEFT: 12px; FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #e90e02; LINE-HEIGHT: 29px; BACKGROUND-REPEAT: no-repeat
+}
+.view01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000000
+}
+.view02 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ffffff
+}
+.link4 {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 100%
+}
+.link4 A:link {
+	FONT-SIZE: 12px; COLOR: #0C1FA0; LINE-HEIGHT: 100%; TEXT-DECORATION: none
+}
+.link4 A:visited {
+	FONT-SIZE: 12px; COLOR: #0C1FA0; LINE-HEIGHT: 100%; TEXT-DECORATION: none
+}
+.link4 A:active {
+	FONT-SIZE: 12px; LINE-HEIGHT: 100%; TEXT-DECORATION: none
+}
+.link4 A:hover {
+	FONT-SIZE: 12px; COLOR: #00ff00; LINE-HEIGHT: 100%; TEXT-DECORATION: none
+}
+.anniou {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-LEFT: 3px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(anniou1.gif); BORDER-LEFT: medium none; WIDTH: 52px; COLOR: #0066cc; PADDING-TOP: 2px; BORDER-BOTTOM: medium none; HEIGHT: 21px
+}
+.anniou2 {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; PADDING-LEFT: 3px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(anniou2.gif); BORDER-LEFT: medium none; WIDTH: 80px; COLOR: #0066cc; PADDING-TOP: 2px; BORDER-BOTTOM: medium none; HEIGHT: 21px
+}
+.title1 TD {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; LINE-HEIGHT: 12px
+}
+.td1 {
+	FONT-SIZE: 13px; BACKGROUND: #f0f398; COLOR: #cc0000; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Arial
+}
+.td1_b {
+	FONT-SIZE: 13px; BACKGROUND: #f4dd99; COLOR: #cc0000; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Arial
+}
+.openCode UL {
+	MARGIN-LEFT: 5px; COLOR: #000
+}
+.openCode SPAN {
+	MARGIN-LEFT: 5px; COLOR: #000
+}
+.openCode LI {
+	BORDER-RIGHT: #c9d004 1px solid; BORDER-TOP: #c9d004 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #eaef54; FLOAT: left; BORDER-LEFT: #c9d004 1px solid; WIDTH: 22px; LINE-HEIGHT: 16px; MARGIN-RIGHT: 3px; BORDER-BOTTOM: #c9d004 1px solid; TEXT-ALIGN: center
+}
+.openCode .li_b LI {
+	BORDER-RIGHT: #d0a300 1px solid; BORDER-TOP: #d0a300 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #f6d669; FLOAT: left; BORDER-LEFT: #d0a300 1px solid; WIDTH: 22px; LINE-HEIGHT: 16px; MARGIN-RIGHT: 3px; BORDER-BOTTOM: #d0a300 1px solid; TEXT-ALIGN: center
+}
+.openCode .ul {
+	BORDER-RIGHT: #d0a300 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #d0a300 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #f6d669; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-LEFT: #d0a300 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #d0a300 1px solid; TEXT-ALIGN: center
+}
+.openCode .ul_b {
+	BORDER-RIGHT: #c9d004 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #c9d004 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: #eaef54; FLOAT: left; PADDING-BOTTOM: 0px; BORDER-LEFT: #c9d004 1px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #c9d004 1px solid; TEXT-ALIGN: center
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="触摸屏，表面光波，触控，一体机，OEM，多点触摸，天时通" >
+<title>TimeLink 天时通 科技闪耀生活</title>
+<link href="../css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="../css/main.css" rel="stylesheet" type="text/css" />
+<LINK href="../css/xixi.css" type=text/css rel=stylesheet>
+<SCRIPT src="../js/jquery.min.js" type=text/javascript></SCRIPT>
+<SCRIPT src="../js/loopedslider.min.js" type=text/javascript></SCRIPT>
+</head>
+
+<body>
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+
+ <div id="menu_top">
+     <a href="index.html" class="menu_jg01" title="首页"></a>
+     <a href="biaomianguangbo.html" class="menu_jg02" title="表面光触控">fffffff</a>
+	 <a href="chukp.html" class="menu_jg03" title="多点触控屏"></a>
+	 <a href="ytj.html" class="menu_jg04" title="多点触控一体机"></a>
+	 <a href="OEM.html" class="menu_jg05" title="OEM模组"></a>
+	 <a href="jishuzhichi.html" class="menu_jg06" title="技术支持"></a>
+	 <a href="jieshao1.html" class="menu_jg07" title="关于我们"></a>
+ </div>
+
+<!-- banner切换 -->
+<div id="banner">
+  <div id=newsSlider>
+  <div class=container>
+    <ul class=slides>
+     <li><A href="http://ziti.jz123.cn/" target="_blank"><IMG src="../images/banner01_01.jpg"></A></li>	
+     <li><A href="http://ziti.jz123.cn/" target="_blank"><IMG src="../images/banner01_02.jpg"></A></li> 
+     <li><A href="http://ziti.jz123.cn/" target="_blank"><IMG src="../images/banner01_03.jpg"></A> </li>
+     <li><A href="http://ziti.jz123.cn/" target="_blank"><IMG src="../images/banner01_04.jpg"></A></li> 
+    </ul>
+  </div>
+    <ul class=pagination>
+      <li><A href="http://ziti.jz123.cn/#"></A> </li>
+      <li><A href="http://ziti.jz123.cn/#"></A> </li>
+      <li><A href="http://ziti.jz123.cn/#"></A> </li>
+      <li><A href="http://ziti.jz123.cn/#"></A> </li>
+   </ul>
+  </div>
+</div>
+<!-- banenr切换结束 -->
+
+<!-- 滚动热点新闻 -->
+<div id="hot_news">
+  <div class="new_neirong">
+    <script>
+var marqueeContent=new Array();   //滚动主题
+                  	
+marqueeContent[0]='<a href="http://www.jz123.cn/" target="_blank">+ 学会偷懒，并懒出境界是提高工作效率最有效的方法！</a>';
+marqueeContent[1]='<a href="http://www.jz123.cn/" target="_blank">+ 显而易见，最高的效率就是对现有材料的最佳利用。</a>';
+marqueeContent[2]='<a href="http://www.jz123.cn/" target="_blank">+ 自己能解决的事，别花钱，花钱能解决的事，别求人。</a>';
+marqueeContent[3]='<a href="http://www.jz123.cn/" target="_blank">+ 旅行是需要一种心情，更重要的是，需要一种冲动。</a>';
+marqueeContent[4]='<a href="http://www.jz123.cn/" target="_blank">+ 随时用零碎的时间(如等人、排队等)做零碎的事情。</a>';
+
+var marqueeInterval=new Array();  //定义一些常用而且要经常用到的变量
+var marqueeId=0;
+var marqueeDelay=3000;
+var marqueeHeight=15;
+function initMarquee() {
+ var str=marqueeContent[0];
+ document.write('<div id=marqueeBox style="overflow:hidden;height:'+marqueeHeight+'px" onmouseover="clearInterval(marqueeInterval[0])" onmouseout="marqueeInterval[0]=setInterval(\'startMarquee()\',marqueeDelay)"><div>'+str+'</div></div>');
+ marqueeId++;
+ marqueeInterval[0]=setInterval("startMarquee()",marqueeDelay);
+ }
+function startMarquee() {
+ var str=marqueeContent[marqueeId];
+  marqueeId++;
+ if(marqueeId>=marqueeContent.length) marqueeId=0;
+ if(marqueeBox.childNodes.length==1) {
+  var nextLine=document.createElement('DIV');
+  nextLine.innerHTML=str;
+  marqueeBox.appendChild(nextLine);
+  }
+ else {
+  marqueeBox.childNodes[0].innerHTML=str;
+  marqueeBox.appendChild(marqueeBox.childNodes[0]);
+  marqueeBox.scrollTop=0;
+  }
+ clearInterval(marqueeInterval[1]);
+ marqueeInterval[1]=setInterval("scrollMarquee()",10);
+ }
+function scrollMarquee() {
+ marqueeBox.scrollTop++;
+ if(marqueeBox.scrollTop%marqueeHeight==marqueeHeight){
+  clearInterval(marqueeInterval[1]);
+  }
+ }
+initMarquee();
+</script></div>
+</div>
+
+<!-- 滚动热点新闻结束 -->
+<div id="main_prd">
+  <a href="biaomianguangbo.html" class="prd_sh01"><img src="../images/prd_07.gif"></a>
+  <a href="chukp.html" class="prd_sh01"><img src="../images/prd_01_18.gif"></a>
+  <a href="ytj.html" class="prd_sh01"><img src="../images/prd_03_22.gif"></a>
+  <a href="OEM.html" class="prd_sh02"><img src="../images/prd_03.gif"></a>
+  
+  
+  
+  <div id="clear"></div>
+</div>
+
+<div id="footer"><iframe src="footer.html" width="980" height="120" frameborder="0" scrolling="no"></iframe></div>
+</body>
+</html>

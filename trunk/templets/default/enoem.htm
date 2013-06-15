@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_TimeLink</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+<LINK href="/templets/css/xixi.css" type=text/css rel=stylesheet>
+<SCRIPT src="/templets/js/jquery.min.js" type=text/javascript></SCRIPT>
+<SCRIPT src="/templets/js/loopedslider.min.js" type=text/javascript></SCRIPT>
+</head>
+
+<body class="bg_body">
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+{dede:include filename="enhead.htm"/}
+
+<div class="top_menu2">
+    <div class="biaoti">
+       <h1>OEM</h1>
+  </div>
+	<div class="right_menu">
+	   <a href="/plus/list.php?tid=155">Actuation promotion</a>
+	   <a href="/plus/list.php?tid=156">Specification technology</a></div>
+	<div id="clear"></div>
+</div>
+
+<!-- banner切换 -->
+<div id="banner">
+  <div id=newsSlider>
+  <div class=container>
+    <ul class=slides>
+	 {dede:arclist row='100' typeid='167'} 
+	 <li><IMG src="[field:litpic/]"></li>
+	 {/dede:arclist}
+    </ul>
+  </div>
+    <ul class=pagination>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+   </ul>
+  </div>
+</div>
+<!-- banenr切换结束 -->
+
+<div class="dianxing">
+    <div class="dx_title"><h2>Product parameter</h2></div>	
+<div class="bg_canshu">
+  <table border="1" align="center" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center"></p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">Size<br />
+            (inch)</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">Touch W(mm)</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">Touch H(mm)</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">Span W(mm)</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">Span H(mm)</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">Thickness(mm)</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">Width (mm)</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">USB</p>
+      </div></td>
+      <td width="85" bgcolor="#CCCCCC"><div>
+          <p align="center">COM</p>
+      </div></td>
+      <td width="85" bgcolor="#CCCCCC"><div>
+          <p align="center">drawing</p>
+      </div></td>
+    </tr>
+    <tr>
+      <td width="55"><div>
+          <p align="center">TW21</p>
+      </div></td>
+      <td width="55"><div>
+          <p align="center">21.5</p>
+      </div></td>
+      <td width="55"><div>
+          <p align="center">478</p>
+      </div></td>
+      <td width="55"><div>
+          <p align="center">270</p>
+      </div></td>
+      <td width="55"><div>
+          <p align="center">518</p>
+      </div></td>
+      <td width="55"><div>
+          <p align="center">310</p>
+      </div></td>
+      <td width="55"><div>
+          <p align="center">5</p>
+      </div></td>
+      <td width="55"><div>
+          <p align="center">14</p>
+      </div></td>
+      <td width="55"><div>
+          <p align="center">Yes</p>
+      </div></td>
+      <td width="85"><div>
+          <p align="center">No</p>
+      <td width="70"><div>
+      <p align="center">  </p></td>
+      </div></td>
+    </tr>
+    <tr>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">TW23</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">23.6</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">526</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">298</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">568</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">340</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">5</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">14</p>
+      </div></td>
+      <td width="55" bgcolor="#CCCCCC"><div>
+          <p align="center">Yes</p>
+      </div></td>
+      <td width="85" bgcolor="#CCCCCC"><div>
+          <p align="center">No</p>
+      </div></td>
+<td width="70"  bgcolor="#CCCCCC"><p align="center">  </p></td>
+    </tr>
+<tr>
+      <td width="71"><p align="center">TU21D5-WCX </p></td>
+      <td width="71"><p align="center">21.5</p></td>
+      <td width="71"><p align="center">476</p></td>
+      <td width="71""><p align="center">267</p></td>
+      <td width="71"><p align="center">523</p></td>
+      <td width="71"><p align="center">314</p></td>
+      <td width="110"><p align="center">8<br />(含3mm玻璃）</p></td>
+      <td width="130"><p align="center">23.5<br />(含5.5mm滤光条)</p></td>
+      <td width="71" ><p align="center">Yes</p></td>
+      <td width="70"><p align="center">No</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TU21D5-WCX.pdf">Download</a></p></td>
+    </tr>
+  </table>
+</div>
+  <div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+
+<div class="dianxing">
+    <div class="dx_title"><h2>Model application</h2></div>
+	
+	{dede:arclist row='100' typeid='157'} 
+	<div class="dx_anli">
+	    <div class="dx_sm">
+		   <h4>[field:title/]</h4>
+		   <p>[field:description/]</p>
+		</div>
+		<div class="dx_pic"><img src="[field:litpic/]"></div>
+		<div id="clear"></div>
+	</div>
+	<div class="jianxi"><img src="/templets/images/chukp_09.gif"></div>
+	  {/dede:arclist}
+	
+	<div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+
+{dede:include filename="enfooter.htm"/}
+</body>
+</html>

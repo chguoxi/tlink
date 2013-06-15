@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_TimeLink</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+<LINK href="/templets/css/xixi.css" type=text/css rel=stylesheet>
+<SCRIPT src="/templets/js/jquery.min.js" type=text/javascript></SCRIPT>
+<SCRIPT src="/templets/js/loopedslider.min.js" type=text/javascript></SCRIPT>
+</head>
+
+<body class="bg_body">
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+{dede:include filename="enhead.htm"/}
+
+<div class="top_menu2">
+    <div class="biaoti">
+       <h1 style="font-size:24px;">Multi-Touch All-In-One Screen</h1>
+  </div>
+	<div class="right_menu">
+	   <a href="/plus/list.php?tid=152">Actuation promotion</a>
+	   <a href="/plus/list.php?tid=153">Specification technology</a></div>
+	<div id="clear"></div>
+</div>
+
+<!-- banner切换 -->
+<div id="banner">
+  <div id=newsSlider>
+  <div class=container>
+    <ul class=slides>
+	 {dede:arclist row='100' typeid='166'} 
+	 <li><IMG src="[field:litpic/]"></li>
+	 {/dede:arclist}
+    </ul>
+  </div>
+    <ul class=pagination>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+   </ul>
+  </div>
+</div>
+<!-- banenr切换结束 -->
+
+<div class="dianxing">
+    <div class="dx_title"><h2>Product parameter</h2></div>	
+<div class="bg_canshu">
+<table border="1" cellspacing="0" cellpadding="0" width="750" align="center">
+    <tr>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">Series</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">Model</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">Intrerface</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">Drawing</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">configuration</p></td>
+      <td width="71" bgcolor="#CCCCCC"><p align="center">computer</p></td>
+    </tr>
+  <tr>
+      <td width="71"><p align="center">TM/TS21D5 </p></td>
+      <td width="71"><p align="center">TM/TS21D5-WCX</p></td>
+      <td width="71"><p align="center">USB</p></td>
+      <td width="71"><p align="center"></a></p></td>
+      <td width="71"><p align="center"><a href="&nbsp;">Download</a></p></td>
+      <td width="71"><p align="center">&nbsp;</p></td>
+    </tr>
+  <tr>
+      <td width="71" bgcolor="EAEAEA"><p align="center">TM/TS32 </p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">TM/TS32-WCX</p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">USB</p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center"></a></p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/一体机32配置清单.xls">Download</a></p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">&nbsp;</p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TM/TS42 </p></td>
+      <td width="71"><p align="center">TM/TS42-WCX</p></td>
+      <td width="70"><p align="center">USB</p></td>
+      <td width="70"><p align="center"></a></p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/一体机42配置清单.xlsx">Download</a></p></td>
+      <td width="71"><p align="center">&nbsp;</p></td>
+    </tr>
+    <tr>
+      <td width="71" bgcolor="EAEAEA"><p align="center">TM/TS55 </p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">TM/TS55-SCX</p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">USB</p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TM55-SCX.pdf">Download</a></p></td>
+      <td width="70" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/一体机42配置清单.xlsx">Download</a></p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">&nbsp;</p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TM/TS55 </p></td>
+      <td width="71"><p align="center">TM/TS55-SCX-E</p></td>
+      <td width="70"><p align="center">USB</p></td>
+      <td width="70" ><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TM55-SCX-E.pdf">Download</a></p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/一体机55寸LED显示器配置清单.xls">Download</a></p></td>
+      <td width="71"><p align="center">&nbsp;</p></td>
+    </tr>
+    <tr>
+      <td width="71" bgcolor="EAEAEA"><p align="center">TM/TS60 </p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">TM/TS60-SCX</p></td>
+      <td width="70" bgcolor="EAEAEA"><p align="center">USB</p></td>
+      <td width="70" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TM60-SCX.pdf">Download</a></p></td>
+      <td width="70" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/一体机60显示器配置清单.xls">Download</a></p></td>
+      <td width="71" bgcolor="EAEAEA"><p align="center">&nbsp;</p></td>
+    </tr>
+    <tr>
+      <td width="71"><p align="center">TM/TS65 </p></td>
+      <td width="71"><p align="center">TM/TS65-SCX</p></td>
+      <td width="70"><p align="center">USB</p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/MultiTouch TM65-SCX.pdf">Download</a></p></td>
+      <td width="70"><p align="center"><a href="/uploads/soft/一体机65显示器配置清单.xlsx">Download</a></p></td>
+      <td width="71"><p align="center">&nbsp;</p></td>
+    </tr>
+  </table>
+</div>
+  <div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+
+<div class="dianxing">
+    <div class="dx_title"><h2>Model application</h2></div>
+	
+	{dede:arclist row='100' typeid='154'} 
+	<div class="dx_anli">
+	    <div class="dx_sm">
+		   <h4>[field:title/]</h4>
+		   <p>[field:description/]</p>
+		</div>
+		<div class="dx_pic"><img src="[field:litpic/]"></div>
+		<div id="clear"></div>
+	</div>
+	<div class="jianxi"><img src="/templets/images/chukp_09.gif"></div>
+	  {/dede:arclist}
+	
+	<div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+
+{dede:include filename="enfooter.htm"/}
+</body>
+</html>
