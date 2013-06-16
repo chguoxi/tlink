@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<rss version="2.0">
+<channel>
+<title>故障诊断</title>
+<link>http://localhost/plus/list.php?tid=7</link>
+<description>故障诊断</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 2009 上海好伴科技版权所有&lt;br&gt;店址：上海市浦东张杨路721号太平洋数码广场三期三楼3016室 &lt;br/&gt;电话：021-58355657     传真：021-58355657     E-mail:sxm2010xsm@sina.com]]></generator>
+<webmaster>admin@ewbsite.com</webmaster>
+<item>
+    <title><![CDATA[显卡问题，T61花屏维修实例]]></title>
+    <link>http://localhost/html/guzhangzhenduan/2009/1115/15.html</link>
+    <description><![CDATA[T61维修慢慢多起来了，其中显卡问题特别的多，有开机显卡报警的，有开机白屏无显示的，有显示花屏的，有显示竖条条的。由于T61所配备的NVIDIA Quadro NVS 140也是GF8系列的显卡.同为NVIDIA质量门同批货，从DELL的D630到HP的DV系列，无一品牌不出问题的。T61]]></description>
+    <pubDate>2009-11-15</pubDate>
+    <category>故障诊断</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[BGA底部除胶方法]]></title>
+    <link>http://localhost/html/guzhangzhenduan/2009/1115/14.html</link>
+    <description><![CDATA[BGA底部填充胶处理方法 一、处理示意图 二、修复步骤 1.将待返修的PCB板放置在托架上，使用热空气对流加热PCB底部及BGA上部使温度上升至200℃ 以上。 2.待实际温度达到200~300℃之间（具体视BGA的温度而定） 60~90秒，底部焊料开始熔融，胶水脆化，用摄子或]]></description>
+    <pubDate>2009-11-15</pubDate>
+    <category>故障诊断</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HP V3000不开机维修所引起的思路]]></title>
+    <link>http://localhost/html/guzhangzhenduan/2009/1115/13.html</link>
+    <description><![CDATA[就HP V3000这款笔记本，真正打破无不坏的记录，给购买此款笔记本的机主无比痛苦。维修吧，坏了总得修好是不。为什么这款机器这么容易坏呢？这个问题每个用户都会有疑问。但HP是不会那么爽快给你答案的，现在所有的HP V3000面临出保，过了保修期不可能找HP售]]></description>
+    <pubDate>2009-11-15</pubDate>
+    <category>故障诊断</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[T61显卡问题，T61花屏维修实例]]></title>
+    <link>http://localhost/html/guzhangzhenduan/2009/1115/12.html</link>
+    <description><![CDATA[T61维修慢慢多起来了，其中显卡问题特别的多，有开机显卡报警的，有开机白屏无显示的，有显示花屏的，有显示竖条条的。由于T61所配备的NVIDIA Quadro NVS 140也是GF8系列的显卡.同为NVIDIA质量门同批货，从DELL的D630到HP的DV系列，无一品牌不出问题的。T61]]></description>
+    <pubDate>2009-11-15</pubDate>
+    <category>故障诊断</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>

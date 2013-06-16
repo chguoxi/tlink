@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<rss version="2.0">
+<channel>
+<title>资料下载</title>
+<link>http://localhost/html/ziliaoxiazai/index.html</link>
+<description>资料下载</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 北京华辰利达科技有限公司  版权所有 2009 (C) All Rights Reserved. 
+]]></generator>
+<webmaster>admin@ewbsite.com</webmaster>
+<item>
+    <title><![CDATA[111]]></title>
+    <link>http://localhost/html/ziliaoxiazai/2009/0812/10.html</link>
+    <description><![CDATA[]]></description>
+    <pubDate>2009-08-12</pubDate>
+    <category>资料下载</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[ 服务器语音包（精简版）]]></title>
+    <link>http://localhost/html/ziliaoxiazai/2009/0812/9.html</link>
+    <description><![CDATA[服务器语音包（精简版）]]></description>
+    <pubDate>2009-08-12</pubDate>
+    <category>资料下载</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[cofax客户端安装软件1.4.6.2]]></title>
+    <link>http://localhost/html/ziliaoxiazai/2009/0812/8.html</link>
+    <description><![CDATA[cofax客户端安装软件1.4.6.2]]></description>
+    <pubDate>2009-08-12</pubDate>
+    <category>资料下载</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>
