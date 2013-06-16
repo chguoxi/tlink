@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<rss version="2.0">
+<channel>
+<title>客户案例</title>
+<link>http://localhost/html/kehuanli/index.html</link>
+<description>客户案例</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 北京华辰利达科技有限公司  版权所有 2009 (C) All Rights Reserved. 
+]]></generator>
+<webmaster>admin@ewbsite.com</webmaster>
+<item>
+    <title><![CDATA[华孚控股使用CoFax传真服务器,实现传真无纸化]]></title>
+    <link>http://localhost/html/kehuanli/2009/0812/12.html</link>
+    <description><![CDATA[华孚色纺股份有限公司 （证券简称华孚色纺，证券代码002042），始创于1993年，总部设在中国深圳，是一家面向全球专注经营高档新型纱线的制造商和供应商。经过16年的发展，已成为全球最大的色纺纱线企业之一。 公司每天收到客户订单和发给客户的资料很多，其]]></description>
+    <pubDate>2009-08-12</pubDate>
+    <category>客户案例</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[全全礼品部署CoFax传真服务器]]></title>
+    <link>http://localhost/html/kehuanli/2009/0812/11.html</link>
+    <description><![CDATA[深圳全全礼品开发有限公司 每天收到客户订单和发给客户的资料很多，其中大部份以传真方式发送；在发送传真同时，也收到大量外界的传真，而且不少是垃圾传真，为处理这些垃圾传真也耗费不少工作时间。原始的传真模式作为通知下达、文件传送的重要工具长期使用]]></description>
+    <pubDate>2009-08-12</pubDate>
+    <category>客户案例</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>
