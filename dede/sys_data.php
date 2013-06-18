@@ -14,7 +14,7 @@ if($dopost=="viewinfo") //查看表结构
 	}
 	else
 	{
-		$dsql->SetQuery("SHOW CREATE TABLE ".$dsql->dbName.".".$tablename);
+		$dsql->SetQuery("SHOW CREATE TABLE `".$dsql->dbName."`.".$tablename);
 		$dsql->Execute('me');
 		$row2 = $dsql->GetArray('me',MYSQL_BOTH);
 		$ctinfo = $row2[1];
