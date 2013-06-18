@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 require_once(DEDEINC."/dedecollection.class.php");
 $backurl = isset($_COOKIE['ENV_GOBACK_URL']) ? $_COOKIE['ENV_GOBACK_URL'] : "co_url.php";

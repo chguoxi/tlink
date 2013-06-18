@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__).'/config.php');
 
 //检查权限许可

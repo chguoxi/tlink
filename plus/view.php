@@ -1,5 +1,4 @@
-﻿<?php
-
+<?php
 /**
  *
  * 关于文章权限设置的说明
@@ -9,7 +8,6 @@
  * 如果两者同时指定，那么必须同时满足两个条件
  *
  */
-
 require_once(dirname(__FILE__)."/../include/common.inc.php");
 require_once(DEDEINC.'/arc.archives.class.php');
 

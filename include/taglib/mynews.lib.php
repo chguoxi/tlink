@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function lib_mynews(&$ctag,&$refObj)
 {
 	global $dsql,$envs;

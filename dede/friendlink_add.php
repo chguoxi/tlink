@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require(dirname(__FILE__)."/config.php");
 CheckPurview('plus_友情链接模块');
 if(empty($dopost))

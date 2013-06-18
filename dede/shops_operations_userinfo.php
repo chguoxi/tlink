@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('shops_Operations');
 if(!isset($oid)){

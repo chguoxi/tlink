@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 //获得一个附加表单
 //-----------------------------
 function GetFormItem($ctag)

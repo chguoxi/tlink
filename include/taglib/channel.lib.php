@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function lib_channel(&$ctag,&$refObj)
 {
 	global $dsql;

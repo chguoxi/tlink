@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(DEDEINC.'/dedehttpdown.class.php');
 require_once(DEDEINC.'/image.func.php');
 require_once(DEDEINC.'/archives.func.php');

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function lib_arclistsg(&$ctag,&$refObj)
 {
 	global $dsql,$PubFields,$cfg_keyword_like,$cfg_index_cache,$_arclistEnv,$envs,$_sys_globals;

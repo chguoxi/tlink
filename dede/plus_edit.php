@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('sys_plus');
 $aid = ereg_replace("[^0-9]","",$aid);

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('a_Edit,a_AccEdit,a_MyEdit');
 

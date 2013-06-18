@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('sys_ArcBatch');
 require_once(DEDEINC."/typelink.class.php");

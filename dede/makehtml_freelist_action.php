@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('sys_MakeHtml');
 require_once(DEDEINC."/arc.freelist.class.php");

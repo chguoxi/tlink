@@ -37,20 +37,32 @@
 	<div>
 		<img src="/templets/images/jishu_03.gif" />
 	</div>
-	<!-- 资料下载  栏目名称-->
-	{dede:type typeid='32'} 
-		<h3 class="title">[field:typename/]</h3>
+	{dede:type typeid='32'}
+	<h3>[field:typename /]</h3>
 	{/dede:type}
-	<!-- 资料下载 列表 -->
-	{dede:arclist typeid='32' row='10'}
+	<!-- 资料下载   多点触控设备驱动 -->
+	{dede:type typeid='173'} 
+		<strong>[field:typename/]</strong>
+	{/dede:type}
+	<!-- 资料下载 多点触控设备驱动列表 -->
+	{dede:arclist typeid='173' row='10'}
 		<div><a href='[field:arcurl/]' target="_blank">[field:title/]</a></div>
-		<div class="gs_content">[field:info/]</div>
+	{/dede:arclist}
+	
+	<!-- 资料下载  Multi-touch frame diver-->
+	{dede:type typeid='174'} 
+		<strong>[field:typename/]</strong>
+	{/dede:type}
+	<!-- 资料下载 Multi-touch frame diver 列表 -->
+	{dede:arclist typeid='174' row='10'}
+		<div><a href='[field:arcurl/]' target="_blank">[field:title/]</a></div>
+		
 	{/dede:arclist}
 	
 	<!-- 售后服务 -->
 	<!-- 售后服务  栏目名称-->
 	{dede:type typeid='168'} 
-		<h3 class="title">[field:typename/]</h3>
+		<strong>[field:typename/]</strong>
 	{/dede:type} 
 	<!-- 售后服务内容 -->
 	{dede:arclist typeid='168' row='10'}
@@ -61,7 +73,7 @@
 	<!-- FAQ 常见问题问答 -->
 	<!-- FAQ  栏目名称-->
 	{dede:type typeid='169'} 
-		<h3 class="title">[field:typename/]</h3>
+		<strong>[field:typename/]</strong>
 	{/dede:type} 
 	<!-- FAQ 列表 -->
 	{dede:arclist typeid='169' row='10'}

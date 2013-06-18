@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if(!defined('DEDEINC')) exit('Request Error!');
 function lib_autochannel(&$ctag,&$refObj)
 {

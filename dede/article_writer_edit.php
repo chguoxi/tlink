@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__).'/config.php');
 require_once(DEDEINC.'/oxwindow.class.php');
 CheckPurview('sys_Writer');

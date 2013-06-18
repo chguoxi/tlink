@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 $cid = isset($cid) ? intval($cid) : 0;
 $channelid = isset($channelid) ? intval($channelid) : 0;

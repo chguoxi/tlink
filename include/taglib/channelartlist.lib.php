@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 if(!defined('DEDEINC')) exit('Request Error!');
 require_once(DEDEINC.'/arc.partview.class.php');

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // examples: $key = array_search('alipay',$payment_select);
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('sys_Data');

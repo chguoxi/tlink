@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 class Upload {
 	public $upload_name; // 上传文件名
 	public $upload_tmp_name; // 上传临时文件名
@@ -14,6 +14,10 @@ class Upload {
 	// 构造函数
 	public function __construct() {
 		$file = array_shift($_FILES);
+		if ( empty($file['name']) ){
+			$info = array('status'=>0,'msg'=>'没有选择上传文件');
+			echo json_encode($info);exit();
+		}
 		$this->upload_name = $file ["name"]; // 取得上传文件名
 		$this->upload_filetype = $file ["type"];
 		$this->upload_tmp_name = $file ["tmp_name"];

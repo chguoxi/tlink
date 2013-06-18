@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if(!isset($registerGlobals))
 {
 	require_once(dirname(__FILE__)."/../../include/common.inc.php");

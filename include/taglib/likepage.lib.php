@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 if(!defined('DEDEINC')) exit('Request Error!');
 require_once(dirname(__FILE__).'/likesgpage.lib.php');

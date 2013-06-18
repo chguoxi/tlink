@@ -544,3 +544,9 @@ Error: You have an error in your SQL syntax; check the manual that corresponds t
 		  From `dede_arctype` where reid='5' And ishidden<>1 order by sortrank asc limit 0,</font>
 */
 ?>
+<?php
+/*
+Page: /plus/list.php?tid=5
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==32   limit 0,8' at line 1 <br />Error sql: <font color='red'>Select * From dede_arctype  where reid==32   limit 0,8</font>
+*/
+?>

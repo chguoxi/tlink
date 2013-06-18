@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 include_once(dirname(__FILE__).'/config.php');
 $cfg_softtype = $cfg_mediatype;
 $cfg_soft_dir = $cfg_other_medias;

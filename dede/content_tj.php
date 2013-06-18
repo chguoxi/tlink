@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('sys_ArcTj');
 $row1 = $dsql->GetOne("Select count(*) as dd From `#@__arctiny` ");

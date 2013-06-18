@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if(!isset($cfg_basedir))
 {
 	include_once(dirname(__FILE__)."/config.php");
