@@ -243,6 +243,7 @@ else if($dopost=='save')
 	$win->AddTitle("成功发布文章：");
 	$win->AddMsgItem($msg);
 	$winform = $win->GetWindow("hand","&nbsp;",false);
+	$dsql->ExecuteNoneQuery("Delete From `#@__arccache`");
 	$win->Display();
 }
 
