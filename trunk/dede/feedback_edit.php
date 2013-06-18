@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('sys_Feedback');
 $id = isset($id) && is_numeric($id) ? $id : 0;

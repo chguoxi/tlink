@@ -1,13 +1,13 @@
 <?php
 global $em_nativeplaces;
 $em_nativeplaces = array();
-$em_nativeplaces[500] = '¹ãÖÝÊÐ';
-$em_nativeplaces[501] = 'ÌìºÓÇø';
-$em_nativeplaces[502] = 'Ô½ÐãÇø';
-$em_nativeplaces[503] = 'º£ÖéÇø';
-$em_nativeplaces[1000] = 'ÖÐÉ½ÊÐ';
-$em_nativeplaces[1001] = 'Ê¯áªÇø';
-$em_nativeplaces[1002] = 'Î÷Çø';
-$em_nativeplaces[1003] = '¶«Çø';
-$em_nativeplaces[1004] = 'Ð¡é­Õò';
+$em_nativeplaces[500] = 'å¹¿å·žå¸‚';
+$em_nativeplaces[501] = 'å¤©æ²³åŒº';
+$em_nativeplaces[502] = 'è¶Šç§€åŒº';
+$em_nativeplaces[503] = 'æµ·ç åŒº';
+$em_nativeplaces[1000] = 'ä¸­å±±å¸‚';
+$em_nativeplaces[1001] = 'çŸ³å²åŒº';
+$em_nativeplaces[1002] = 'è¥¿åŒº';
+$em_nativeplaces[1003] = 'ä¸œåŒº';
+$em_nativeplaces[1004] = 'å°æ¦„é•‡';
 ?>

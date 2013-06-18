@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require(dirname(__FILE__)."/config.php");
 CheckPurview('plus_文件管理器');
 require(DEDEINC."/oxwindow.class.php");

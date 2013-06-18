@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('c_New');
 require_once(DEDEADMIN."/inc/inc_admin_channel.php");

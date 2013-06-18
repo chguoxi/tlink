@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 //该页仅用于检测用户登录的情况，如要手工更改系统配置，请更改common.inc.php
 require_once(dirname(__FILE__)."/../common.inc.php");
 require_once(dirname(__FILE__)."/../userlogin.class.php");

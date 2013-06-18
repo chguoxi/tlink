@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function SpUpdateStat()
 {
 	global $cfg_version;

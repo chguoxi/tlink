@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function DelArc($aid,$type='ON',$onlyfile=false)
 {
 	global $dsql,$cfg_cookie_encode,$cfg_multi_site,$cfg_medias_dir;

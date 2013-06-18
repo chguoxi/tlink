@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require(dirname(__FILE__)."/config.php");
 CheckPurview('co_EditNote');
 require_once(DEDEINC."/oxwindow.class.php");

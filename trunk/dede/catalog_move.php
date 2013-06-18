@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once('config.php');
 CheckPurview('t_Move');
 require_once(DEDEINC.'/oxwindow.class.php');

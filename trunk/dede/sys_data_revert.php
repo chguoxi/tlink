@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('sys_Data');
 $bkdir = DEDEDATA."/".$cfg_backup_dir;

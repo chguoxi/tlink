@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 require_once(DEDEINC."/datalistcp.class.php");
 CheckPurview('shops_Operations');

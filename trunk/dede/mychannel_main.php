@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('c_List');
 require_once(DEDEINC.'/datalistcp.class.php');

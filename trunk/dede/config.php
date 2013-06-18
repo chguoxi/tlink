@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 define('DEDEADMIN', preg_replace('/[\/\\\\]{1,}/', '/', dirname(__FILE__) ) );
 require_once(DEDEADMIN."/../include/common.inc.php");
 require_once(DEDEINC."/userlogin.class.php");

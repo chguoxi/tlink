@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 error_reporting(0);
 require_once(dirname(__FILE__)."/fckeditor.php");
 $fck = new FCKeditor("test");

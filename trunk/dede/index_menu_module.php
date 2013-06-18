@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require(dirname(__FILE__)."/config.php");
 
 if($cuserLogin->adminStyle!='dedecms')

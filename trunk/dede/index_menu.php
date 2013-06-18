@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require(dirname(__FILE__).'/config.php');
 require(DEDEADMIN.'/inc/inc_menu.php');
 require(DEDEADMIN.'/inc/inc_menu_func.php');

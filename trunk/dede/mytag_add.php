@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require(dirname(__FILE__)."/config.php");
 CheckPurview('temp_Other');
 require_once(DEDEINC."/typelink.class.php");

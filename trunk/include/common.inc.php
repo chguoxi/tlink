@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // error_reporting(E_ALL);
 error_reporting(0);
 //  define('DEDEADMIN', preg_replace("/[\/\\\\]{1,}/", '/', dirname(__FILE__) ) );

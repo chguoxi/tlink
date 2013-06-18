@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require(dirname(__FILE__)."/config.php");
 CheckPurview('plus_投票模块');
 require_once(DEDEINC."/dedetag.class.php");

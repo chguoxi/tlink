@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require(dirname(__FILE__).'/config.php');
 require(DEDEINC.'/image.func.php');
 require(DEDEINC.'/dedetag.class.php');

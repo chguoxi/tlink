@@ -6,6 +6,9 @@ $cfg_max_file_size = 104857600;
 if ( $_FILES ){
 	upload_file();
 }
+else{
+
+}
 
 function upload_file(){
 	set_time_limit (0);

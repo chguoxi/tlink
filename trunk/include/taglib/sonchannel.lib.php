@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function lib_sonchannel(&$ctag,&$refObj)
 {
 	global $_sys_globals,$dsql;

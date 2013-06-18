@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 require_once(DEDEINC."/channelunit.func.php");
 $action = (empty($action) ? '' : $action);

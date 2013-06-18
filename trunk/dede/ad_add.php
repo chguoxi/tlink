@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require(dirname(__FILE__)."/config.php");
 CheckPurview('plus_广告管理');
 require_once DEDEINC."/typelink.class.php";

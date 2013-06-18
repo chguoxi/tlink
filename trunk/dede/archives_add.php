@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__)."/config.php");
 CheckPurview('a_New,a_AccNew');
 require_once(DEDEINC."/customfields.func.php");

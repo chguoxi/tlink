@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 //采集指定页面作为文章发布源
 require_once(DEDEINC.'/charset.func.php');
 function CoOnePage($gurl)

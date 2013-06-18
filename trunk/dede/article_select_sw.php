@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require(dirname(__FILE__)."/config.php");
 header("Pragma:no-cache");
 header("Cache-Control:no-cache");

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once(dirname(__FILE__).'/charset.func.php');
 /*******************************
 //织梦分词算法 www.dedecms.com

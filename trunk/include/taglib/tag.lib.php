@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 //function GetTags($num,$ltype='new',$InnerText='')
 
 function lib_tag(&$ctag,&$refObj)

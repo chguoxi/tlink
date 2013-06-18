@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function lib_hotwords(&$ctag,&$refObj)
 {
 	global $cfg_phpurl,$dsql;
