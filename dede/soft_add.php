@@ -255,6 +255,8 @@ else if($dopost=='save')
 	$win->AddTitle("成功发布软件：");
 	$win->AddMsgItem($msg);
 	$winform = $win->GetWindow("hand","&nbsp;",false);
+	CheckPurview('sys_ArcBatch');
+	$dsql->ExecuteNoneQuery("Delete From `#@__arccache`");
 	$win->Display();
 }
 

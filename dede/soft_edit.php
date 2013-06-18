@@ -54,7 +54,7 @@ if($dopost!='save')
 				{
 					$nForm .= "软件地址".$newRowStart."：<input type='text' name='softurl".$newRowStart."' style='width:280' value='".trim($ctag->GetInnerText())."' />
             服务器名称：<input type='text' name='servermsg".$newRowStart."' value='".$ctag->GetAtt("text")."' style='width:150' />
-            <br />";
+            ";
 					$newRowStart++;
 				}
 			}

@@ -81,7 +81,7 @@ class Upload {
 	 * 上传完后获取文件信息
 	 */
 	public function get_file_info(){
-		$path = str_replace('../', '', $this->upload_target_path);
+		$path = str_replace('../', '/', $this->upload_target_path);
 		$info = array(
 			'name'=>$this->upload_name,
 			'path'=>$path,
