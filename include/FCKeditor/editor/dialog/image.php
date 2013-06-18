@@ -59,7 +59,7 @@ if($dopost=='upload')
 		$full_litfilename = $cfg_basedir.$litfilename;
 	
 		if(file_exists($fullfilename)) {
-			ShowMsg("±¾Ä¿Â¼ÒÑ¾­´æÔÚÍ¬ÃûµÄÎÄ¼ş£¬Çë¸ü¸Ä£¡","-1");
+			ShowMsg("æœ¬ç›®å½•å·²ç»å­˜åœ¨åŒåçš„æ–‡ä»¶ï¼Œè¯·æ›´æ”¹ï¼","-1");
 			exit();
 		}
 	
@@ -79,7 +79,7 @@ if($dopost=='upload')
 			$imgheightValue = $sizes[1];
 			$imgsize = filesize($full_litfilename);
 			$inquery = "INSERT INTO `#@__uploads`(title,url,mediatype,width,height,playtime,filesize,uptime,mid)
-       VALUES ('Ğ¡Í¼{$dblitfile}','$imgsrcValue','1','$imgwidthValue','$imgheightValue','0','{$imgsize}','{$nowtme}','".$cuserLogin->getUserID()."');
+       VALUES ('å°å›¾{$dblitfile}','$imgsrcValue','1','$imgwidthValue','$imgheightValue','0','{$imgsize}','{$nowtme}','".$cuserLogin->getUserID()."');
      	";
 			$dsql->ExecuteNoneQuery($inquery);
 		}
@@ -113,12 +113,12 @@ if($dopost=='upload')
 		
 		if($cfg_multi_site=='N')
 		{
-			$imgHtml .=  "<a href='$urlValue' target='_blank'><img src='$imgsrcValue' width='$imgwidthValue' border='0' height='$imgheightValue' alt='' /></a><br />Í¼Æ¬{$i}<br />\r\n";
+			$imgHtml .=  "<a href='$urlValue' target='_blank'><img src='$imgsrcValue' width='$imgwidthValue' border='0' height='$imgheightValue' alt='' /></a><br />å›¾ç‰‡{$i}<br />\r\n";
 		}
 		else
 		{
 			if(empty($cfg_basehost)) $cfg_basehost = 'http://'.$_SERVER["HTTP_HOST"];
-			$imgHtml .=  "<a href='{$cfg_basehost}$urlValue' target='_blank'><img src='{$cfg_basehost}$imgsrcValue' width='$imgwidthValue' border='0' height='$imgheightValue' alt='' /></a><br />Í¼Æ¬{$i}<br />\r\n";
+			$imgHtml .=  "<a href='{$cfg_basehost}$urlValue' target='_blank'><img src='{$cfg_basehost}$imgsrcValue' width='$imgwidthValue' border='0' height='$imgheightValue' alt='' /></a><br />å›¾ç‰‡{$i}<br />\r\n";
 		}
 	}
 	$imgHtml .= "</center>\r\n";
@@ -126,7 +126,7 @@ if($dopost=='upload')
 ?>
 <HTML>
 <HEAD>
-<title>²åÈëÍ¼Æ¬</title>
+<title>æ’å…¥å›¾ç‰‡</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
 td { font-size:12px; }
@@ -257,7 +257,7 @@ function UpImgSizeW()
 function AddForm()
 {
 	picnum++;
-	document.getElementById('moreupload').innerHTML += "Í¼Æ¬"+picnum+"£º<input name='imgfile"+picnum+"' type='file' id='imgfile"+picnum+"' class='binput' /><br />\r\n";
+	document.getElementById('moreupload').innerHTML += "å›¾ç‰‡"+picnum+"ï¼š<input name='imgfile"+picnum+"' type='file' id='imgfile"+picnum+"' class='binput' /><br />\r\n";
 	document.form1.totalform.value = picnum;
 }
 
@@ -268,7 +268,7 @@ function AddForm()
 <body bgcolor="#EBF6CD" leftmargin="4" topmargin="2">
 <form enctype="multipart/form-data" name="form1" id="form1" method="post">
 <?php
-//ÉÏ´«ºó·µ»ØµÄÄÚÈİ
+//ä¸Šä¼ åè¿”å›çš„å†…å®¹
 if($imgHtml != '')
 {
 ?>
@@ -276,7 +276,7 @@ if($imgHtml != '')
 	<tr>
 		<td nowrap='1'>
 		<fieldset>
-			<legend>ÉÏ´«ºóµÃµ½µÄÍ¼Æ¬HTMLĞÅÏ¢</legend>
+			<legend>ä¸Šä¼ åå¾—åˆ°çš„å›¾ç‰‡HTMLä¿¡æ¯</legend>
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td nowrap='1'>
@@ -285,7 +285,7 @@ if($imgHtml != '')
 				</tr>
 				<tr height="28">
 					<td align='center'>
-            <input type="button" name="imgok" id="imgok" onclick='ImageOK2()' value=" ²åÈëµ½±à¼­Æ÷  " style="height:24px" class="binput" />
+            <input type="button" name="imgok" id="imgok" onclick='ImageOK2()' value=" æ’å…¥åˆ°ç¼–è¾‘å™¨  " style="height:24px" class="binput" />
           </td>
 				</tr>
 			</table>
@@ -294,7 +294,7 @@ if($imgHtml != '')
 	</tr>
 </table>			
 <?php
-//Ä¬ÈÏÏÔÊ¾ÄÚÈİ
+//é»˜è®¤æ˜¾ç¤ºå†…å®¹
 } else {
 ?>
 <input type="hidden" name="dopost" value="upload" />
@@ -305,31 +305,31 @@ if($imgHtml != '')
 	<tr>
 		<td nowrap='1'>
 		<fieldset>
-			<legend>ÉÏ´«ĞÂÍ¼Æ¬</legend>
+			<legend>ä¸Šä¼ æ–°å›¾ç‰‡</legend>
 			<table width="100%" border="0" cellspacing="0" cellpadding="0">
 				<tr height="30">
-					<td align="right" valign='top' nowrap='1'>¡¡Í¼ Æ¬£º</td>
+					<td align="right" valign='top' nowrap='1'>ã€€å›¾ ç‰‡ï¼š</td>
 					<td nowrap='1'>
-						Í¼Æ¬1£º<input name="imgfile1" type="file" id="imgfile1" class="binput" />
+						å›¾ç‰‡1ï¼š<input name="imgfile1" type="file" id="imgfile1" class="binput" />
 					  <div id='moreupload'></div>
 					</td>
 				</tr>
 				<tr height="30">
-					<td align="right" nowrap='1'>¡¡Ñ¡¡¡Ïî£º</td>
+					<td align="right" nowrap='1'>ã€€é€‰ã€€é¡¹ï¼š</td>
 					<td nowrap='1'>
-						<input type="checkbox" name="dd" value="yes" />Éú³ÉËõÂÔÍ¼ &nbsp;
-						ËõÂÔÍ¼¿í¶È
+						<input type="checkbox" name="dd" value="yes" />ç”Ÿæˆç¼©ç•¥å›¾ &nbsp;
+						ç¼©ç•¥å›¾å®½åº¦
 						<input name="w" type="text" value="<?php echo $cfg_ddimg_width?>" size="3" />
-						ËõÂÔÍ¼¸ß¶È
+						ç¼©ç•¥å›¾é«˜åº¦
 						<input name="h" type="text" value="<?php echo $cfg_ddimg_height?>" size="3" />
 					</td>
 				</tr>
 				<tr height="36">
 					<td colspan="2">
 						&nbsp;
-            <input type="button" name="addupload" id="addupload" onclick='AddForm()' value=" Ôö¼ÓÉÏ´«¿ò  " style="height:24px" class="binput" />
+            <input type="button" name="addupload" id="addupload" onclick='AddForm()' value=" å¢åŠ ä¸Šä¼ æ¡†  " style="height:24px" class="binput" />
             &nbsp;
-            <input type="submit" name="picSubmit" id="picSubmit" value=" ÉÏ ´«  " style="height:24px" class="binput" />
+            <input type="submit" name="picSubmit" id="picSubmit" value=" ä¸Š ä¼   " style="height:24px" class="binput" />
             </td>
 				</tr>
 			</table>
@@ -339,55 +339,55 @@ if($imgHtml != '')
 	<tr>
 		<td>
 			<fieldset>
-				<legend>ÒÑÓĞÍ¼Æ¬</legend>
+				<legend>å·²æœ‰å›¾ç‰‡</legend>
         <table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
-            <td width="65" height="25" align="right">ÍøÖ·£º</td>
+            <td width="65" height="25" align="right">ç½‘å€ï¼š</td>
             <td colspan="2">
               <input name="imgsrc" type="text" id="imgsrc" size="30" onChange="SeePic('picview',this);" value="<?php echo $imgsrcValue?>" />
-              <input onClick="SelectMedia('form1.imgsrc');" type="button" name="selimg" value=" ä¯ÀÀ·şÎñÆ÷... " class="binput" style="width:100px" />
+              <input onClick="SelectMedia('form1.imgsrc');" type="button" name="selimg" value=" æµè§ˆæœåŠ¡å™¨... " class="binput" style="width:100px" />
              </td>
           </tr>
           <tr>
-            <td height="25" align="right">¿í¶È£º</td>
+            <td height="25" align="right">å®½åº¦ï¼š</td>
             <td colspan="2" nowrap>
 							<input type="text"  id="imgwidth" name="imgwidth" size="8" value="<?php echo $imgwidthValue?>" onChange="UpImgSizeW()" />
               &nbsp;&nbsp;
-              ¸ß¶È: <input name="imgheight" type="text" id="imgheight" size="8" value="<?php echo $imgheightValue?>" onChange="UpImgSizeH()" />
-              <input type="button" name="Submit" value="Ô­Ê¼" class="binput" style="width:40" onClick="UpdateImageInfo()" />
+              é«˜åº¦: <input name="imgheight" type="text" id="imgheight" size="8" value="<?php echo $imgheightValue?>" onChange="UpImgSizeH()" />
+              <input type="button" name="Submit" value="åŸå§‹" class="binput" style="width:40" onClick="UpdateImageInfo()" />
               <input name="autoresize" type="checkbox" id="autoresize" value="1" checked='1' />
-              ×ÔÊÊ
+              è‡ªé€‚
             </td>
           </tr>
           <tr>
-            <td height="25" align="right">±ß¿ò£º</td>
+            <td height="25" align="right">è¾¹æ¡†ï¼š</td>
             <td colspan="2" nowrap>
               <input name="border" type="text" id="border" size="4" value="0" />
-              &nbsp;Ìæ´úÎÄ×Ö:
+              &nbsp;æ›¿ä»£æ–‡å­—:
               <input name="alt" type="text" id="alt" size="10" />
             </td>
           </tr>
           <tr>
-            <td height="25" align="right">Á´½Ó£º</td>
+            <td height="25" align="right">é“¾æ¥ï¼š</td>
             <td width="166" nowrap><input name="url" type="text" id="url" size="30"   value="<?php echo $urlValue?>" /></td>
             <td width="155" align="center" nowrap='1'>&nbsp;</td>
           </tr>
 					<tr>
             <td height="25" align="right">
-            ¶ÔÆë£º
+            å¯¹é½ï¼š
             </td>
             <td nowrap='1'>
             <select name="ialign" id="ialign">
-                <option value="0" selected>Ä¬ÈÏ</option>
-                <option value="right">ÓÒ¶ÔÆë</option>
-                <option value="center">ÖĞ¼ä</option>
-                <option value="left">×ó¶ÔÆë</option>
-                <option value="top">¶¥¶Ë</option>
-                <option value="bottom">µ×²¿</option>
+                <option value="0" selected>é»˜è®¤</option>
+                <option value="right">å³å¯¹é½</option>
+                <option value="center">ä¸­é—´</option>
+                <option value="left">å·¦å¯¹é½</option>
+                <option value="top">é¡¶ç«¯</option>
+                <option value="bottom">åº•éƒ¨</option>
               </select>
             </td>
             <td align="right" nowrap='1'>
-            	<input onClick="ImageOK();" type="button" name="Submit2" value=" È·¶¨ " class="binput" />
+            	<input onClick="ImageOK();" type="button" name="Submit2" value=" ç¡®å®š " class="binput" />
             </td>
           </tr>
         </table>
