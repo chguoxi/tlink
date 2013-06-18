@@ -11,24 +11,24 @@ function editTitle(aid)
 function $(id){ return document.getElementById(id)}
 function AlertMsg(title,id){
 	var msgw,msgh,msgbg,msgcolor,bordercolor,titlecolor,titlebg,content; 
-	//µ¯³ö´°¿ÚÉèÖÃ
-	msgw = 600;		//´°¿Ú¿í¶È 
-	msgh = 400;		//´°¿Ú¸ß¶È 
-	msgbg = "#FFF";			//ÄÚÈİ±³¾°
-	msgcolor = "#000";		//ÄÚÈİÑÕÉ«
-	bordercolor = "#5A6D58"; 	//±ß¿òÑÕÉ« 
-	titlecolor = "#254015";	//±êÌâÑÕÉ«
-	titlebg = "#369 url(img/tbg.gif)";		//±êÌâ±³¾°
-	//ÕÚÕÖ±³¾°ÉèÖÃ  	
-	content = "<div id=show_news>¶Ô²»Æğ£¬ÔØÈëÊ§°Ü</div>";	
+	//å¼¹å‡ºçª—å£è®¾ç½®
+	msgw = 600;		//çª—å£å®½åº¦ 
+	msgh = 400;		//çª—å£é«˜åº¦ 
+	msgbg = "#FFF";			//å†…å®¹èƒŒæ™¯
+	msgcolor = "#000";		//å†…å®¹é¢œè‰²
+	bordercolor = "#5A6D58"; 	//è¾¹æ¡†é¢œè‰² 
+	titlecolor = "#254015";	//æ ‡é¢˜é¢œè‰²
+	titlebg = "#369 url(img/tbg.gif)";		//æ ‡é¢˜èƒŒæ™¯
+	//é®ç½©èƒŒæ™¯è®¾ç½®  	
+	content = "<div id=show_news>å¯¹ä¸èµ·ï¼Œè½½å…¥å¤±è´¥</div>";	
 	var sWidth,sHeight; 
 	sWidth = screen.availWidth; 
 	if(screen.availHeight > document.body.scrollHeight){
-		sHeight = screen.availHeight;	//ÉÙÓÚÒ»ÆÁ
+		sHeight = screen.availHeight;	//å°‘äºä¸€å±
 	}else{
-		sHeight = document.body.scrollHeight;	//¶àÓÚÒ»ÆÁ 
+		sHeight = document.body.scrollHeight;	//å¤šäºä¸€å± 
 	}
-	//´´½¨ÕÚÕÖ±³¾° 
+	//åˆ›å»ºé®ç½©èƒŒæ™¯ 
 	var maskObj = document.createElement("div"); 
 	maskObj.setAttribute('id','maskdiv'); 
 	maskObj.style.position = "absolute"; 
@@ -41,7 +41,7 @@ function AlertMsg(title,id){
 	maskObj.style.height = sHeight + "px"; 
 	maskObj.style.zIndex = "10000"; 
 	document.body.appendChild(maskObj); 
-	//´´½¨µ¯³ö´°¿Ú
+	//åˆ›å»ºå¼¹å‡ºçª—å£
 	var msgObj = document.createElement("div") 
 	msgObj.setAttribute("id","msgdiv"); 
 	msgObj.style.position ="absolute";
@@ -55,19 +55,19 @@ function AlertMsg(title,id){
 	msgObj.style.background = msgbg;
 	msgObj.style.border = "1px solid " + bordercolor; 
 	msgObj.style.zIndex = "10001"; 
-	//´´½¨±êÌâ
+	//åˆ›å»ºæ ‡é¢˜
 	var thObj = document.createElement("div");
 	thObj.setAttribute("id","msgth"); 
 	thObj.className = "DragAble";
-	thObj.title = "°´×¡Êó±ê×ó¼ü¿ÉÒÔÍÏ¶¯´°¿Ú£¡";
+	thObj.title = "æŒ‰ä½é¼ æ ‡å·¦é”®å¯ä»¥æ‹–åŠ¨çª—å£ï¼";
 	thObj.style.cursor = "move";
 	thObj.style.padding = "4px 6px";
 	thObj.style.color = titlecolor;
 	thObj.style.fontWeight = 'bold';
 	thObj.style.background = titlebg;
-	var titleStr = "<a class='close' title='¹Ø±Õ' onclick='CloseMsg()'>¹Ø±Õ</a>"+"<span>"+ title +"</span>";
+	var titleStr = "<a class='close' title='å…³é—­' onclick='CloseMsg()'>å…³é—­</a>"+"<span>"+ title +"</span>";
 	thObj.innerHTML = titleStr;
-	//´´½¨ÄÚÈİ
+	//åˆ›å»ºå†…å®¹
 	var bodyObj = document.createElement("div");
 	bodyObj.setAttribute("id","msgbody"); 
 	bodyObj.style.padding = "0px";
@@ -75,20 +75,20 @@ function AlertMsg(title,id){
 	var txt = document.createTextNode(content);
 	bodyObj.appendChild(txt);
 	bodyObj.innerHTML = content;
-	//Éú³É´°¿Ú
+	//ç”Ÿæˆçª—å£
 	document.body.appendChild(msgObj);
 	$("msgdiv").appendChild(thObj);
 	$("msgdiv").appendChild(bodyObj);
 	editTitle(id);
 }
 function CloseMsg(){
-	//ÒÆ³ı¶ÔÏó
+	//ç§»é™¤å¯¹è±¡
 	document.body.removeChild($("maskdiv")); 
 	$("msgdiv").removeChild($("msgth")); 
 	$("msgdiv").removeChild($("msgbody")); 
 	document.body.removeChild($("msgdiv")); 
 }
-//ÍÏ¶¯´°¿Ú
+//æ‹–åŠ¨çª—å£
 var ie = document.all;   
 var nn6 = document.getElementById&&!document.all;   
 var isdrag = false;   
