@@ -14,25 +14,16 @@ class Upload {
 	// 构造函数
 	public function __construct() {
 		$file = array_shift($_FILES);
-		$this->upload_name = $file ["name"][0]; // 取得上传文件名
-		$this->upload_filetype = $file ["type"][0];
-		$this->upload_tmp_name = $file ["tmp_name"][0];
-		$this->allow_uploadedfile_type = array (
-				'jpeg',
-				'jpg',
-				'png',
-				'gif',
-				'bmp',
-				'doc',
-				'zip',
-				'rar',
-				'txt',
-				'wps',
-				'exe',
-				'tar',
-				'7z',
+		$this->upload_name = $file ["name"]; // 取得上传文件名
+		$this->upload_filetype = $file ["type"];
+		$this->upload_tmp_name = $file ["tmp_name"];
+		$this->allow_uploadedfile_type = array ( 
+				'jpeg', 'jpg', 'png', 'gif', 'bmp', 'doc','xsl', 'ppt', 
+				'flv', 'mp4', 'rmvb', 'wmv', 'avi', 'mov', 'wma', 'swf', 
+				'zip', 'rar', 'txt', 'wps', 'exe', 'tar', '7z', 'pdf', 'apk',
+				'iso','gz'
 		);
-		$this->upload_file_size = $file ["size"][0];
+		$this->upload_file_size = $file ["size"];
 		$this->upload_target_dir = "./upload";
 	}
 	
@@ -57,10 +48,11 @@ class Upload {
 				}
 				$this->upload_final_name = $this->upload_name;
 				$this->upload_target_path = $this->upload_target_dir . "/" . $this->upload_final_name;
-				if ( file_exists($this->upload_target_path) ){
- 					$this->upload_target_path = $this->upload_target_dir . "/" .$upload_basename.'-'.time().'.'.$upload_filetype;
-				}
-				if (! move_uploaded_file ( $this->upload_tmp_name, $this->upload_target_path )){
+// 				if ( file_exists($this->upload_target_path) ){
+//  					$this->upload_target_path = $this->upload_target_dir . "/" .$upload_basename.'-'.date('Y-m-d-his').'.'.$upload_filetype;
+// 				}
+				$this->upload_target_path = mb_convert_encoding($this->upload_target_path,'gbk','utf-8');
+				if ( !move_uploaded_file ( $this->upload_tmp_name, $this->upload_target_path )){
 					$this->upload_error_code = 53;
 					$this->upload_error_msg = '系统错误,可能是文件夹没有写入权限';
 				}
@@ -89,8 +81,10 @@ class Upload {
 	 * 上传完后获取文件信息
 	 */
 	public function get_file_info(){
+		$path = str_replace('../', '', $this->upload_target_path);
 		$info = array(
-			'path'=>$this->upload_target_path,
+			'name'=>$this->upload_name,
+			'path'=>$path,
 			'status'=>$this->upload_error_code,
 			'msg'=>''
 			);
