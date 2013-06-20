@@ -228,6 +228,8 @@ else if($dopost=='save')
 	$win->AddTitle("成功更改文章：");
 	$win->AddMsgItem($msg);
 	$winform = $win->GetWindow("hand","&nbsp;",false);
+	//更新文章缓存
+	$dsql->ExecuteNoneQuery("Delete From `#@__arccache`");
 	$win->Display();
 }
 

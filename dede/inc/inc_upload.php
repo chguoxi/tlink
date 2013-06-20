@@ -25,7 +25,7 @@ class Upload {
 				'jpeg', 'jpg', 'png', 'gif', 'bmp', 'doc','xsl', 'ppt', 
 				'flv', 'mp4', 'rmvb', 'wmv', 'avi', 'mov', 'wma', 'swf', 
 				'zip', 'rar', 'txt', 'wps', 'exe', 'tar', '7z', 'pdf', 'apk',
-				'iso','gz'
+				'iso','gz','xls'
 		);
 		$this->upload_file_size = $file ["size"];
 		$this->upload_target_dir = "./upload";
@@ -55,8 +55,9 @@ class Upload {
 // 				if ( file_exists($this->upload_target_path) ){
 //  					$this->upload_target_path = $this->upload_target_dir . "/" .$upload_basename.'-'.date('Y-m-d-his').'.'.$upload_filetype;
 // 				}
-				$this->upload_target_path = mb_convert_encoding($this->upload_target_path,'gbk','utf-8');
-				if ( !move_uploaded_file ( $this->upload_tmp_name, $this->upload_target_path )){
+				$uploadPath = $this->upload_target_path;
+ 				$uploadPath = mb_convert_encoding($uploadPath,'gbk','utf-8');
+				if ( !move_uploaded_file ( $this->upload_tmp_name, $uploadPath )){
 					$this->upload_error_code = 53;
 					$this->upload_error_msg = '系统错误,可能是文件夹没有写入权限';
 				}
@@ -86,6 +87,7 @@ class Upload {
 	 */
 	public function get_file_info(){
 		$path = str_replace('../', '/', $this->upload_target_path);
+//  		$path = mb_convert_encoding($path, 'utf-8', 'gbk');
 		$info = array(
 			'name'=>$this->upload_name,
 			'path'=>$path,

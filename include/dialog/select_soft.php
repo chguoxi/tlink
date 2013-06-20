@@ -60,7 +60,7 @@ $dh = dir($inpath);
 $ty1="";
 $ty2="";
 while($file = $dh->read()) {
-
+	$file = iconv('gb2312','UTF-8',$file);
 	//-----计算文件大小和创建时间
 	if($file!="." && $file!=".." && !is_dir("$inpath/$file")){
 		$filesize = filesize("$inpath/$file");
@@ -77,7 +77,6 @@ while($file = $dh->read()) {
 		$filetime = filemtime("$inpath/$file");
 		$filetime = MyDate("Y-m-d H:i:s",$filetime);
 	}
-
 	//------判断文件类型并作处理
 	if($file == ".") continue;
 	else if($file == "..")
@@ -104,15 +103,13 @@ while($file = $dh->read()) {
 		echo "$line";
 	}
 	else if(eregi("\.(zip|rar|tgr.gz)",$file)){
-
 		if($file==$comeback) $lstyle = " style='color:red' ";
 		else  $lstyle = "";
-
+		
 		$reurl = "$activeurl/$file";
 
 		$reurl = ereg_replace("^\.\.","",$reurl);
 		$reurl = $reurl;
-
 		$line = "\n<tr>
    <td class='linerow' bgcolor='#F9FBF0'>
      <a href=\"javascript:ReturnValue('$reurl');\" $lstyle><img src=img/zip.gif border=0 width=16 height=16 align=absmiddle>$file</a>
@@ -123,7 +120,6 @@ while($file = $dh->read()) {
 		echo "$line";
 	}
 	else if(eregi("\.(exe)",$file)){
-
 		if($file==$comeback) $lstyle = " style='color:red' ";
 		else  $lstyle = "";
 

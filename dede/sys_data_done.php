@@ -88,7 +88,7 @@ if($dopost=='bak')
 			foreach($tables as $t)
 			{
 				fwrite($fp,"DROP TABLE IF EXISTS `$t`;\r\n\r\n");
-				$dsql->SetQuery("SHOW CREATE TABLE ".$dsql->dbName.".".$t);
+				$dsql->SetQuery("SHOW CREATE TABLE `".$dsql->dbName."`.".$t);
 				$dsql->Execute('me');
 				$row = $dsql->GetArray('me',MYSQL_BOTH);
 

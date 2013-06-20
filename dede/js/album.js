@@ -3,17 +3,17 @@
 function checkSubmitAlb()
 {
 	if(document.form1.title.value==''){
-		alert("µµ°¸±êÌâ²»ÄÜÎª¿Õ£¡");
+		alert("æ¡£æ¡ˆæ ‡é¢˜ä¸èƒ½ä¸ºç©ºï¼");
 		return false;
 	}
 	/*
 	if(document.form1.likeid.value!="" && HasNotVd(document.form1.likeid.value)){
-	alert("Ïà¹ØÎÄµµ±ØĞëÌîĞ´ÕıÈ·µÄID£¬ÈçID1,ID2...");
+	alert("ç›¸å…³æ–‡æ¡£å¿…é¡»å¡«å†™æ­£ç¡®çš„IDï¼Œå¦‚ID1,ID2...");
 	return false;
 	}
 	*/
 	if(document.form1.typeid.value==0){
-		alert("ÇëÑ¡Ôñµµ°¸µÄÖ÷Àà±ğ£¡");
+		alert("è¯·é€‰æ‹©æ¡£æ¡ˆçš„ä¸»ç±»åˆ«ï¼");
 		return false;
 	}
 	document.form1.imagebody.value = $Obj('copyhtml').innerHTML;
@@ -54,23 +54,23 @@ function MakeUpload(mnum)
 			dplay = "display:none";
 		}
 		fhtml = '';
-		fhtml += "<table width='800'><tr><td><input type='checkbox' name='isokcheck"+startNum+"' id='isokcheck"+startNum+"' value='1' class='np' "+dsel+" onClick='CheckSelTable("+startNum+")' />ÏÔÊ¾Í¼Æ¬["+startNum+"]µÄÑ¡È¡¿ò</td></tr></table>";
+		fhtml += "<table width='800'><tr><td><input type='checkbox' name='isokcheck"+startNum+"' id='isokcheck"+startNum+"' value='1' class='np' "+dsel+" onClick='CheckSelTable("+startNum+")' />æ˜¾ç¤ºå›¾ç‰‡["+startNum+"]çš„é€‰å–æ¡†</td></tr></table>";
 		fhtml += "<table width='800' border=\"0\" id=\"seltb"+startNum+"\" cellpadding=\"1\" cellspacing=\"1\" bgcolor=\"#E8F5D6\" style=\"margin-bottom:6px;margin-left:10px;"+dplay+"\"><tobdy>";
 		fhtml += "<tr bgcolor=\"#F4F9DD\">\r\n";
-		fhtml += "<td height=\"25\" colspan=\"2\">¡¡<strong>Í¼Æ¬"+startNum+"£º</strong></td>";
+		fhtml += "<td height=\"25\" colspan=\"2\">ã€€<strong>å›¾ç‰‡"+startNum+"ï¼š</strong></td>";
 		fhtml += "</tr>";
 		fhtml += "<tr bgcolor=\"#FFFFFF\"> ";
-		fhtml += "<td width=\"429\" height=\"25\"> ¡¡±¾µØÉÏ´«£º ";
+		fhtml += "<td width=\"429\" height=\"25\"> ã€€æœ¬åœ°ä¸Šä¼ ï¼š ";
 		fhtml += "<input type=\"file\" name='imgfile"+startNum+"' style=\"width:330px\"  onChange=\"SeePic('divpicview"+startNum+"',this);\"></td>";
 		fhtml += "<td width=\"164\" rowspan=\"3\" align=\"center\"><div id='divpicview"+startNum+"' class='divpre'></div></td>";
 		fhtml += "</tr>";
 		fhtml += "<tr bgcolor=\"#FFFFFF\"> ";
-		fhtml += "<td height=\"25\"> ¡¡Ö¸¶¨ÍøÖ·£º ";
+		fhtml += "<td height=\"25\"> ã€€æŒ‡å®šç½‘å€ï¼š ";
 		fhtml += "<input type=\"text\" name='imgurl"+startNum+"' style=\"width:260px\"> ";
-		fhtml += "<input type=\"button\" name='selpic"+startNum+"' value=\"Ñ¡È¡\" style=\"width:65px\" class=\"inputbut\" onClick=\"SelectImageN('form1.imgurl"+startNum+"','big','picview"+startNum+"')\">";
+		fhtml += "<input type=\"button\" name='selpic"+startNum+"' value=\"é€‰å–\" style=\"width:65px\" class=\"inputbut\" onClick=\"SelectImageN('form1.imgurl"+startNum+"','big','picview"+startNum+"')\">";
 		fhtml += "</td></tr>";
 		fhtml += "<tr bgcolor=\"#FFFFFF\"> ";
-		fhtml += "<td height=\"56\">¡¡Í¼Æ¬¼ò½é£º ";
+		fhtml += "<td height=\"56\">ã€€å›¾ç‰‡ç®€ä»‹ï¼š ";
 		fhtml += "<textarea name='imgmsg"+startNum+"' style=\"height:46px;width:330px\"></textarea> </td>";
 		fhtml += "</tr></tobdy></table>\r\n";
 		upfield.innerHTML += fhtml;
@@ -102,7 +102,7 @@ function checkMuList(psid,cmid)
 	}
 }
 
-//Í¼¼¯£¬ÏÔÊ¾ÓëÒş²ØzipÎÄ¼şÑ¡Ïî
+//å›¾é›†ï¼Œæ˜¾ç¤ºä¸éšè—zipæ–‡ä»¶é€‰é¡¹
 function ShowZipField(formitem,zipid,upid)
 {
 	if(formitem.checked){
@@ -118,11 +118,11 @@ function ShowZipField(formitem,zipid,upid)
 	}
 }
 
-//Í¼¼¯£¬ÏÔÊ¾ÓëÒş²ØHtml±à¼­¿ò
+//å›¾é›†ï¼Œæ˜¾ç¤ºä¸éšè—Htmlç¼–è¾‘æ¡†
 function ShowHtmlField(formitem,htmlid,upid)
 {
 	if($Nav()!="IE"){
-		alert("¸Ã·½·¨²»ÊÊÓÃÓÚ·ÇIEä¯ÀÀÆ÷£¡");
+		alert("è¯¥æ–¹æ³•ä¸é€‚ç”¨äºéIEæµè§ˆå™¨ï¼");
 		return ;
 	}
 	if(formitem.checked){

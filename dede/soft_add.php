@@ -93,6 +93,8 @@ else if($dopost=='save')
 	$keywords = cn_substrR($keywords,30);
 	$filename = trim(cn_substrR($filename,40));
 	$userip = GetIP();
+	$softpath = htmlentities($_POST['softurl1']);
+	$usedoc   = htmlentities($_POST['usedoc']);
 	if(!TestPurview('a_Check,a_AccCheck,a_MyCheck'))
 	{
 		$arcrank = -1;
@@ -113,10 +115,8 @@ else if($dopost=='save')
 		ShowMsg("无法获得主键，因此无法进行后续操作！","-1");
 		exit();
 	}
-
 	//处理body字段自动摘要、自动提取缩略图等
 	$body = AnalyseHtmlBody($body,$description,$litpic,$keywords,'htmltext');
-
 	//分析处理附加表数据
 	$inadd_f = '';
 	$inadd_v = '';
@@ -155,7 +155,7 @@ else if($dopost=='save')
 			}
 		}
 	}
-
+	
 	//处理图片文档的自定义属性
 	if($litpic!='' && !ereg('p',$flag))
 	{
@@ -165,7 +165,6 @@ else if($dopost=='save')
 	{
 		$flag = ($flag=='' ? 'j' : $flag.',j');
 	}
-
 	//保存到主表
 	$inQuery = "INSERT INTO `#@__archives`(id,typeid,typeid2,sortrank,flag,ismake,channel,arcrank,click,money,title,shorttitle,
     color,writer,source,litpic,pubdate,senddate,mid,description,keywords,filename)
@@ -178,7 +177,6 @@ else if($dopost=='save')
 		ShowMsg("把数据保存到数据库主表 `#@__archives` 时出错，请把相关信息提交给DedeCms官方。".str_replace('"','',$gerr),"javascript:;");
 		exit();
 	}
-
 	//软件链接列表
 	$softurl1 = stripslashes($softurl1);
 	$urls = '';
@@ -201,7 +199,7 @@ else if($dopost=='save')
 	}
 	$urls = addslashes($urls);
 	$softsize = $softsize.$unit;
-
+	
 	//保存到附加表
 	$cts = $dsql->GetOne("Select addtable From `#@__channeltype` where id='$channelid' ");
 	$addtable = trim($cts['addtable']);
@@ -215,9 +213,10 @@ else if($dopost=='save')
 	$daccess = isset($daccess) && is_numeric($daccess) ? $daccess : 0;
 	$useip = GetIP();
 	$inQuery = "INSERT INTO `$addtable`(aid,typeid,redirecturl,userip,filetype,language,softtype,accredit,
-    os,softrank,officialUrl,officialDemo,softsize,softlinks,introduce,daccess{$inadd_f})
+    os,softrank,officialUrl,officialDemo,softsize,softlinks,introduce,daccess{$inadd_f},softpath,usedoc)
     VALUES ('$arcID','$typeid','$redirecturl','$useip','$filetype','$language','$softtype','$accredit',
-    '$os','$softrank','$officialUrl','$officialDemo','$softsize','$urls','$body','$daccess'{$inadd_v});";
+    '$os','$softrank','$officialUrl','$officialDemo','$softsize','$urls','$body','$daccess'{$inadd_v},'$softpath','$usedoc');";
+	
 	if(!$dsql->ExecuteNoneQuery($inQuery))
 	{
 		$gerr = $dsql->GetError();
@@ -226,7 +225,7 @@ else if($dopost=='save')
 		ShowMsg("把数据保存到数据库附加表 `{$addtable}` 时出错，请把相关信息提交给DedeCms官方。".str_replace('"','',$gerr),"javascript:;");
 		exit();
 	}
-
+	
 	//生成HTML
 	InsertTags($tags,$arcID);
 	$arcUrl = MakeArt($arcID,true,true);
@@ -256,6 +255,7 @@ else if($dopost=='save')
 	$win->AddMsgItem($msg);
 	$winform = $win->GetWindow("hand","&nbsp;",false);
 	CheckPurview('sys_ArcBatch');
+	//更新文章缓存
 	$dsql->ExecuteNoneQuery("Delete From `#@__arccache`");
 	$win->Display();
 }

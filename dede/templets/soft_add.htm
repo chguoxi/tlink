@@ -5,6 +5,9 @@
 <style type="text/css">
 <!--
 body { background-image: url(img/allbg.gif); }
+.hidden-field {
+	display:none;
+}
 -->
 </style>
 <link href="img/base.css" rel="stylesheet" type="text/css">
@@ -94,7 +97,6 @@ function ShowHideAddr()
     </tr>
   </table>
 
-
   <table width="98%" border="0" cellspacing="0" cellpadding="0" align="center">
     <tr>
       <td height="2"></td>
@@ -106,14 +108,14 @@ function ShowHideAddr()
         <tr>
           <td width="90">&nbsp;软件名称：</td>
           <td width='408'><input name="title" type="text" id="title" style="width:388px">          </td>
-          <td width="90">&nbsp;简略标题：</td>
+          <td width="90" >&nbsp;简略标题：</td>
           <td><input name="shorttitle" type="text" id="shorttitle" style="width:150px">          </td>
         </tr>
       </table></td>
     </tr>
     <tr>
       <td width="400%" height="24"  class="bline"><table width="800" border="0" cellspacing="0" cellpadding="0">
-        <tr>
+        <tr class="hidden-field">
           <td width="90">&nbsp;自定义属性：</td>
           <td><?php
           $dsql->SetQuery("Select * From `#@__arcatt` order by sortid asc");
@@ -129,7 +131,7 @@ function ShowHideAddr()
         </tr>
       </table></td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td height="24"  class="bline" id="redirecturltr" style="display:none">
 	   <table width="800" border="0" cellspacing="0" cellpadding="0">
           <tr>
@@ -141,7 +143,7 @@ function ShowHideAddr()
        </table>
        </td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td width="400%" height="24" class="bline">
       	<table width="800" border="0" cellspacing="0" cellpadding="0">
         <tr>
@@ -153,7 +155,7 @@ function ShowHideAddr()
       </table>
       </td>
     </tr>
-    <tr id="pictable">
+    <tr id="pictable" class="hidden-field">
       <td height="24"  class="bline"><table width="800" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="90"> &nbsp;缩 略 图：</td>
@@ -184,7 +186,7 @@ function ShowHideAddr()
         </table></td>
     </tr>
 
-    <tr>
+    <tr class="hidden-field">
       <td height="24"  class="bline"><table width="800" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="90">&nbsp;软件来源：</td>
@@ -215,7 +217,7 @@ function ShowHideAddr()
         </table>
        </td>
     </tr>
-    <tr id='typeid2tr' style='display:none'>
+    <tr id='typeid2tr'>
       <td height="24" colspan="4" class="bline">
       	<table width="800" border="0" cellspacing="0" cellpadding="0">
         <tr>
@@ -227,7 +229,7 @@ function ShowHideAddr()
         </table>
       </td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td width="400%" height="24"  class="bline">
       <table width="800" border="0" cellspacing="0" cellpadding="0">
           <tr>
@@ -252,7 +254,7 @@ function ShowHideAddr()
           </tr>
         </table></td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td height="24"  class="bline"><table width="800" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="90">&nbsp;软件类型：</td>
@@ -275,7 +277,7 @@ function ShowHideAddr()
           </tr>
         </table></td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td height="24"  class="bline"><table width="800" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="90">&nbsp;运行环境：</td>
@@ -293,7 +295,7 @@ function ShowHideAddr()
           </tr>
         </table></td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td height="24"  class="bline"><table width="800" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="90">&nbsp;官方网址：</td>
@@ -305,7 +307,7 @@ function ShowHideAddr()
           </tr>
         </table></td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td height="24"  class="bline"><table width="800" border="0" cellspacing="0" cellpadding="0">
           <tr>
             <td width="90">&nbsp;软件大小：</td>
@@ -344,8 +346,8 @@ function ShowHideAddr()
 <input name="servermsg1" type="text" id="servermsg1" value="本地下载" style="width:150px"></td>
           </tr>
           <tr>
-            <td width="90" height="35">&nbsp;</td>
-            <td>              如果您在[<a href="soft_config.php" target="_blank"><u>系统设置-&gt;软件频道设置</u></a>]中指定了镜像服务器，您只需指定本地地址，系统会自动生成镜像地址的链接。</td>
+            <td >&nbsp;</td>
+            <td></td>
           </tr>
         </table></td>
     </tr>
@@ -359,7 +361,7 @@ function ShowHideAddr()
 					<td align="left"> <input
 						type="file" name="soft" id="fileToUpload" size="35" />
 						<!-- <input type="submit" value="上传" /> -->
-						<input type="button" class="button" onclick="return ajaxFileUpload();" id="buttonUpload" value="上传" />
+						<input type="button" class="button" onclick="return ajaxFileUpload('fileToUpload','softurl1');" id="buttonUpload" value="上传" />
 						<font color="red" size="10">提示:如果上传了同名文件,系统会自动覆盖旧版本的文件</font>
 						</td>
 				</tr>
@@ -367,9 +369,33 @@ function ShowHideAddr()
 			
 		</td>
 	</tr>
-	 <tr>
+    <tr>
+      <td height="24"  bgcolor="#F1F5F2" class="bline2"><strong>&nbsp;软件使用文档：</strong></td>
+    </tr>
+	<tr>
+		<td height="90"  class="bline">
+			<table width="800" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<td width="90">&nbsp;在线地址：</td>
+					<td><input name="usedoc" type="text" id="usedoc"
+						size="35"> <input name="sel1" type="button" id="sel1"
+						value="选取" onClick="SelectSoft('form1.usedoc')">
+					</td>
+				</tr>
+				<tr>
+					<td>&nbsp;上传：</td>
+					<td><input name="usedocfile" type="file" id="usedocfile"
+						size="35"> 
+						<input type="button" class="button" onclick="return ajaxFileUpload('usedocfile','usedoc');" id="buttonUpload" value="上传" />
+					</td>
+				</tr>			
+
+			</table>
+		</td>
+	</tr>
+	 <tr class="hidden-field">
       <td height="24"  class="bline"><table width="600" border="0" cellspacing="0" cellpadding="0">
-<!--           <tr>
+          <tr>
             <td width="90">&nbsp;其它地址：</td>
             <td>
               <input name="picnum" type="text" id="picnum" size="8" value="5">
@@ -378,19 +404,19 @@ function ShowHideAddr()
               <input type="button" name="Submit3" id="btsh3" value="隐藏地址" onClick="ShowHideAddr();">
               (最多为12个链接)
 			  </td>
-          </tr> -->
+          </tr> 
         </table></td>
     </tr>
     <tr id="morelink" class="bline" style="display:none">
       <td height="24"><?php echo "<span id='uploadfield'></span>"; ?></td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td><?php PrintAutoFieldsAdd($cInfos['fieldset'],'autofield'); ?></td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td height="24"  bgcolor="#F1F5F2" class="bline2"><strong>软件详细介绍：</strong></td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td height="24"  class="bline">
         <table width="800" border="0" cellspacing="0" cellpadding="0">
           <tr>
@@ -404,7 +430,7 @@ function ShowHideAddr()
           </tr>
         </table>      </td>
     </tr>
-    <tr>
+    <tr class="hidden-field">
       <td height="100"  class="bline">
         <?php
         GetEditor("body","",250,"Default");

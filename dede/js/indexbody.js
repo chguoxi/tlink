@@ -25,10 +25,10 @@ function LoadUpdateInfos()
 
 function SkipReload(nnum)
 {
-	if( window.confirm("ºöÂÔºóÒÔºó¶¼²»»áÔÙÌáÊ¾Õâ¸öÈÕÆÚÇ°µÄÉı¼¶ĞÅÏ¢£¬ÄãÈ·¶¨ÒªºöÂÔÕâĞ©¸üĞÂÂğ?") )
+	if( window.confirm("å¿½ç•¥åä»¥åéƒ½ä¸ä¼šå†æç¤ºè¿™ä¸ªæ—¥æœŸå‰çš„å‡çº§ä¿¡æ¯ï¼Œä½ ç¡®å®šè¦å¿½ç•¥è¿™äº›æ›´æ–°å—?") )
 	{
 		DedeXHTTP = null;
-		$DE('updateinfos').innerHTML = "<img src='img/loadinglit.gif' /> ÕıÔÚ´¦ÀíÖĞ...";
+		$DE('updateinfos').innerHTML = "<img src='img/loadinglit.gif' /> æ­£åœ¨å¤„ç†ä¸­...";
 		var myajax = new DedeAjax($DE('updateinfos'));
 		myajax.SendGet('update_guide.php?dopost=skip&vtime='+nnum);
 	}

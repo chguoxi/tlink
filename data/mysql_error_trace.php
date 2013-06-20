@@ -550,3 +550,1068 @@ Page: /plus/list.php?tid=5
 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==32   limit 0,8' at line 1 <br />Error sql: <font color='red'>Select * From dede_arctype  where reid==32   limit 0,8</font>
 */
 ?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addonarticle
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonarticle' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonarticle</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addoninfos
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addoninfos' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addoninfos</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addonarticle
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonarticle' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonarticle</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addonarticle
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonarticle' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonarticle</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addoninfos
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addoninfos' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addoninfos</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addonarticle
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonarticle' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonarticle</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addoninfos
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addoninfos' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addoninfos</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addoninfos
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addoninfos' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addoninfos</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addonarticle
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonarticle' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonarticle</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addonarticle
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonarticle' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonarticle</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php?dopost=viewinfo&tablename=dede_addonarticle
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8·.dede_addonarticle' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE ·tlink-utf8·.dede_addonarticle</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonarticle' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonarticle</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonimages' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonimages</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addoninfos' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addoninfos</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonshop' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonshop</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonsoft' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonsoft</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonspec' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonspec</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_admin' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_admin</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_admintype' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_admintype</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_advancedsearch' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_advancedsearch</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_arcatt' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_arcatt</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_arccache' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_arccache</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_archives' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_archives</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_arcrank' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_arcrank</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_arctiny' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_arctiny</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_arctype' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_arctype</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_area' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_area</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_channeltype' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_channeltype</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_co_htmls' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_co_htmls</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_co_mediaurls' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_co_mediaurls</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_co_note' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_co_note</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_co_onepage' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_co_onepage</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_co_urls' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_co_urls</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_diyforms' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_diyforms</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_downloads' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_downloads</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_erradd' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_erradd</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_feedback' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_feedback</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_flink' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_flink</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_flinktype' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_flinktype</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_freelist' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_freelist</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_guestbook' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_guestbook</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_homepageset' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_homepageset</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_keywords' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_keywords</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_log' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_log</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_archives' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_archives</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_company' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_company</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_flink' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_flink</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_friends' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_friends</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_guestbook' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_guestbook</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_operation' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_operation</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_person' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_person</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_pms' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_pms</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_space' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_space</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_stow' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_stow</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_time' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_time</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_tj' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_tj</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_type' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_type</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_vhistory' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_vhistory</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_moneycard_record' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_moneycard_record</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_moneycard_type' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_moneycard_type</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_mtypes' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_mtypes</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_myad' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_myad</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_mytag' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_mytag</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_plus' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_plus</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_pwd_tmp' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_pwd_tmp</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_ratings' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_ratings</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_scores' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_scores</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_search_cache' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_search_cache</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_search_keywords' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_search_keywords</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_sgpage' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_sgpage</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_shops_delivery' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_shops_delivery</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_shops_orders' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_shops_orders</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_shops_paytype' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_shops_paytype</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_shops_products' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_shops_products</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_shops_userinfo' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_shops_userinfo</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_softconfig' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_softconfig</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_stepselect' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_stepselect</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_sys_enum' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_sys_enum</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_sys_module' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_sys_module</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_sys_set' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_sys_set</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_sysconfig' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_sysconfig</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_tagindex' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_tagindex</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_taglist' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_taglist</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_uploads' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_uploads</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_verifies' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_verifies</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_vote' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_vote</font>
+*/
+?>
+<?php
+/*
+Page: /plus/list.php?tid=5
+Error: Table 'tlink-utf8.dede_arctype' doesn't exist <br />Error sql: <font color='red'>Select ch.issystem From `dede_arctype` tp left join `dede_channeltype` ch on ch.id=tp.channeltype where tp.id='5' limit 0,1;</font>
+*/
+?>
+<?php
+/*
+Page: /plus/list.php?tid=5
+Error: Table 'tlink-utf8.dede_arctype' doesn't exist <br />Error sql: <font color='red'>Select tp.*,ch.typename as ctypename,ch.addtable,ch.issystem From `dede_arctype` tp left join `dede_channeltype` ch
+		on ch.id=tp.channeltype  where tp.id='5' limit 0,1;</font>
+*/
+?>
+<?php
+/*
+Page: /plus/list.php?tid=5
+Error: Table 'tlink-utf8.dede_arctype' doesn't exist <br />Error sql: <font color='red'>Select ch.issystem From `dede_arctype` tp left join `dede_channeltype` ch on ch.id=tp.channeltype where tp.id='5' limit 0,1;</font>
+*/
+?>
+<?php
+/*
+Page: /plus/list.php?tid=5
+Error: Table 'tlink-utf8.dede_arctype' doesn't exist <br />Error sql: <font color='red'>Select tp.*,ch.typename as ctypename,ch.addtable,ch.issystem From `dede_arctype` tp left join `dede_channeltype` ch
+		on ch.id=tp.channeltype  where tp.id='5' limit 0,1;</font>
+*/
+?>
+<?php
+/*
+Page: /plus/list.php?tid=5
+Error: Table 'tlink-utf8.dede_arctype' doesn't exist <br />Error sql: <font color='red'>Select ch.issystem From `dede_arctype` tp left join `dede_channeltype` ch on ch.id=tp.channeltype where tp.id='5' limit 0,1;</font>
+*/
+?>
+<?php
+/*
+Page: /plus/list.php?tid=5
+Error: Table 'tlink-utf8.dede_arctype' doesn't exist <br />Error sql: <font color='red'>Select tp.*,ch.typename as ctypename,ch.addtable,ch.issystem From `dede_arctype` tp left join `dede_channeltype` ch
+		on ch.id=tp.channeltype  where tp.id='5' limit 0,1;</font>
+*/
+?>
+<?php
+/*
+Page: /
+Error: Table 'tlink-utf8.dede_homepageset' doesn't exist <br />Error sql: <font color='red'>Select * From `dede_homepageset` limit 0,1;</font>
+*/
+?>
+<?php
+/*
+Page: /dede/
+Error: Table 'tlink-utf8.dede_channeltype' doesn't exist <br />Error sql: <font color='red'>Select id,typename,addcon,mancon From `dede_channeltype` where id<>-1 And isshow=1 order by id asc</font>
+*/
+?>
+<?php
+/*
+Page: /dede/
+Error: Table 'tlink-utf8.dede_plus' doesn't exist <br />Error sql: <font color='red'>Select * From `dede_plus` where isshow=1 order by aid asc</font>
+*/
+?>
+<?php
+/*
+Page: /dede/index_menu.php
+Error: Table 'tlink-utf8.dede_channeltype' doesn't exist <br />Error sql: <font color='red'>Select id,typename,addcon,mancon From `dede_channeltype` where id<>-1 And isshow=1 order by id asc</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonarticle' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonarticle</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonimages' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonimages</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addoninfos' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addoninfos</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonshop' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonshop</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonsoft' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonsoft</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_addonspec' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_addonspec</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_admin' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_admin</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_admintype' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_admintype</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_advancedsearch' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_advancedsearch</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_arcatt' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_arcatt</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_arccache' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_arccache</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_archives' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_archives</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_arcrank' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_arcrank</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_arctiny' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_arctiny</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_arctype' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_arctype</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_area' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_area</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_channeltype' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_channeltype</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_co_htmls' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_co_htmls</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_co_mediaurls' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_co_mediaurls</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_co_note' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_co_note</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_co_onepage' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_co_onepage</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_co_urls' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_co_urls</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_diyforms' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_diyforms</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_downloads' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_downloads</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_erradd' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_erradd</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_feedback' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_feedback</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_flink' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_flink</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_flinktype' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_flinktype</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_freelist' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_freelist</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_guestbook' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_guestbook</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_homepageset' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_homepageset</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_keywords' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_keywords</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_log' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_log</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_archives' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_archives</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_company' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_company</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_flink' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_flink</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_friends' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_friends</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_guestbook' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_guestbook</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_operation' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_operation</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_person' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_person</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_pms' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_pms</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_space' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_space</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_stow' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_stow</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_time' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_time</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_tj' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_tj</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_type' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_type</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_member_vhistory' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_member_vhistory</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_moneycard_record' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_moneycard_record</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_moneycard_type' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_moneycard_type</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_mtypes' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_mtypes</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_myad' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_myad</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_mytag' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_mytag</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_plus' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_plus</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_pwd_tmp' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_pwd_tmp</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_ratings' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_ratings</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_scores' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_scores</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_search_cache' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_search_cache</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_search_keywords' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_search_keywords</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_sgpage' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_sgpage</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_shops_delivery' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_shops_delivery</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_shops_orders' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_shops_orders</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_shops_paytype' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_shops_paytype</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_shops_products' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_shops_products</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_shops_userinfo' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_shops_userinfo</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_softconfig' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_softconfig</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_stepselect' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_stepselect</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_sys_enum' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_sys_enum</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_sys_module' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_sys_module</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_sys_set' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_sys_set</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_sysconfig' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_sysconfig</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_tagindex' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_tagindex</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_taglist' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_taglist</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_uploads' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_uploads</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_verifies' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_verifies</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data_done.php?dopost=bak
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-utf8.dede_vote' at line 1 <br />Error sql: <font color='red'>SHOW CREATE TABLE tlink-utf8.dede_vote</font>
+*/
+?>
+<?php
+/*
+Page: /index.php?upcache=1
+Error: Table 'tlink-utf8.dede_homepageset' doesn't exist <br />Error sql: <font color='red'>Select * From `dede_homepageset` limit 0,1;</font>
+*/
+?>
+<?php
+/*
+Page: /index.php?upcache=1
+Error: Table 'tlink-utf8.dede_homepageset' doesn't exist <br />Error sql: <font color='red'>Select * From `dede_homepageset` limit 0,1;</font>
+*/
+?>
+<?php
+/*
+Page: /dede/sys_data.php
+Error: Table 'tlink-utf8.dede_channeltype' doesn't exist <br />Error sql: <font color='red'>Select addtable From `dede_channeltype` </font>
+*/
+?>
+<?php
+/*
+Page: /
+Error: DedeCms错误警告：<font color='red'>连接数据库失败，可能数据库密码不对或数据库服务器出错！</font>
+*/
+?>
