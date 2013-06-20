@@ -52,7 +52,7 @@ if($dopost!='save')
 			{
 				if($ctag->GetName()=='link')
 				{
-					$nForm .= "软件地址".$newRowStart."：<input type='text' name='softurl".$newRowStart."' style='width:280' value='".trim($ctag->GetInnerText())."' />
+					$nForm .= "软件地址".$newRowStart."：<input type='text' name='softurl".$newRowStart."' id='softurl".$newRowStart."' style='width:280' value='".trim($ctag->GetInnerText())."' />
             服务器名称：<input type='text' name='servermsg".$newRowStart."' value='".$ctag->GetAtt("text")."' style='width:150' />
             ";
 					$newRowStart++;
@@ -128,6 +128,9 @@ else if($dopost=='save')
 	$description = cn_substrR($description,250);
 	$keywords = cn_substrR($keywords,30);
 	$filename = trim(cn_substrR($filename,40));
+	$softpath = htmlentities($_POST['softurl1']);
+	$usedoc   = htmlentities($_POST['usedoc']);
+	
 	if(!TestPurview('a_Check,a_AccCheck,a_MyCheck'))
 	{
 		$arcrank = -1;
@@ -252,7 +255,9 @@ else if($dopost=='save')
 	      softlinks ='$urls',
 	      introduce='$body'{$inadd_f},
 	      redirecturl='$redirecturl',
-	      userip = '$useip'
+	      userip = '$useip',
+	      softpath='$softpath',
+	      usedoc='$usedoc' 
 	      where aid='$id';";
 		if(!$dsql->ExecuteNoneQuery($inQuery))
 		{
@@ -288,6 +293,8 @@ else if($dopost=='save')
 	$win->AddTitle("成功修改软件：");
 	$win->AddMsgItem($msg);
 	$winform = $win->GetWindow("hand","&nbsp;",false);
+	//更新文章缓存
+	$dsql->ExecuteNoneQuery("Delete From `#@__arccache`");
 	$win->Display();
 }
 

@@ -103,7 +103,7 @@ function imageCut(fname) {
 	if(!fname) fname = 'picname';
 	file = document.getElementById(fname).value;
 	if(file == '') {
-		alert('ÇëÏÈÑ¡ÔñÍøÕ¾ÄÚÒÑÉÏ´«µÄÍ¼Æ¬');
+		alert('è¯·å…ˆé€‰æ‹©ç½‘ç«™å†…å·²ä¸Šä¼ çš„å›¾ç‰‡');
 		return false;
 	}
 	window.open("imagecut.php?f="+fname+"&file="+file, "popUpImagesWin", "scrollbars=yes,resizable=yes,statebar=no,width=800,height=600,left="+posLeft+", top="+posTop);

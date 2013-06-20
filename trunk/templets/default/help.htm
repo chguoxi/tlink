@@ -8,7 +8,20 @@
 <link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
 <link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
 <link href="/templets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<style>
+.indent {
+	margin-left:10px;
+	margin-bottom:50px;
+}
+ul.xiaolei a {
+    color: #54A0DE;
+}
+.artinfo {
+	margin-bottom:15px;
+}
+</style>
 </head>
+
 <body class="bg_body">
 <script type=text/javascript>
 	$(function(){
@@ -27,7 +40,7 @@
 		<div class="biaoti"><h1>技术支持</h1></div>
 		<div class="right_menu">
 		{dede:channel row='10' type='son'}
-			<a href='[field:typelink /]'>[field:typename/]</a>
+			<a href='#sub_[field:id/]'>[field:typename/]</a>
 		{/dede:channel} 
 		</div>
 		<div id="clear"></div>
@@ -37,49 +50,73 @@
 	<div>
 		<img src="/templets/images/jishu_03.gif" />
 	</div>
+	<div class="gs_content">
 	{dede:type typeid='32'}
+	<div id="sub_[field:id/]"></div>
 	<h3>[field:typename /]</h3>
 	{/dede:type}
-	<!-- 资料下载   多点触控设备驱动 -->
+	<font size="2">
+			<hr />
+	</font>	
+	<!-- 资料下载   多点触控设备驱动 -->	
 	{dede:type typeid='173'} 
-		<strong>[field:typename/]</strong>
+		<p ><i class="icon-play-circle"></i>&nbsp;<strong>[field:typename/]</strong></p>
 	{/dede:type}
 	<!-- 资料下载 多点触控设备驱动列表 -->
-	{dede:arclist typeid='173' row='10'}
-		<div><a href='[field:arcurl/]' target="_blank">[field:title/]</a></div>
-	{/dede:arclist}
-	
+	<ul class="unstyled indent xiaolei">
+	{dede:sql sql='SELECT arc.*,soft.* FROM `dede_archives` arc JOIN `dede_addonsoft` soft ON arc.id=soft.aid WHERE arc.typeid=173'}
+		<li>[field:title/]&nbsp;[field:pubdate function='strftime("%Y-%m-%d",@me)'/]
+		<a href='[field:softpath/]' target="_blank">&gt;&gt;下载</a>
+		(<a href="[field:usedoc/]">功能说明</a>)
+		</li>
+	{/dede:sql}
+
+	</ul>
 	<!-- 资料下载  Multi-touch frame diver-->
 	{dede:type typeid='174'} 
-		<strong>[field:typename/]</strong>
+		<p><i class="icon-play-circle"></i>&nbsp;<strong>[field:typename/]</strong></p>
 	{/dede:type}
 	<!-- 资料下载 Multi-touch frame diver 列表 -->
-	{dede:arclist typeid='174' row='10'}
-		<div><a href='[field:arcurl/]' target="_blank">[field:title/]</a></div>
-		
-	{/dede:arclist}
-	
+	<ul class="unstyled indent xiaolei">
+	{dede:sql sql='SELECT arc.*,soft.* FROM `dede_archives` arc JOIN `dede_addonsoft` soft ON arc.id=soft.aid WHERE arc.typeid=174'}
+		<li>[field:title/]&nbsp;[field:pubdate function='strftime("%Y-%m-%d",@me)'/]
+		<a href='[field:softpath/]' target="_blank">&gt;&gt;下载</a>
+		(<a href="[field:usedoc/]">功能说明</a>)
+		</li>
+	{/dede:sql}
+	</ul>
 	<!-- 售后服务 -->
 	<!-- 售后服务  栏目名称-->
-	{dede:type typeid='168'} 
-		<strong>[field:typename/]</strong>
+	{dede:type typeid='168'}
+		<div id="sub_[field:id/]"></div>
+		<h3>[field:typename/]</h3>
 	{/dede:type} 
+	<font size="2">
+		<hr />
+	</font>
+	
 	<!-- 售后服务内容 -->
 	{dede:arclist typeid='168' row='10'}
-		<div><a href='[field:arcurl/]' target="_blank">[field:title/]</a></div>
-		<div class="gs_content">[field:info/]</div>
-	{/dede:arclist}
+		<div><p class="lead">[field:title/]</p></div>
+		<div class="artinfo">[field:info/]</div>
+	{/dede:arclist}	
 	
 	<!-- FAQ 常见问题问答 -->
 	<!-- FAQ  栏目名称-->
-	{dede:type typeid='169'} 
-		<strong>[field:typename/]</strong>
-	{/dede:type} 
+	{dede:type typeid='169'}
+		<div id="sub_[field:id/]"></div>
+		<h3>[field:typename/]</h3>
+	{/dede:type}
+	<font size="2">
+		<hr />
+	</font>	
 	<!-- FAQ 列表 -->
 	{dede:arclist typeid='169' row='10'}
-		<div><a href='[field:arcurl/]'>[field:title/]</a></div>
-		<div class="gs_content">[field:info/]</div>
-	{/dede:arclist}	
+		<div><p class="lead">[field:title/]</p></div>
+		<div class="artinfo">[field:info/]</div>
+	{/dede:arclist}		
+	</div>
+
 	<div class="gs_bottom">
 		<img src="/templets/images/gs_bg_07.gif" />
 	</div>
