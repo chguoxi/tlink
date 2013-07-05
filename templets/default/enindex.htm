@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>TimeLink Multitotuch Surface Light Wave</title>
-<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="{dede:global.cfg_description/}" />
 <meta name="keywords" content="{dede:global.cfg_keywords/}" />
 <link href="{dede:global.cfg_templeturl/}/css/menu_top.css" rel="stylesheet" type="text/css" />
@@ -51,16 +51,16 @@
   <div class="new_neirong">
     <script>
 var marqueeContent=new Array();   //滚动主题
-{dede:arclist row='100' typeid='168' flag='h' addfields='body'  channelid='1' limit='0,1'}
+{dede:arclist row='100' typeid='145' flag='h' addfields='body'  channelid='1' limit='0,4'}
 marqueeContent[0]='<a href="[field:arcurl/]" target="_blank">+ [field:fulltitle/]</a>';
 {/dede:arclist}                  	
-{dede:arclist row='100' typeid='168' flag='h' addfields='body'  channelid='1' limit='1,1'}
+{dede:arclist row='100' typeid='145' flag='h' addfields='body'  channelid='1' limit='1,4'}
 marqueeContent[1]='<a href="[field:arcurl/]" target="_blank">+ [field:fulltitle/]</a>';
 {/dede:arclist}   
-{dede:arclist row='100' typeid='168' flag='h' addfields='body'  channelid='1' limit='2,1'}
+{dede:arclist row='100' typeid='145' flag='h' addfields='body'  channelid='1' limit='2,4'}
 marqueeContent[2]='<a href="[field:arcurl/]" target="_blank">+ [field:fulltitle/]</a>';
 {/dede:arclist}
-{dede:arclist row='100' typeid='168' flag='h' addfields='body'  channelid='1' limit='3,1'}
+{dede:arclist row='100' typeid='145' flag='h' addfields='body'  channelid='1' limit='3,4'}
 marqueeContent[3]='<a href="[field:arcurl/]" target="_blank">+ [field:fulltitle/]</a>';
 {/dede:arclist} 
 
@@ -70,7 +70,7 @@ var marqueeDelay=3000;
 var marqueeHeight=15;
 function initMarquee() {
  var str=marqueeContent[0];
- document.write('<div id=marqueeBox style="overflow:hidden;height:'+marqueeHeight+'px" onmouseover="clearInterval(marqueeInterval[0])" onmouseout="marqueeInterval[0]=setInterval(\'startMarquee()\',marqueeDelay)"><div>'+str+'</div></div>');
+ document.write('<div id=marqueeBox style="overflow:hidden;height:'+marqueeHeight+'px" onmouseover="clearInterval(marqueeInterval[0])" onmouseout="marqueeInterval[0]=setInterval(\'startMarquee()\',marqueeDelay)"><div class="slidetitle">'+str+'</div></div>');
  marqueeId++;
  marqueeInterval[0]=setInterval("startMarquee()",marqueeDelay);
  }

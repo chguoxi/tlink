@@ -50,7 +50,9 @@ ul.xiaolei a {
 	<div>
 		<img src="/templets/images/jishu_03.gif" />
 	</div>
-	<div class="gs_content container-fluid">
+	<div class="gs_content">
+	<div class="row-fluid">
+	<div class="span8">
 	{dede:type typeid='32'}
 	<div id="sub_[field:id/]"></div>
 	<h3>[field:typename /]</h3>
@@ -58,8 +60,7 @@ ul.xiaolei a {
 	<font size="2">
 			<hr />
 	</font>
-		<div class="row-fluid">
-		<div class="span8">
+
 			<!-- 资料下载   多点触控设备驱动 -->	
 			{dede:type typeid='173'} 
 				<p ><i class="icon-play-circle"></i>&nbsp;<strong>[field:typename/]</strong></p>
@@ -69,7 +70,7 @@ ul.xiaolei a {
 			{dede:sql sql='SELECT arc.*,soft.* FROM `dede_archives` arc JOIN `dede_addonsoft` soft ON arc.id=soft.aid WHERE arc.typeid=173 and arc.arcrank!=-2 order by arc.sortrank'}
 				<li>[field:title/]&nbsp;<!-- [field:pubdate function='strftime("%Y-%m-%d",@me)'/] -->
 				<a href='[field:softpath/]' target="_blank">&gt;&gt;下载</a>
-				(<a href="[field:usedoc/]">功能说明</a>)
+				[field:usedoc runphp='yes']$usedoc = @me;if(!empty($usedoc)){@me="<a href='$usedoc'>(功能说明)</a>";}[/field:usedoc]
 				</li>
 			{/dede:sql}
 		
@@ -124,7 +125,7 @@ ul.xiaolei a {
 		<div class="artinfo">
 		[field:id runphp='yes'] $aid = @me; $row = $GLOBALS['dsql']->GetOne("Select body From `dede_addonarticle` where aid='$aid' "); @me = "{$row['body']}";[/field:id]
 		</div>
-	{/dede:arclist}		
+	{/dede:arclist}
 	</div>
 
 	<div class="gs_bottom">
