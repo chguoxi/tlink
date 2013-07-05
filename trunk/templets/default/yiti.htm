@@ -59,65 +59,13 @@
 <div class="dianxing">
     <div class="dx_title"><h2>产品参数</h2></div>	
 <div class="bg_canshu">
-  <table border="1" cellspacing="0" cellpadding="0" width="750" align="center">
-    <tr>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">一体机(TA)/显示器(TM)</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">型号</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">触控接口</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">尺寸图</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">显示器(TM)配置</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">一体机(TA)配置</p></td>
-    </tr>
-  <tr>
-      <td width="71"><p align="center">TM/TA21</p></td>
-      <td width="71"><p align="center">TM2100-A0UT3</p></td>
-      <td width="71"><p align="center">USB</p></td>
-      <td width="71"><p align="center"></a"><p align="center"><a href="/uploads/soft/chicuntu/TM2100-AOUT3.pdf">立即下载</a></p></td>
-      <td width="71"><p align="center"><a href="/uploads/soft/chicuntu/TM2100-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
-      <td width="71"><p align="center">---</a></p></td>
-    </tr>
-  <tr>
-      <td width="71" bgcolor="EAEAEA"><p align="center">TM/TA32</p></td>
-      <td width="71" bgcolor="EAEAEA"><p align="center">TM3200-A0UT3</p></td>
-      <td width="71" bgcolor="EAEAEA"><p align="center">USB</p></td>
-      <td width="71" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TM3200-A0UT3.pdf">立即下载</a></p></td>
-      <td width="71" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TM3200-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
-      <td width="71" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TA3200-A0UT0V参数表1.0.pdf">点击下载</a></p></td>
-    </tr>
-    <tr>
-      <td width="71"><p align="center">TM/TA42</p></td>
-      <td width="71"><p align="center">TM4200-A0UT3</p></td>
-      <td width="70"><p align="center">USB</p></td>
-      <td width="70"><p align="center"><p align="center"><a href="/uploads/soft/chicuntu/TM4200-A0UT3.pdf">立即下载</a></p></td>
-      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/TM4200-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
-      <td width="71"><p align="center"><a href="/uploads/soft/chicuntu/TA4200-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
-    </tr>
-     <tr>
-      <td width="71"><p align="center">TM/TA55</p></td>
-      <td width="71"><p align="center">TM5500-B0UT5</p></td>
-      <td width="70"><p align="center">USB</p></td>
-      <td width="70" ><p align="center"><a href="/uploads/soft/chicuntu/TM5500-B0UT0.pdf">立即下载</a></p></td>
-      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/TM5500-B0UT0参数表V1.0.pdf">点击下载</a></p></td>
-      <td width="71"><p align="center"><a href="/uploads/soft/chicuntu/TA5500-B0UT0参数表V1.0.pdf">点击下载</a></p></td>
-    </tr>
-    <tr>
-      <td width="71" bgcolor="EAEAEA"><p align="center">TM/TA60</p></td>
-      <td width="71" bgcolor="EAEAEA"><p align="center">TM6000-A0UT5</p></td>
-      <td width="70" bgcolor="EAEAEA"><p align="center">USB</p></td>
-      <td width="70" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TM6000-A0UT0.pdf">立即下载</a></p></td>
-      <td width="70" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TM6000-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
-      <td width="71" bgcolor="EAEAEA"><p align="center"><a href="/uploads/soft/chicuntu/TA6000-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
-    </tr>
-    <tr>
-      <td width="71"><p align="center">TM/TA65</p></td>
-      <td width="71"><p align="center">TM6500-A0UT5</p></td>
-      <td width="70"><p align="center">USB</p></td>
-      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/TM6500-A0UT0.pdf">立即下载</a></p></td>
-      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/TM6500-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
-      <td width="71"><p align="center"><a href="/uploads/soft/chicuntu/TA6500-A0UT0参数表V1.0.pdf">点击下载</a></p></td>
-    </tr>
-  </table>
-  </div>
+	{dede:arclist typeid='182'}
+		<!-- <div><p class="lead timu"><a href='[field:arcurl/]'>[field:title/]</a></p></div> -->
+		<div class="artinfo">
+		[field:id runphp='yes'] $aid = @me; $row = $GLOBALS['dsql']->GetOne("Select body From `dede_addonarticle` where aid='$aid' "); @me = "{$row['body']}";[/field:id]
+		</div>
+	{/dede:arclist}
+</div>
   <div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
 </div>
 

@@ -59,47 +59,12 @@
 <div class="dianxing">
     <div class="dx_title"><h2>产品参数</h2></div>	
 <div class="bg_canshu">
-  <table border="1" cellspacing="0" cellpadding="0" width="750" align="center">
-    <tr>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">型号</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">尺寸(inch)</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">触控区域长(mm)</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">触控区域宽(mm)</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">外尺寸长(mm)</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">外尺寸宽(mm)</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">厚度(mm)</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">单边宽(mm)</p></td>
-      <td width="71" bgcolor="#CCCCCC"><p align="center">USB支持 </p></td>
-      <td width="70" bgcolor="#CCCCCC"><p align="center">COM支持 </p></td>
-      <td width="70" bgcolor="#CCCCCC"><p align="center">尺寸图 </p></td>
-    </tr>
-    <tr>
-      <td width="71"><p align="center">TN2100-B0UT3</p></td>
-      <td width="71"><p align="center">21.5</p></td>
-      <td width="71"><p align="center">478</p></td>
-      <td width="71"><p align="center">270</p></td>
-      <td width="71"><p align="center">518</p></td>
-      <td width="71"><p align="center">310</p></td>
-      <td width="71"><p align="center">5</p></td>
-      <td width="71"><p align="center">14</p></td>
-      <td width="71"><p align="center">是</p></td>
-      <td width="70"><p align="center">否</p></td>
-      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/TN2100-B0UT3.pdf">立即下载</a></p></td>
-    </tr>
-        <td width="71"><p align="center">TN2100-A0UT3</p></td>
-      <td width="71"><p align="center">21.5</p></td>
-      <td width="71"><p align="center">476</p></td>
-      <td width="71""><p align="center">267</p></td>
-      <td width="71"><p align="center">523</p></td>
-      <td width="71"><p align="center">314</p></td>
-      <td width="110"><p align="center">8<br />(含3mm玻璃）</p></td>
-      <td width="130"><p align="center">23.5<br />(含5.5mm滤光条)</p></td>
-      <td width="71" ><p align="center">是</p></td>
-      <td width="70"><p align="center">否</p></td>
-      <td width="70"><p align="center"><a href="/uploads/soft/chicuntu/TN2100-A0UT3.pdf">立即下载</a></p></td>
-    </tr>
-    </tr>
-  </table>
+	{dede:arclist typeid='183'}
+		<!-- <div><p class="lead timu"><a href='[field:arcurl/]'>[field:title/]</a></p></div> -->
+		<div class="artinfo">
+		[field:id runphp='yes'] $aid = @me; $row = $GLOBALS['dsql']->GetOne("Select body From `dede_addonarticle` where aid='$aid' "); @me = "{$row['body']}";[/field:id]
+		</div>
+	{/dede:arclist}
   </div>
   <div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
 </div>
