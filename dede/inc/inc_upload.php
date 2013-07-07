@@ -87,7 +87,7 @@ class Upload {
 	 */
 	public function get_file_info(){
 		$path = str_replace('../', '/', $this->upload_target_path);
-//  		$path = mb_convert_encoding($path, 'utf-8', 'gbk');
+//   		$path = mb_convert_encoding($path, 'gbk', 'utf-8');
 		$info = array(
 			'name'=>$this->upload_name,
 			'path'=>$path,

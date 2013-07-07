@@ -1,5 +1,6 @@
 <?php
 require_once(dirname(__FILE__)."/../include/common.inc.php");
+require_once '../route.php';
 $t1 = ExecTime();
 
 $tid = (isset($tid) && is_numeric($tid) ? $tid : 0);

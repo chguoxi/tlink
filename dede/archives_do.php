@@ -252,6 +252,8 @@ else if($dopost=="delArchives")
 				$okaids[$aid] = 1;
 			}
 		}
+		//更新文章缓存
+		$dsql->ExecuteNoneQuery("Delete From `#@__arccache`");
 		ShowMsg("成功删除指定的文档！",$ENV_GOBACK_URL);
 		exit();
 	}

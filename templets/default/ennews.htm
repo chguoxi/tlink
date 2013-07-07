@@ -10,18 +10,7 @@
 </head>
 
 <body class="bg_body">
-<SCRIPT type=text/javascript>
-	$(function(){
-		 $('#newsSlider').loopedSlider({
-		 	autoStart:3000
-			});
-		$('.validate_Slider').loopedSlider({
-			autoStart: 3000
-			});
-	$("#enter_lab").click(function(){
-	  window.location=$(this).find("a").attr("href"); return false;});
-	});
-</SCRIPT>
+
 
 <script type="text/javascript">
 function reinitIframe(){
@@ -55,21 +44,7 @@ window.setInterval("reinitIframe()", 200);
 <p>[field:description function='cn_substr(@me,200)'/]</p>
 		    {/dede:arclist}
 	    </div>
-        <div class="news">
-          <h3 class="news" style="letter-spacing:normal;">Case</h3>
-          <p>&nbsp;</p>
-          <p>{dede:arclist row='100' typeid='145' addfields='body'  channelid='1'} </p>
-          <h4 class="xin_title"><a href="[field:arcurl/]">[field:fulltitle/]</a> @ [field:pubdate function=MyDate('Y-m-d',@me)"/] </h4>
-<p>[field:description function='cn_substr(@me,200)'/]</p>
-          {/dede:arclist} </div>
-       <div class="vedio">
-	     <h3 class="news" style="letter-spacing:normal;">Video</h3>
-	        <ul class="shp_lianj">
-			  {dede:arclist row='100' typeid='147' addfields='body'  channelid='1'}
-			  <li>[field:fulltitle/]<span class="xin_title"> @ [field:pubdate function=MyDate('Y-m-d',@me)"/] </span><a href="[field:arcurl/]">&gt;&gt;Play</a></li>
-			  {/dede:arclist}
-		    </ul>
-	   </div>
+
      </div>
 <img src="/templets/images/HTnews_09.gif" width="980">
   
