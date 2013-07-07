@@ -60,7 +60,7 @@ $dh = dir($inpath);
 $ty1="";
 $ty2="";
 while($file = $dh->read()) {
-	$file = iconv('gb2312','UTF-8',$file);
+	$file = iconv('gbk','UTF-8',$file);
 	//-----计算文件大小和创建时间
 	if($file!="." && $file!=".." && !is_dir("$inpath/$file")){
 		$filesize = filesize("$inpath/$file");
@@ -102,7 +102,7 @@ while($file = $dh->read()) {
    </tr>";
 		echo "$line";
 	}
-	else if(eregi("\.(zip|rar|tgr.gz)",$file)){
+	else if(eregi("\.(zip|rar|tgr.gz|doc|pdf|xls|docs|ppt)",$file)){
 		if($file==$comeback) $lstyle = " style='color:red' ";
 		else  $lstyle = "";
 		

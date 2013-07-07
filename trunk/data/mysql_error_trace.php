@@ -1615,3 +1615,21 @@ Page: /
 Error: DedeCms错误警告：<font color='red'>连接数据库失败，可能数据库密码不对或数据库服务器出错！</font>
 */
 ?>
+<?php
+/*
+Page: /plus/list.php?tid=5
+Error: Column 'id' in where clause is ambiguous <br />Error sql: <font color='red'>Select ch.addtable,listfields From `dede_arctype` tp left join `dede_channeltype` ch on ch.id=tp.channeltype where id='168' limit 0,1;</font>
+*/
+?>
+<?php
+/*
+Page: /dede/catalog_main.php
+Error: DedeCms错误警告：<font color='red'>连接数据库失败，可能数据库密码不对或数据库服务器出错！</font>
+*/
+?>
+<?php
+/*
+Page: /dede/save_sql_data.php
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 0,1' at line 1 <br />Error sql: <font color='red'>show tables limit 0,1;</font>
+*/
+?>
