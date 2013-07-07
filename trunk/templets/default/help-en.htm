@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_TimeLink</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<style>
+.indent {
+	margin-left:10px;
+	margin-bottom:50px;
+}
+ul.xiaolei a {
+    color: #54A0DE;
+}
+.artinfo {
+	margin-bottom:15px;
+}
+</style>
+</head>
+
+<body class="bg_body">
+<SCRIPT type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</SCRIPT>
+
+{dede:include filename="enhead.htm"/}
+ 
+<div class="top_menu2">
+    <div class="biaoti">
+       <h1>Support</h1>
+  </div>
+	<div class="right_menu">
+		{dede:channel  type='son'}
+			<a href='#sub_[field:id/]'>[field:typename/]</a>
+		{/dede:channel} 
+	</div>
+	<div id="clear"></div>
+</div>
+
+<div class="gaishu">
+	<div>
+		<img src="/templets/images/jishu_03.gif" />
+	</div>
+	<div class="gs_content">
+	<div class="row-fluid">
+	<div class="span8">
+	{dede:type typeid='175'}
+	<div id="sub_[field:id/]"></div>
+	<h3>[field:typename /]</h3>
+	{/dede:type}
+	<font size="2">
+			<hr />
+	</font>
+
+		<!-- 资料下载   TimeLink Multitouch Drivers   -->	
+		{dede:type typeid='178'} 
+			<p ><i class="icon-play-circle"></i>&nbsp;<strong>[field:typename/]</strong></p>
+		{/dede:type}
+		<!-- 资料下载 多点触控设备驱动列表 -->
+		<ul class="unstyled indent xiaolei">
+		{dede:sql sql='SELECT arc.*,soft.* FROM `dede_archives` arc JOIN `dede_addonsoft` soft ON arc.id=soft.aid WHERE arc.typeid=178 and arc.arcrank!=-2'}
+			<li>[field:title/]&nbsp;<!-- [field:pubdate function='strftime("%Y-%m-%d",@me)'/] -->
+			<a href='[field:softpath/]' target="_blank">&gt;&gt;download</a>
+			[field:usedoc runphp='yes']$usedoc = @me;if(!empty($usedoc)){@me="<a href='$usedoc'>(function)</a>";}[/field:usedoc]
+			</li>
+		{/dede:sql}
+	
+		</ul>
+		<!-- 资料下载 TimeLink Cloudborad Drivers-->
+		{dede:type typeid='179'} 
+			<p><i class="icon-play-circle"></i>&nbsp;<strong>[field:typename/]</strong></p>
+		{/dede:type}
+		<!-- 资料下载 Multi-touch frame diver 列表 -->
+		<ul class="unstyled indent xiaolei">
+		{dede:sql sql='SELECT arc.*,soft.* FROM `dede_archives` arc JOIN `dede_addonsoft` soft ON arc.id=soft.aid WHERE arc.typeid=179 and arc.arcrank!=-2 order by arc.sortrank'}
+			<li>[field:title/]&nbsp;<!-- [field:pubdate function='strftime("%Y-%m-%d",@me)'/] -->
+			<a href='[field:softpath/]' target="_blank">&gt;&gt;download</a>
+			[field:usedoc runphp='yes']$usedoc = @me;if(!empty($usedoc)){@me="<a href='$usedoc'>(function)</a>";}[/field:usedoc]
+			</li>
+		{/dede:sql}
+		</ul>
+		
+		<!-- 资料下载 Multitouch App Downloads-->
+		{dede:type typeid='180'} 
+			<p><i class="icon-play-circle"></i>&nbsp;<strong>[field:typename/]</strong></p>
+		{/dede:type}
+		<!-- 资料下载 Multi-touch frame diver 列表 -->
+		<ul class="unstyled indent xiaolei">
+		{dede:sql sql='SELECT arc.*,soft.* FROM `dede_archives` arc JOIN `dede_addonsoft` soft ON arc.id=soft.aid WHERE arc.typeid=180 order by arc.sortrank'}
+			<li>[field:title/]&nbsp;<!-- [field:pubdate function='strftime("%Y-%m-%d",@me)'/] -->
+			<a href='[field:softpath/]' target="_blank">&gt;&gt;download</a>
+			[field:usedoc runphp='yes']$usedoc = @me;if(!empty($usedoc)){@me="<a href='$usedoc'>(function)</a>";}[/field:usedoc]
+			</li>
+		{/dede:sql}
+		</ul>		
+		</div>
+		<div class="span4">
+			<!-- 售后服务 sevvice-->
+			<!-- 售后服务  栏目名称-->
+			{dede:type typeid='176'}
+				<div id="sub_[field:id/]"></div>
+				<!-- <h3>[field:typename/]</h3> -->
+			{/dede:type} 
+			
+			<!-- 售后服务内容 -->
+			{dede:arclist typeid='176' row='10'}
+				<!-- <div><p class="lead">[field:title/]</p></div> -->
+				<div class="artinfo">
+					[field:id runphp='yes'] $aid = @me; $row = $GLOBALS['dsql']->GetOne("Select body From `dede_addonarticle` where aid='$aid' "); @me = "{$row['body']}";[/field:id]				
+				</div>
+			{/dede:arclist}		
+		</div>
+	</div>
+	
+	<!-- FAQ 常见问题问答 -->
+	<!-- FAQ  栏目名称-->
+	{dede:type typeid='177'}
+		<div id="sub_[field:id/]"></div>
+		<h3>[field:typename/]</h3>
+	{/dede:type}
+	<font size="2">
+		<hr />
+	</font>	
+	<!-- FAQ 列表 -->
+	{dede:arclist typeid='177' row='10'}
+		<!-- <div><p class="lead timu">[field:title/]</p></div> -->
+		<div class="artinfo">
+		[field:id runphp='yes'] $aid = @me; $row = $GLOBALS['dsql']->GetOne("Select body From `dede_addonarticle` where aid='$aid' "); @me = "{$row['body']}";[/field:id]
+		</div>
+	{/dede:arclist}		
+	</div>
+
+	<div class="gs_bottom">
+		<img src="/templets/images/gs_bg_07.gif" />
+	</div>
+</div>
+
+<div class="bt_nav">
+ <a href="/"><img src="/templets/images/td_ms_25.gif"></a>
+ <div class="bt_rightnav"><p><a href="#">Support</a></p></div>
+ <div id="clear"></div>
+</div>
+
+{dede:include filename="enfooter.htm"/}
+</body>
+</html>

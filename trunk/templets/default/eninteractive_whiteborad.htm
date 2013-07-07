@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_TimeLink</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/xixi.css" type=text/css rel=stylesheet />
+<script src="/templets/js/jquery.min.js" type=text/javascript></script>
+<script src="/templets/js/loopedslider.min.js" type=text/javascript></script>
+</head>
+<body class="bg_body">
+<script type=text/javascript>
+	$(function(){
+		 $('#newsSlider').loopedSlider({
+		 	autoStart:3000
+			});
+		$('.validate_Slider').loopedSlider({
+			autoStart: 3000
+			});
+	$("#enter_lab").click(function(){
+	  window.location=$(this).find("a").attr("href"); return false;});
+	});
+</script>
+{dede:include filename="enhead.htm"/}
+<div class="top_menu2">
+    <div class="biaoti">
+      <!--  <h1>Multi-Touch Screen</h1> -->
+  </div> 
+	<div class="ensub_menu">
+	   <a href="/plus/list.php?tid=187">Multi-touch Screen</a> |
+	   <a href="/plus/list.php?tid=189">Multi-touch Monitor</a> |
+	   <a href="/plus/list.php?tid=140">Multi-touch All-in-one</a> |
+	   <a href="/plus/list.php?tid=191"><strong>Interactive Whiteborad</strong></a> |
+	   <a href="/plus/list.php?tid=192">Others</a> 
+	</div>
+	<div id="clear"></div>
+</div>
+
+<!-- banner切换 -->
+<div id="banner">
+  <div id=newsSlider>
+  <div class=container>
+    <ul class=slides>
+	 {dede:arclist row='100' typeid='206'} 
+	 <li><IMG src="[field:litpic/]"></li>
+	 {/dede:arclist}
+    </ul>
+  </div>
+    <ul class=pagination>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+   </ul>
+  </div>
+</div>
+<!-- banenr切换结束 -->
+<div class="dianxing">
+    <div class="dx_title"><h2>Product parameter</h2></div>	
+<div class="bg_canshu">
+	{dede:arclist typeid='207'}
+		<!-- <div><p class="lead timu"><a href='[field:arcurl/]'>[field:title/]</a></p></div> -->
+		<div class="artinfo">
+		[field:id runphp='yes'] $aid = @me; $row = $GLOBALS['dsql']->GetOne("Select body From `dede_addonarticle` where aid='$aid' "); @me = "{$row['body']}";[/field:id]
+		</div>
+	{/dede:arclist}
+	</div>
+	<div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+
+<div class="dianxing">
+    <div class="dx_title"><h2>Model application</h2></div>
+	{dede:arclist row='100' typeid='210'} 
+	<div class="dx_anli">
+	    <div class="dx_sm">
+		   <h4>[field:title/]</h4>
+		   <p>[field:description/]</p>
+		</div>
+		<div class="dx_pic"><img src="[field:litpic/]"></div>
+		<div id="clear"></div>
+	</div>
+	<div class="jianxi"><img src="/templets/images/chukp_09.gif"></div>
+	  {/dede:arclist}
+	<div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+</div>
+{dede:include filename="enfooter.htm"/}
+</body>
+</html>
