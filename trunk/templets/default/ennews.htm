@@ -26,34 +26,31 @@ window.setInterval("reinitIframe()", 200);
  
 <div class="top_menu2">
     <div class="biaoti">
-       <h1>Hot News</h1>
+       <h1>News</h1>
   </div>
-	<div class="right_menu">
-<!-- 		{dede:channel row='144' type='son'}
-			<a href='#sub_[field:id/]'>[field:typename/]</a>
-		{/dede:channel}     -->
-	</div>
+
 	<div id="clear"></div>
 </div>
 
-<div class="dianxing"> <img src="/templets/images/HTnews_03.gif" width="981">
+<div class="dianxing"> 
      <div class="midd">
-        <div class="news"><h3 class="news" style="letter-spacing:normal;">News</h3>
 	        {dede:arclist row='100' typeid='145' addfields='body'  channelid='1'}        
 		    <h4 class="xin_title"><a href="[field:arcurl/]">[field:fulltitle/] @ </a>[field:pubdate function="MyDate('Y-m-d',@me)"/] </h4>
 <p>[field:description function='cn_substr(@me,200)'/]</p>
 		    {/dede:arclist}
 	    </div>
-
+<img src="/templets/images/HTnews_09.gif" width="980" />
      </div>
-<img src="/templets/images/HTnews_09.gif" width="980">
+
   
   <div id="clear"></div>
 </div>
 
 <div class="bt_nav">
- <a href="/"><img src="/templets/images/td_ms_25.gif"></a>
- <div class="bt_rightnav"><p><a href="#">Hot News</a></p></div>
+ <a href="/">
+<img src="/templets/images/td_ms_25.gif" />
+</a>
+ <div class="bt_rightnav"><p><a href="#">News</a></p></div>
  <div id="clear"></div>
 </div>
 
