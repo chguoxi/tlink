@@ -1,6 +1,6 @@
 /* CSS Document */
 
-/* 常用样式css */
+/* 甯哥敤鏍峰紡css */
 .ted_style{font-size:14px; line-height:24px; padding:10px 0 10px 5px;}
 .ted_style2{font-size:13px; line-height:21px; padding:10px 0 10px 5px;}
 .txt_style1{font-size:13px; line-height:23px;}
@@ -9,8 +9,10 @@
 .left{float:left}
 .right{float:right}
 
-
-/* 首页css */
+.header {margin:0 auto 0 auto;text-align:right;width:980px;padding:6px 0px 0px 0px;border:0px solid #ccc;background-color:#FFFFFF;}
+.logo {float:left;}
+.lang {margin-top:68px;}
+/* 棣栭〉css */
 .txt_center{text-align:center;}
 #top_menu{width:980px; height:60px; margin:0 auto;}
 #banner{width:980px; height:565px; padding:0; margin:0 auto;}
@@ -33,8 +35,8 @@
 #footer_01 a:hover{text-decoration:underline;}
 #copy_right{width:980px; padding-bottom:20px; margin: 0 auto; text-align:center;}
 
-/* 表面光波触控技术页面css */
-.bg_body{ background-color:#EFEFEF;}
+/* 琛ㄩ潰鍏夋尝瑙︽帶鎶�湳椤甸潰css */
+.bg_body{/*  background-color:#EFEFEF; */ }
 .top_menu2{width:980px; margin:15px auto 3px;}
 .biaoti{float:left; width:auto;}
 .top_menu2 h1{padding-left:20px; padding-bottom:0; line-height:1.6em; float:left;}
@@ -65,13 +67,13 @@ table td{padding:3px; 10px;}
 .db_neirong{background:url(../images/td_ms_20.gif); padding:15px 40px; line-height:22px; }
 .db_bottom{padding-bottom:10px;}
 
-/* 带logo的底部栏css */
+/* 甯ogo鐨勫簳閮ㄦ爮css */
 .bt_nav{width:980px; margin:31px auto 0; padding:0;}
 .bt_nav img{float:left;}
 .bt_rightnav{float:left; background:url(../images/td_ms_26.gif) no-repeat 0 0; width:932px; height:36px;}
 .bt_rightnav p{ padding:12px 0 0 10px;}
 
-/* 触控屏css */
+/* 瑙︽帶灞廲ss */
 .dianxing{width:980px; margin:10px auto 0;}
 .dx_title{background:url(../images/chukp_03.gif) no-repeat 0 0; width:980px; height:55px;}
 .dx_title h2{padding:16px 0 0 25px;}
@@ -83,7 +85,7 @@ table td{padding:3px; 10px;}
 .dx_sm p{line-height:22px;}
 .dx_pic img{margin-right:1px;}
 
-/* 技术支持css */
+/* 鎶�湳鏀寔css */
 hr{height:1px;border-top:1px solid #CACACA;}
 .zhc_left{float:left; width:560px; margin-right:40px;overflow:hidden;}
 .zhc_right{float:right; width:249px; height:250px; background:url(../images/jishu_07.gif) no-repeat 0 0; padding-top:139px; padding-left:30px;overflow:hidden;}
@@ -110,16 +112,16 @@ p.fuwu a{color:#79B95B; font-weight:700;}
 
 
 
-/* 招聘css */
+/* 鎷涜仒css */
 .left_part{width:245px;float:left; margin-left:29px; display:inline;}
 .right_part{width:450px; margin-left:30px; margin-top:20px; float:left;}
 .left_part li a{display:block; width:194px; height:17px; padding:10px 20px 10px 30px; border-right:1px solid #E4E4E4; background:url(../images/zhaopin_12.gif);}
 .left_part li a:hover{background:url(../images/zhaopin_10.gif);}
 
-/* 热点新闻css */
+/* 鐑偣鏂伴椈css */
 .HT_left{float:left; width:734px;}
 .HT_right{float:left; width:229px; margin-left:15px;}
-.midd{background:url(../images/xinw_bg_09.gif); padding:0 41px 0 48px; line-height:22px;}
+.midd{background:url(../images/xinw_bg_09.gif); padding:10px 41px 0 48px; line-height:22px;}
 h3.news{background:url(../images/HTnews_06.gif) no-repeat 0 0; width:610px; height:27px; text-align:left; padding:20px 0 0 35px; letter-spacing:1.2em}
 .xin_title{margin:30px 0 7px 0; font-size:13px; font-weight:700; }
 .vedio{margin-top:20px;}
@@ -129,12 +131,12 @@ h3.news{background:url(../images/HTnews_06.gif) no-repeat 0 0; width:610px; heig
 .left_title{text-align:left; padding:5px 0 4px 20px; color:#FFFFFF; font-size:13px; background:url(../images/zixun_05.gif) no-repeat;}
 .right_article{padding:12px; line-height:21px; background:url(../images/anlizs_03.gif);}
 
-/* 合作伙伴css */
+/* 鍚堜綔浼欎即css */
 .huoban{width:880px; text-align:center; padding-top:20px;}
 .huoban li{float:left; display:block; width:198px; margin-right:40px; margin-left:30px; margin-bottom:50px; overflow:hidden;}
 .HB_banner{margin-bottom:20px;}
 
-/* 规格技术css */
+/* 瑙勬牸鎶�湳css */
 .guige_js1{padding:10px 34px; background:url(../images/gs_bg_05.gif);}
 .prd_pic{float:left;width:690px; overflow:hidden; margin-right:13px;}
 .prd_load{float:left;width:207px; overflow:hidden;}
@@ -145,7 +147,7 @@ h3.news{background:url(../images/HTnews_06.gif) no-repeat 0 0; width:610px; heig
 .prd_vedio{float:left; width:497px; margin-left:45px;}
 .guige_banner{margin-bottom:20px;}
 
-/* 驱动升级css */
+/* 椹卞姩鍗囩骇css */
 .qd_loadytj{background:url(../images/ytj_sj.jpg) no-repeat bottom right;}
 .qd_loadmozu{background:url(../images/OEMsj.jpg) no-repeat bottom right;}
 .qd_loadchkp{background:url(../images/chukpdd.jpg) no-repeat bottom right;}
@@ -154,7 +156,7 @@ h3.news{background:url(../images/HTnews_06.gif) no-repeat 0 0; width:610px; heig
 .news_content p{line-height:23px; font-size:13px;}
 .news_content img{margin:15px;}
 
-/* 视频css */
+/* 瑙嗛css */
 #ship_bg{width:980px; height:153px; margin:0 auto 10px; background:url(../images/ship_06.gif) no-repeat; text-align:center;}
 #shuom{float:left; width:293px; margin:26px 33px 0 20px; display:inline;}
 #film{float:left; width:581px; margin-top:26px;}
@@ -235,10 +237,14 @@ h3.news{background:url(../images/HTnews_06.gif) no-repeat 0 0; width:610px; heig
 }
 .ensub_menu {
 	float: right;
-    font-size: 13px;
+    font-size: 12px;
     margin-top: 16px;
    /*  width: 650px; */
 }
+.ensub_menu a {
+	font-family:"Aria",Georgia,Serif;
+}
+
 .new_neirong { width:300px;}
 .new_neirong ul li{ list-style:none; display:block; padding-bottom:1px; margin-bottom:5px; }
 .new_neirong .thumbnail { float:left; width:110px; }
