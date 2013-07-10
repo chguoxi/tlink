@@ -23,7 +23,17 @@ iframe.height =  iframe.contentWindow.document.documentElement.scrollHeight;
 window.setInterval("reinitIframe()", 200);
 </script>
 {dede:include filename="enhead.htm"/}
- 
+   <div id="enmenu_top" style="margin-top:5px;">
+ <ul>
+ 	<li><a href="/plus/list.php?tid=148">Home</a></li>
+ 	<li><a href="/plus/list.php?tid=138" style="width:130px"><b>Surface Light Wave</b></a></li>
+ 	<li><a href="/plus/list.php?tid=187">Products</a></li>
+ 	<li><a href="/plus/list.php?tid=188">Solutions</a></li>
+ 	<li><a href="/plus/list.php?tid=142">Support</a></li>
+ 	<li class="menu_top_active"><a href="/plus/list.php?tid=144">News</a></li>
+ 	<li><a href="/plus/list.php?tid=143">About Us</a></li>
+ </ul>
+ </div>
 <div class="top_menu2">
     <div class="biaoti">
        <h1>News</h1>
@@ -32,8 +42,10 @@ window.setInterval("reinitIframe()", 200);
 	<div id="clear"></div>
 </div>
 
-<div class="dianxing"> 
+<div class="dianxing">
+<img src="/templets/images/HTnews_03.gif" width="980">
      <div class="midd">
+     		
 	        {dede:arclist row='100' typeid='145' addfields='body'  channelid='1'}        
 		    <h4 class="xin_title"><a href="[field:arcurl/]">[field:fulltitle/] @ </a>[field:pubdate function="MyDate('Y-m-d',@me)"/] </h4>
 <p>[field:description function='cn_substr(@me,200)'/]</p>
