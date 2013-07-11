@@ -13,7 +13,7 @@ a:hover{color:#0284E2}
 /* 导航栏css */
 #enmenu_top{width:980px; height:36px; background:url(../images/enmenu_bg_03.jpg) no-repeat 0 0; margin:20px auto;}
 #enmenu_top li{display:block; width:140px; height:36px; float:left;list-style:none;}
-#enmenu_top a{ display:block; font-size:12px; width:60px; margin:8px auto 0 auto; font-weight:bold; font-family:"Aria",Georgia,Serif;}
+#enmenu_top a{ display:block; font-size:14px; width:70px; margin:8px auto 0 auto; font-weight:bold; font-family:"Aria",Georgia,Serif;}
 #menu_top{width:980px; height:36px; background:url(../images/menu_bg_03.gif) no-repeat 0 0; margin:20px auto;}
 #menu_top a.menu_jg01{display:block; width:130px; height:36px; float:left;}
 #menu_top a:hover.menu_jg01{background:url(../images/menu_bg2_03.gif) no-repeat 0 0; display:block; width:130px; height:36px;}
