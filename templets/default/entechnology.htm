@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_TimeLink</title>
+<meta name="keywords" content="{dede:field name=’keywords’/}" />
+<meta name="description" content="{dede:field name=’description’ function=’html2text(@me)’/}" />
+<link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
+<link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="bg_body">
+
+
+<script type="text/javascript">
+function reinitIframe(){
+var iframe = document.getElementById("frame_content1");
+try{
+iframe.height =  iframe.contentWindow.document.documentElement.scrollHeight;
+}catch (ex){}
+
+}
+window.setInterval("reinitIframe()", 200);
+</script>
+ <div class="header">
+ <div class="logo" ><img src="/templets/images/logo-en.png" /></div>
+ <div class="lang" ><a href="/">Chinese</a> | <a href="/en">English</a>&nbsp;&nbsp;</div>
+ </div>
+ <div id="clear"></div>
+   <div id="enmenu_top" style="margin-top:5px;">
+ <ul>
+ 	<li><a href="/plus/list.php?tid=148">Home</a></li>
+ 	<li><a href="/plus/list.php?tid=138" >Technology</a></li>
+ 	<li><a href="/plus/list.php?tid=187">Products</a></li>
+ 	<li><a href="/plus/list.php?tid=188">Solutions</a></li>
+ 	<li><a href="/plus/list.php?tid=142">Support</a></li>
+ 	<li class="menu_top_active"><a href="/plus/list.php?tid=144">News</a></li>
+ 	<li><a href="/plus/list.php?tid=143">About Us</a></li>
+ </ul>
+ </div>
+<div class="top_menu2">
+    <div class="biaoti">
+       <h1>Technology</h1>
+  </div>
+<div class="ensub_menu">
+	   <a href="#">Technology Overview</a>
+	   <a href="#tedian">Technical Characteristic</a>
+	   <a href="#duibi">Technology Comparision</a>	   
+	</div>
+	<div id="clear"></div>
+</div>
+
+<div class="dianxing">
+<img src="/templets/images/HTnews_03.gif" width="980">
+     <div class="midd">
+     		
+	        {dede:arclist row='100' typeid='145' addfields='body'  channelid='1'}        
+		    <h4 class="xin_title"><a href="[field:arcurl/]">[field:fulltitle/] @ </a>[field:pubdate function="MyDate('Y-m-d',@me)"/] </h4>
+<p>[field:description function='cn_substr(@me,200)'/]</p>
+		    {/dede:arclist}
+	    </div>
+<img src="/templets/images/HTnews_09.gif" width="980" />
+     </div>
+
+  
+  <div id="clear"></div>
+</div>
+
+{dede:include filename="enfooter.htm"/}
+</body>
+</html>
