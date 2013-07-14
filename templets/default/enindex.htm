@@ -79,7 +79,18 @@
   
    <ul>
     {dede:arclist row='100' typeid='145' flag='h' addfields='body'  channelid='1' }
-		<li><a href="[field:arcurl/]" target="_blank">+ [field:fulltitle/]</a></li>
+		<li>
+			<a href="[field:arcurl/]" target="_blank">
+			+ [field:flag runphp='yes']
+				$flag = @me;
+				$flagArr = explode(',',$flag);
+				
+				if(in_array('c',$flagArr)){@me='<span class="lastnews">new</span>';}
+				else{@me='';}
+			[/field:flag]
+			[field:fulltitle/]
+			</a>
+		</li>
 	{/dede:arclist}
   	
   </ul> 
