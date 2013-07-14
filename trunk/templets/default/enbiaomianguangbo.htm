@@ -50,7 +50,25 @@
 	<div id="clear"></div>
 </div>
 
-{dede:field.content/}
+<div class="gaishu">
+	<div>
+		<img src="/templets/images/jishu_03.gif" />
+	</div>
+	<div class="gs_content">
+
+	{dede:arclist typeid='138' row='10'}
+		<!-- <div><p class="lead timu">[field:title/]</p></div> -->
+		<div class="artinfo">
+		[field:id runphp='yes'] $aid = @me; $row = $GLOBALS['dsql']->GetOne("Select body From `dede_addonarticle` where aid='$aid' "); @me = "{$row['body']}";[/field:id]
+		</div>
+	{/dede:arclist}
+	</div>
+
+	<div class="gs_bottom">
+		<img src="/templets/images/gs_bg_07.gif" />
+	</div>
+</div>
+
 
 {dede:include filename="enfooter.htm"/}
 </body>
