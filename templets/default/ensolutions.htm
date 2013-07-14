@@ -76,21 +76,20 @@
 <!-- banenr切换结束 -->
 
 <div class="dianxing">
-    <div class="dx_title"><h2>Application Cases</h2></div>
-	
-	{dede:arclist row='100' typeid='215'} 
-	<div class="dx_anli">
-	    <div class="dx_sm">
-		   <h4>[field:title/]</h4>
-		   <p>[field:description/]</p>
+<div class="dx_title">
+	<h2>Application Cases</h2></div>
+		{dede:arclist typeid='215' row='100'}
+		<div class="dx_anli">
+			<!-- <div><p class="lead">[field:title/]</p></div> -->
+			<div class="artinfo">
+				[field:id runphp='yes'] $aid = @me; $row = $GLOBALS['dsql']->GetOne("Select body From `dede_addonarticle` where aid='$aid' "); @me = "{$row['body']}";[/field:id]				
+			</div>
+			<div class="jianxi"><img src="/templets/images/chukp_09.gif"></div>
+			<div id="clear"></div>
 		</div>
-		<div class="dx_pic"><img src="[field:litpic/]"></div>
-		<div id="clear"></div>
-	</div>
-	<div class="jianxi"><img src="/templets/images/chukp_09.gif"></div>
-	  {/dede:arclist}
-	
-	<div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+		
+		{/dede:arclist}
+		<div class="dx_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
 </div>
 
 {dede:include filename="enfooter.htm"/}

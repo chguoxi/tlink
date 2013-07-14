@@ -88,12 +88,13 @@
  </div>
 </div>
 
-<!-- 滚动热点新闻结束 -->
 <div id="main_prd">
-  <a href="/plus/list.php?tid=138" class="prd_sh01"><img src="/templets/images/enprd_07.gif" /></a>
-  <a href="/plus/list.php?tid=139" class="prd_sh01"><img src="/templets/images/enprd_01_18.gif"/></a>
-  <a href="/plus/list.php?tid=140" class="prd_sh01"><img src="/templets/images/enprd_03_22.gif"/></a>
-  <a href="/plus/list.php?tid=141" class="prd_sh02"><img src="/templets/images/enprd_03.gif"/></a>
+	{dede:arclist typeid='239' row='10'}
+		<!-- <div><p class="lead timu">[field:title/]</p></div> -->
+		<div class="artinfo">
+		[field:id runphp='yes'] $aid = @me; $row = $GLOBALS['dsql']->GetOne("Select body From `dede_addonarticle` where aid='$aid' "); @me = "{$row['body']}";[/field:id]
+		</div>
+	{/dede:arclist}
  
   <div id="clear"></div>
 </div>

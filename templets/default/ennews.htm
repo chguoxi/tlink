@@ -48,14 +48,16 @@ window.setInterval("reinitIframe()", 200);
 
 <div class="dianxing">
 <img src="/templets/images/HTnews_03.gif" width="980">
-     <div class="midd">
-     		
-	        {dede:arclist row='100' typeid='145' addfields='body'  channelid='1'}        
-		    <h4 class="xin_title"><a href="[field:arcurl/]">[field:fulltitle/] @ </a>[field:pubdate function="MyDate('Y-m-d',@me)"/] </h4>
-<p>[field:description function='cn_substr(@me,200)'/]</p>
-		    {/dede:arclist}
-	    </div>
-<img src="/templets/images/HTnews_09.gif" width="980" />
+			<div class="midd">
+
+				{dede:arclist row='100' typeid='145' addfields='body' channelid='1'}
+				<h4 class="xin_title">
+					<a href="[field:arcurl/]">[field:fulltitle/] @ </a>[field:pubdate
+					function="MyDate('Y-m-d',@me)"/]
+				</h4>
+				<p>[field:description function='cn_substr(@me,200)'/]</p>
+				{/dede:arclist}
+			</div> <img src="/templets/images/HTnews_09.gif" width="980" />
      </div>
 
   
