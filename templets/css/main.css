@@ -15,7 +15,9 @@
 /* 棣栭〉css */
 .txt_center{text-align:center;}
 #top_menu{width:980px; height:60px; margin:0 auto;}
-#banner{width:980px; height:565px; padding:0; margin:0 auto;}
+#banner{width:980px;  padding:0; margin:0 auto;}
+
+
 #kx1{width:980px; height:20px; padding:0; margin:0 auto;}
 #hot_news{width:980px; height:26px; padding:0; margin:20px auto 0; background:url(../images/gd_news_03.gif) no-repeat 0 0;}
 #enhot_news{width:980px; /* height:26px; */height:110px; padding:0; margin:20px auto 0; background:url(../images/engd_news_03.gif) no-repeat 0 0;}
@@ -75,6 +77,10 @@ table td{padding:3px; 10px;}
 
 /* 瑙︽帶灞廲ss */
 .dianxing{width:980px; margin:10px auto 0;}
+.dx_anli table { border: none;}
+.dx_anli tr td { border: none;}
+.dx_anli table td { padding:5px; 20px;}
+.dx_anli td p {line-height: 22px;}
 .dx_title{background:url(../images/chukp_03.gif) no-repeat 0 0; width:980px; height:55px;}
 .dx_title h2{padding:16px 0 0 25px;}
 .dx_anli{background:url(../images/gs_bg_05.gif);padding:30px 41px 30px 30px;}
@@ -122,8 +128,9 @@ p.fuwu a{color:#79B95B; font-weight:700;}
 .HT_left{float:left; width:734px;}
 .HT_right{float:left; width:229px; margin-left:15px;}
 .midd{background:url(../images/xinw_bg_09.gif); padding:10px 41px 0 48px; line-height:22px;}
+.midd p{font-family: "Arial",Georgia,Serif;}
 h3.news{background:url(../images/HTnews_06.gif) no-repeat 0 0; width:610px; height:27px; text-align:left; padding:20px 0 0 35px; letter-spacing:1.2em}
-.xin_title{margin:30px 0 7px 0; font-size:13px; font-weight:700; }
+.xin_title{margin:30px 0 7px 0; font-size:13px; font-weight:700; font-family: "Arial",Georgia,Serif;}
 .vedio{margin-top:20px;}
 .shp_lianj{padding:20px 0 10px;}
 .shp_lianj li{padding-bottom:15px; font-weight:700; background:url(../images/jishu_10.gif) no-repeat 0 5px; padding-left:14px;}
@@ -242,7 +249,7 @@ h3.news{background:url(../images/HTnews_06.gif) no-repeat 0 0; width:610px; heig
    /*  width: 650px; */
 }
 .ensub_menu a {
-	font-family:"Aria",Georgia,Serif;
+	font-family:"Arial",Georgia,Serif;
 }
 
 .new_neirong { width:300px;}
@@ -250,3 +257,4 @@ h3.news{background:url(../images/HTnews_06.gif) no-repeat 0 0; width:610px; heig
 .new_neirong .thumbnail { float:left; width:110px; }
 .new_neirong .info { float:right; width:190px; }
 .new_neirong .info span.cat { display: block; font-size:10px; color:#808080; }
+.lastnews {color:red;font-style:italic;}
