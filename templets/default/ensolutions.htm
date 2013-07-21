@@ -7,9 +7,14 @@
 <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
 <link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
 <link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
-<link href="/templets/css/xixi.css" type=text/css rel=stylesheet>
+<link href="/templets/css/xixi.css" type=text/css rel=stylesheet />
 <script src="/templets/js/jquery.min.js" type=text/javascript></script>
 <script src="/templets/js/loopedslider.min.js" type=text/javascript></script>
+<style>
+#newsSlider .container {
+	margin: 0px; overflow: hidden; width: 980px; position: relative; height: 283px;
+}
+</style>
 </head>
 
 <body class="bg_body">
@@ -57,19 +62,18 @@
 
 <!-- banner切换 -->
 <div id="banner">
-  <div id=newsSlider>
-  <div class=container>
-    <ul class=slides>
+  <div id="newsSlider">
+  <div class="container">
+    <ul class="slides">
 	 {dede:arclist row='100' typeid='216'}
-	 
-	 <li><IMG src="[field:litpic/]"></li>
+	 <li><img src="[field:litpic/]" /></li>
 	 {/dede:arclist}
     </ul>
   </div>
-    <ul class=pagination>
-      <li><A href="#"></A> </li>
-      <li><A href="#"></A> </li>
-      <li><A href="#"></A> </li>
+    <ul class="pagination">
+      <li><a href="#"></a> </li>
+      <li><a href="#"></a> </li>
+      
    </ul>
   </div>
 </div>

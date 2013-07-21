@@ -33,20 +33,44 @@ iframe.height =  iframe.contentWindow.document.documentElement.scrollHeight;
 }
 window.setInterval("reinitIframe()", 200);
 </script>
-{dede:include filename="enhead.htm"/}
- 
+ <div class="header">
+ <div class="logo" ><img src="/templets/images/logo-en.png" /></div>
+ <div class="lang" ><a href="/">Chinese</a> | <a href="/en">English</a>&nbsp;&nbsp;</div>
+ </div>
+ <div id="clear"></div>
+ <div id="enmenu_top" style="margin-top:5px;">
+ <ul>
+ 	<li><a href="/plus/list.php?tid=148">Home</a></li>
+ 	<li><a href="/plus/list.php?tid=138" >Technology</a></li>
+ 	<li><a href="/plus/list.php?tid=187">Products</a></li>
+ 	<li><a href="/plus/list.php?tid=188">Solutions</a></li>
+ 	<li><a href="/plus/list.php?tid=142">Support</a></li>
+ 	<li><a href="/plus/list.php?tid=144">News</a></li>
+ 	<li class="menu_top_active"><a href="/plus/list.php?tid=143">About Us</a></li>
+ </ul>
+ </div>
+
 <div class="top_menu2">
     <div class="biaoti">
-       <h1>Use stated</h1>
+       <h1>Use Statement</h1>
   </div>
+	<div class="right_menu">
+
+	   </div>
+	<div id="clear"></div>
 </div>
 
 <div class="gaishu">
-   <div><img src="/templets/images/jishu_03.gif"></div>
+   <div><img src="/templets/images/jishu_03.gif" /></div>
    <div class="gs_content">
-       {dede:field.content/}
+	{dede:arclist typeid='161'}
+		<!-- <div><p class="lead timu"><a href='[field:arcurl/]'>[field:title/]</a></p></div> -->
+		<div class="artinfo">
+		[field:id runphp='yes'] $aid = @me; $row = $GLOBALS['dsql']->GetOne("Select body From `dede_addonarticle` where aid='$aid' "); @me = "{$row['body']}";[/field:id]
+		</div>
+	{/dede:arclist}
    </div>
-   <div class="gs_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+   <div class="gs_bottom"><img src="/templets/images/gs_bg_07.gif" /></div>
 </div>
 {dede:include filename="enfooter.htm"/}
 </body>
