@@ -36,14 +36,36 @@
 </div>
 
 <div class="gaishu">
-   <div><img src="/templets/images/jishu_03.gif"></div>
-  <div class="gs_content">
-       <div class="qd_loadmozu">
-       {dede:field.content/}
-       </div>
-       <div id="clear"></div>
-  </div>
-  <div class="gs_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+<div class="gs_content">
+  <!--  <div><img src="/templets/images/jishu_03.gif"/></div> -->
+			{dede:type typeid='173'} 
+				<p ><i class="icon-play-circle"></i>&nbsp;<strong>[field:typename/]</strong></p>
+			{/dede:type}
+			<!-- 资料下载 多点触控设备驱动列表 -->
+			<ul class="unstyled indent xiaolei">
+			{dede:sql sql='SELECT arc.*,soft.* FROM `dede_archives` arc JOIN `dede_addonsoft` soft ON arc.id=soft.aid WHERE arc.typeid=173 and arc.arcrank!=-2 order by arc.sortrank'}
+				<li>[field:title/]&nbsp;<!-- [field:pubdate function='strftime("%Y-%m-%d",@me)'/] -->
+				<a href='[field:softpath/]' target="_blank">&gt;&gt;下载</a>
+				[field:usedoc runphp='yes']$usedoc = @me;if(!empty($usedoc)){@me="<a href='$usedoc'>(功能说明)</a>";}[/field:usedoc]
+				</li>
+			{/dede:sql}
+		
+			</ul>
+			<!-- 资料下载  Multi-touch frame diver-->
+			{dede:type typeid='174'} 
+				<p><i class="icon-play-circle"></i>&nbsp;<strong>[field:typename/]</strong></p>
+			{/dede:type}
+			<!-- 资料下载 Multi-touch frame diver 列表 -->
+			<ul class="unstyled indent xiaolei">
+			{dede:sql sql='SELECT arc.*,soft.* FROM `dede_archives` arc JOIN `dede_addonsoft` soft ON arc.id=soft.aid WHERE arc.typeid=174 and arc.arcrank!=-2 order by arc.sortrank'}
+				<li>[field:title/]&nbsp;<!-- [field:pubdate function='strftime("%Y-%m-%d",@me)'/] -->
+				<a href='[field:softpath/]' target="_blank">&gt;&gt;下载</a>
+				[field:usedoc runphp='yes']$usedoc = @me;if(!empty($usedoc)){@me="<a href='$usedoc'>(功能说明)</a>";}[/field:usedoc]
+				</li>
+			{/dede:sql}
+			</ul>
+  <!-- <div class="gs_bottom"><img src="/templets/images/gs_bg_07.gif"></div> -->
+</div>
 </div>
 
 <div class="bt_nav">
