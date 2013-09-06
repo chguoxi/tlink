@@ -7,12 +7,12 @@
 <meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
 <link href="/templets/css/menu_top.css" rel="stylesheet" type="text/css" />
 <link href="/templets/css/main.css" rel="stylesheet" type="text/css" />
-<link href="/templets/css/xixi.css" type=text/css rel=stylesheet />
+<link href="/templets/css/xixi.css" type=text/css rel=stylesheet>
 <script src="/templets/js/jquery.min.js" type=text/javascript></script>
 <script src="/templets/js/loopedslider.min.js" type=text/javascript></script>
 <style>
 #newsSlider .container {
-	margin: 0px; overflow: hidden; width: 980px; position: relative; height: 283px;
+	MARGIN: 0px; OVERFLOW: hidden; WIDTH: 980px; POSITION: relative; HEIGHT: 283px;
 }
 </style>
 </head>
@@ -30,22 +30,7 @@
 	  window.location=$(this).find("a").attr("href"); return false;});
 	});
 </script>
- <div class="header">
- <div class="logo" ><img src="/templets/images/logo-en.png" /></div>
- <div class="lang" ><a href="/">Chinese</a> | <a href="/en">English</a>&nbsp;&nbsp;</div>
- </div>
- <div id="clear"></div>
- <div id="enmenu_top" style="margin-top:5px;">
- <ul>
- 	<li><a href="/plus/list.php?tid=148">Home</a></li>
- 	<li><a href="/plus/list.php?tid=138" >Technology</a></li>
- 	<li><a href="/plus/list.php?tid=187">Products</a></li>
- 	<li class="menu_top_active"><a href="/plus/list.php?tid=188">Solutions</a></li>
- 	<li><a href="/plus/list.php?tid=142">Support</a></li>
- 	<li><a href="/plus/list.php?tid=144">News</a></li>
- 	<li><a href="/plus/list.php?tid=143">About Us</a></li>
- </ul>
- </div>
+{dede:include filename="enhead.htm"/}
 <div class="top_menu2">
     <div class="biaoti">
        <!-- <h1>Education</h1> -->
@@ -62,18 +47,19 @@
 
 <!-- banner切换 -->
 <div id="banner">
-  <div id="newsSlider">
-  <div class="container">
-    <ul class="slides">
+  <div id=newsSlider>
+  <div class=container>
+    <ul class=slides>
 	 {dede:arclist row='100' typeid='216'}
-	 <li><img src="[field:litpic/]" /></li>
+	 
+	 <li><IMG src="[field:litpic/]"></li>
 	 {/dede:arclist}
     </ul>
   </div>
-    <ul class="pagination">
-      <li><a href="#"></a> </li>
-      <li><a href="#"></a> </li>
-      
+    <ul class=pagination>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
+      <li><A href="#"></A> </li>
    </ul>
   </div>
 </div>

@@ -39,37 +39,35 @@ window.setInterval("reinitIframe()", 200);
     <div class="biaoti">
        <h1>关于我们</h1>
   </div>
-	<div class="right_menu">
-	    <a href="/plus/view.php?aid=412" >工作机会</a>
-               <a href="/plus/list.php?tid=137" >合作伙伴</a>
-	   <a>投资方</a><! href="/plus/list.php?tid=81" >
-	   <a href="/plus/list.php?tid=38" >管理团队</a>
-	   <a href="/plus/view.php?aid=102" >联系我们</a>
-	   <a href="/plus/view.php?aid=101" >公司介绍</a></div>
+	<div class="ensub_menu">
+		<a href='/plus/list.php?tid=6'>关于我们</a>
+		<a href='/plus/list.php?tid=243'>联系我们</a>
+		<a href='/plus/list.php?tid=38'>管理团队</a>
+		<a href='/plus/list.php?tid=81'>投资方</a>
+		<a href='/plus/list.php?tid=137'>合作伙伴</a>
+		<a href='/plus/list.php?tid=125'><strong>工作机会</strong></a>
+	</div>
 	<div id="clear"></div>
 </div>
 
 <div class="gaishu">
-   <div class="title1"><h2>加入我们，共创盛举</h2>
-   </div>
-   <div class="gs_content">
-     <p class="txt_center">天时通公司提供广泛的就业机会。无论，你是开发人员、工业设计人员或销售方面的<br />
-专家，均可找到施展才华的机会。<span style="color:#61ABD3">欢迎加入，共展宏图。</span></span></p>
-  </div>
+   <div><img src="/templets/images/jishu_03.gif"></div>
   <div class="gs_content">
-     <div class="left_part">
-	     <ul>
-		      <li><img src="/templets/images/zp_09.gif"></li>
-			   {dede:arclist row='100' typeid='125' addfields='body'  channelid='1'} 	 
-  <li><a href="[field:arcurl/]">[field:title/]</a></li>
-  {/dede:arclist}
-		 </ul>
+     <h3 class="title">工作机会</h3>
+	 {dede:arclist row='100' typeid='125' addfields='body' channelid='1'} 	 
+  <div class="tuandui1">
+      <div class="man_pic"><img src="[field:litpic/]"></div>
+	  <div class="man_js">
+	     <h4>[field:title/]</h4><br>
+		 [field:body/]
 	  </div>
-	  <div class="right_part">
-	     {dede:field.body/}</div>
 	  <div id="clear"></div>
   </div>
-   <div class="gs_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
+
+  {/dede:arclist}
+     
+  </div>
+  <div class="gs_bottom"><img src="/templets/images/gs_bg_07.gif"></div>
 </div>
 
 <div class="bt_nav">
